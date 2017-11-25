@@ -13,116 +13,182 @@
 // limitations under the License.
 
 using System;
-using UnityEngine;
+using System.Reflection;
 
 using GoogleMobileAds.Api;
+using UnityEngine;
 
 namespace GoogleMobileAds.Common
 {
-    internal class DummyClient : IBannerClient, IInterstitialClient, IRewardBasedVideoAdClient
+    public class DummyClient : IBannerClient, IInterstitialClient, IRewardBasedVideoAdClient,
+            IAdLoaderClient, INativeExpressAdClient, IMobileAdsClient
     {
-        public event EventHandler<EventArgs> OnAdLoaded = delegate {};
-        public event EventHandler<AdFailedToLoadEventArgs> OnAdFailedToLoad = delegate {};
-        public event EventHandler<EventArgs> OnAdOpening = delegate {};
-        public event EventHandler<EventArgs> OnAdStarted = delegate {};
-        public event EventHandler<EventArgs> OnAdClosed = delegate {};
-        public event EventHandler<Reward> OnAdRewarded = delegate {};
-        public event EventHandler<EventArgs> OnAdLeavingApplication = delegate {};
+        public DummyClient()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
 
-        public String UserId
+        // Disable warnings for unused dummy ad events.
+#pragma warning disable 67
+
+        public event EventHandler<EventArgs> OnAdLoaded;
+
+        public event EventHandler<AdFailedToLoadEventArgs> OnAdFailedToLoad;
+
+        public event EventHandler<EventArgs> OnAdOpening;
+
+        public event EventHandler<EventArgs> OnAdStarted;
+
+        public event EventHandler<EventArgs> OnAdClosed;
+
+        public event EventHandler<Reward> OnAdRewarded;
+
+        public event EventHandler<EventArgs> OnAdLeavingApplication;
+
+        public event EventHandler<CustomNativeEventArgs> OnCustomNativeTemplateAdLoaded;
+
+#pragma warning restore 67
+
+        public string UserId
         {
             get
             {
-                Debug.Log("Get userId");
+                Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
                 return "UserId";
             }
-            set { Debug.Log("Set userId"); }
+
+            set
+            {
+                Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+            }
         }
 
-        public DummyClient()
+        public void Initialize(string appId)
         {
-            Debug.Log("Created DummyClient");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void CreateBannerView(string adUnitId, AdSize adSize, AdPosition position)
         {
-            Debug.Log("Dummy CreateBannerView");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public void CreateBannerView(string adUnitId, AdSize adSize, int positionX, int positionY)
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void LoadAd(AdRequest request)
         {
-            Debug.Log("Dummy LoadAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void ShowBannerView()
         {
-            Debug.Log("Dummy ShowBannerView");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void HideBannerView()
         {
-            Debug.Log("Dummy HideBannerView");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void DestroyBannerView()
         {
-            Debug.Log("Dummy DestroyBannerView");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void CreateInterstitialAd(string adUnitId)
         {
-            Debug.Log("Dummy CreateIntersitialAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public bool IsLoaded()
         {
-            Debug.Log("Dummy IsLoaded");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
             return true;
         }
 
         public void ShowInterstitial()
         {
-            Debug.Log("Dummy ShowInterstitial");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void DestroyInterstitial()
         {
-            Debug.Log("Dummy DestroyInterstitial");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void CreateRewardBasedVideoAd()
         {
-            Debug.Log("Dummy CreateRewardBasedVideoAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void SetUserId(string userId)
         {
-            Debug.Log("Dummy LoadAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void LoadAd(AdRequest request, string adUnitId)
         {
-            Debug.Log("Dummy LoadAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void DestroyRewardBasedVideoAd()
         {
-            Debug.Log("Dummy DestroyRewardBasedVideoAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
         public void ShowRewardBasedVideoAd()
         {
-            Debug.Log("Dummy ShowRewardBasedVideoAd");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
-        public void SetDefaultInAppPurchaseProcessor(IDefaultInAppPurchaseProcessor processor)
+        public void CreateAdLoader(AdLoader.Builder builder)
         {
-            Debug.Log("Dummy SetDefaultInAppPurchaseProcessor");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
-        public void SetCustomInAppPurchaseProcessor(ICustomInAppPurchaseProcessor processor)
+        public void Load(AdRequest request)
         {
-            Debug.Log("Dummy SetCustomInAppPurchaseProcessor");
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
+
+        public void CreateNativeExpressAdView(string adUnitId, AdSize adSize, AdPosition position)
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public void CreateNativeExpressAdView(string adUnitId, AdSize adSize, int positionX, int positionY)
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public void SetAdSize(AdSize adSize)
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public void ShowNativeExpressAdView()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public void HideNativeExpressAdView()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public void DestroyNativeExpressAdView()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public string MediationAdapterClassName()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+            return null;
+        }
+
     }
 }

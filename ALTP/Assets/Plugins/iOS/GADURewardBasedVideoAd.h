@@ -2,6 +2,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import <GoogleMobileAds/GoogleMobileAds.h>
+
 #import "GADUTypes.h"
 
 @interface GADURewardBasedVideoAd : NSObject
@@ -37,6 +39,9 @@
 
 /// The will leave application callback into Unity.
 @property(nonatomic, assign) GADURewardBasedVideoAdWillLeaveApplicationCallback willLeaveCallback;
+
+// Returns the mediation adapter class name.
+@property(nonatomic, readonly, copy) NSString *mediationAdapterClassName;
 
 /// Makes an ad request. Additional targeting options can be supplied with a request object.
 - (void)loadRequest:(GADRequest *)request withAdUnitID:(NSString *)adUnitID;

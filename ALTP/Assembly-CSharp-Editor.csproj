@@ -45,15 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleMobileAds\Editor\CocoaPodHelper.cs" />
-     <Compile Include="Assets\GoogleMobileAds\Editor\PostProcessor.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\AdMobDependencies.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\DefaultResolver.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\IResolver.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\PlayServicesResolver.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\ResolverVer1_1.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\SampleDependencies.cs" />
-     <Compile Include="Assets\PlayServicesResolver\Editor\SettingsDialog.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Editor\Camera\tk2dCameraAnchorEditor.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Editor\Camera\tk2dCameraEditor.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Editor\Fonts\tk2dFontBuilder.cs" />
@@ -170,8 +161,10 @@
      <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
      <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
      <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
      <None Include="Assets\Fonts\CaoThuFont.fnt" />
      <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.59.0.txt" />
      <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -197,14 +190,11 @@
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
- <Reference Include="JarResolverLib">
- <HintPath>D:/vtc/ALTP/Assets/PlayServicesResolver/Editor/JarResolverLib.dll</HintPath>
- </Reference>
  <Reference Include="tk2dExternal">
- <HintPath>D:/vtc/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
+ <HintPath>E:/C#/UnityProject/baloviolympic/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
  </Reference>
  <Reference Include="tk2dSkin">
- <HintPath>D:/vtc/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
+ <HintPath>E:/C#/UnityProject/baloviolympic/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -214,6 +204,18 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>E:/C#/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.59.0">
+ <HintPath>E:/C#/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.59.0">
+ <HintPath>E:/C#/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.59.0">
+ <HintPath>E:/C#/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,13 +1,12 @@
 // Copyright 2014 Google Inc. All Rights Reserved.
 
-@import CoreGraphics;
-@import Foundation;
-@import GoogleMobileAds;
-@import UIKit;
-
-#import "UnityAppController.h"
-
 #import "GADURewardBasedVideoAd.h"
+
+#import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
+
+#import "GADUPluginUtil.h"
+#import "UnityAppController.h"
 
 @interface GADURewardBasedVideoAd () <GADRewardBasedVideoAdDelegate>
 @end
@@ -51,6 +50,9 @@
   }
 }
 
+- (NSString *)mediationAdapterClassName {
+  return [self.rewardBasedVideo adNetworkClassName];
+}
 #pragma mark GADRewardBasedVideoAdDelegate implementation
 
 - (void)rewardBasedVideoAdDidReceiveAd:(GADRewardBasedVideoAd *)rewardBasedVideoAd {
@@ -61,10 +63,12 @@
 
 - (void)rewardBasedVideoAd:(GADRewardBasedVideoAd *)rewardBasedVideoAd
     didFailToLoadWithError:(NSError *)error {
-  NSString *errorMsg = [NSString
-      stringWithFormat:@"Failed to receive ad with error: %@", [error localizedFailureReason]];
-  self.adFailedCallback(self.rewardBasedVideoAdClient,
-                        [errorMsg cStringUsingEncoding:NSUTF8StringEncoding]);
+  if (self.adFailedCallback) {
+    NSString *errorMsg = [NSString
+        stringWithFormat:@"Failed to receive ad with error: %@", [error localizedFailureReason]];
+    self.adFailedCallback(self.rewardBasedVideoAdClient,
+                          [errorMsg cStringUsingEncoding:NSUTF8StringEncoding]);
+  }
 }
 
 - (void)rewardBasedVideoAdDidOpen:(GADRewardBasedVideoAd *)rewardBasedVideoAd {
