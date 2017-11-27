@@ -1,0 +1,167 @@
+<aars>
+  <explodeData>
+    <aar>play-services-ads-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9897445+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-ads-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-ads-lite-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9907445+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-ads-lite-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-base-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9927447+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-base-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-basement-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9937447+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-basement-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-clearcut-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9947448+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-clearcut-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-gass-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9947448+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-gass-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-safetynet-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9957448+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-safetynet-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>play-services-tasks-11.0.4</aar>
+    <modificationTime>2017-11-27T16:16:38.9957448+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/play-services-tasks-11.0.4.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-annotations-25.2.0</aar>
+    <modificationTime>0001-01-01T00:00:00.0000000+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-annotations-25.2.0.jar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-compat-25.2.0</aar>
+    <modificationTime>2017-11-27T16:16:38.9997451+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-compat-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-core-ui-25.2.0</aar>
+    <modificationTime>2017-11-27T16:16:39.0007451+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-core-ui-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-core-utils-25.2.0</aar>
+    <modificationTime>2017-11-27T16:16:39.0007451+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-core-utils-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-fragment-25.2.0</aar>
+    <modificationTime>2017-11-27T16:16:39.0017452+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-fragment-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-media-compat-25.2.0</aar>
+    <modificationTime>2017-11-27T16:16:39.0037453+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-media-compat-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>support-v4-25.2.0</aar>
+    <modificationTime>2017-11-27T16:16:39.0037453+07:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>toan.violympic.fourth</bundleId>
+    <path>Assets/Plugins/Android/support-v4-25.2.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>false</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+</aars>

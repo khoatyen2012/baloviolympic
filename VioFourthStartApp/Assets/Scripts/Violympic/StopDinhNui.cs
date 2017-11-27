@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using GoogleMobileAds.Api;
+using StartApp;
 
 public class StopDinhNui : MonoBehaviour {
 
@@ -31,8 +32,16 @@ public class StopDinhNui : MonoBehaviour {
         SoundManager.Instance.rePlayBGMusic();
         if (GameController.instance.checkvip != 10)
         {
-            RequestBanner();
-            bannerView.Show();
+			if (GameController.instance.tienganh) {
+				RequestBanner ();
+				bannerView.Show ();
+			} else {
+				#if UNITY_ANDROID
+				StartAppWrapper.addBanner(
+					StartAppWrapper.BannerType.AUTOMATIC,
+					StartAppWrapper.BannerPosition.TOP);
+				#endif
+			}
         }
        
         //nativeExpressAdView.Show();
@@ -49,7 +58,14 @@ public class StopDinhNui : MonoBehaviour {
 
             if (GameController.instance.checkvip != 10)
             {
-                bannerView.Hide();
+			    if (GameController.instance.tienganh) {
+				  bannerView.Hide ();
+			    }else
+			   {
+				#if UNITY_ANDROID
+				StartAppWrapper.removeBanner(StartAppWrapper.BannerPosition.TOP);
+				#endif
+			   }
             }
     }
 
@@ -60,7 +76,9 @@ public class StopDinhNui : MonoBehaviour {
         txtHoanThanh.text = ClsLanguage.doHoanThanhBaiThi();
         txtDinhNui.text = ClsLanguage.doTitleDinhNui();
         btnContinute.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>().text = ClsLanguage.doContinute();
-        
+		#if UNITY_ANDROID
+		StartAppWrapper.init();
+		#endif
 	}
 	
 	// Update is called once per frame
