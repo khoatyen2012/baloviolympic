@@ -107,6 +107,15 @@
      <Compile Include="Assets\Scripts\PopUp\PopUpSHA.cs" />
      <Compile Include="Assets\Scripts\PopUp\PopUpWIYN.cs" />
      <Compile Include="Assets\Scripts\PopUp\PopUpWin.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Cls\ClsLanguage.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Controller\DataManager.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Controller\VioGameController.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Controller\VioLevelController.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Controller\VioPopUpController.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Item\LvItem.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\StartDinhNui.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\StartGame.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\VioMainGame.cs" />
      <Compile Include="Assets\Scripts\moduls\AiLaTrieuPhu.cs" />
      <Compile Include="Assets\Scripts\moduls\AltpUser.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
