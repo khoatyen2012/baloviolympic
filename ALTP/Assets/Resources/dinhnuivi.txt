@@ -1,0 +1,686 @@
+1@An đi từ A đến B mất 3 giờ, Bình đi từ B về A mất 4 giờ. Biết rằng nếu An và Bình xuất phát cùng một lúc thì sau 2 giờ hai người cách nhau 25km. Tính độ dài quãng đường AB ?@130 km@150 km@170 km@200 km@2@gta@1&2@Bính đi từ A đến B. Nửa quãng đường đầu Bính đi với vận tốc 60 km/giờ. Nửa quãng đường còn lại Bính đi với vận tốc 30 km/giờ.Tính vận tốc trung bình của Bính trên suốt quãng đường AB là .... km/giờ ?@40@50@60@80@1@Giả sử nửa quãng đường AB dài 120 km, thì thời gian đi nửa quãng đường đầu sẽ là: 120 : 60 = 2 (giờ)
+Thời gian đi nửa quãng đường sau sẽ là: 120 : 30 = 4 (giờ)
+Tổng thời gian đi hết quãng đường là: 2 + 4 = 6 (giờ)
+Vận tốc trung bình của Bính trên suốt quãng đường AB là: 120 x 2 : 6 = 40 (km/giờ)@1&3@Cho 3 số có tổng bằng 321,95. Biết nếu đem số thứ nhất nhân với 3; số thứ hai nhân với 4; số thứ ba nhân với 5 thì được 3 kết quả bằng nhau. Tìm số thứ ba ?@85.6@79.3@95.9@82.2@4@Gọi: số thứ nhất là a, số thứ hai là b, số thứ 3 là c. 
+Theo bài ra, ta có: a + b + c = 321,95
+Ta cũng có: a x 3 = b x 4 = c x 5. Suy ra: a = 20 phần, b = 15 phần và c = 12 phần
+Tổng số phần bằng nhau của ba số là: a + b + c = 47 phần
+Số thứ ba là: 321,95 : 47 x 12 = 82,2@1&4@Cho A = 1 + 11 + 111 + 1111 + ... + 111..11  (số hạng cuối được viết bởi 20 chữ số 1). Hỏi A chia cho 9 dư bao nhiêu?@2@3@4@5@2@Muốn biết A chia cho 9 dư bao nhiêu ta chỉ cần tính tổng của tổng các chữ số của các số hạng.
+Ta thấy: Tổng các chữ số của 11 là: 2; tổng các chữ số của 111 là: 3; tổng các chữ số của 1111 là: 4; … Suy ra: Tổng của tổng các chữ số của các số hạng sẽ là: 1 + 2 + 3 + …  + 20 = (1 + 20) x 20 : 2 = 210
+210 chia 9 được 23 dư 3. Vậy A chia 9 dư 3@1&5@Hãy cho biết có bao nhiêu số lẻ có 4 chữ số mà các chữ số khác nhau?@2150@2000@2240@2250@3@Gọi số cần tìm là abcd
+d có 5 cách chọn (vì là số lẻ nên tận cùng là các số 1, 3, 5, 7 và 9)
+a có 8 cách chọn (vì a # 0 và a # d)
+b có 8 cách chọn (vì b # a và b # d)
+c có 7 cách chọn (vì c # a;  c # b và c # d)
+Theo qui tắc nhân ta có: 5 x 8 x 8 x 7 = 2240 (số)@1&6@Hãy cho biết có bao nhiêu số thập phân có 2 chữ số ở phần thập phân mà lớn hơn 24 và nhỏ hơn 25?@99@100@50@25@1@Số nhỏ nhất thoả mãn đầu bài là: 24,01
+Số lớn nhất thoả mãn đầu bài là: 24,99
+Từ 1 đến 99 có: (99 - 1) : 1 + 1 = 99 (số)@1&7@Hồng và Hà cùng đi từ A đến B, Hồng đi mất 4 giờ, Hà đi mất 6 giờ. Hỏi nếu Hà xuất phát lúc 6 giờ 30 phút, Hồng xuất phát lúc 7 giờ thì lúc mấy giờ Hồng đuổi kịp Hà?@8@9@10@11@1@Thời gian Hà đã đi từ 6 giờ 30 phút đến 7 giờ là: 7 giờ - 6 giờ 30 phút = 30 phút = 1/2 giờ
+Trong 1 giờ Hồng đi được quãng đường là: 1/4 (quãng đường)
+Trong 1 giờ Hà đi được quãng đường là: 1/6 (quãng đường). 
+Trong 1 giờ Hồng đi được nhiều hơn Hà là: 1/4 - 1/6 = 1/12 (quãng đường)
+Trong 1/2 giờ (khi Hồng xuất phát) Hà đi được quãng đường là: 1/6  x 1/2 = 1/12 (quãng đường)
+Thời gian để Hồng đuổi kịp Hà là: 1/12 : 1/12 = 1 (giờ)
+Sau 1 giờ xuất phát Hồng sẽ đuổi kịp Hà, lúc đó là là: 7 + 1 = 8 (giờ)@1&8@Hỏi phải dùng tất cả bao nhiêu hình lập phương nhỏ cạnh 1cm để xếp thành một khối hình hộp chữ nhật dài 1,6dm, rộng 1,4dm, cao 9cm ?@2012@2010@2000@2016@4@16 x 14 x 9 = 2016 (hình lập phương nhỏ)@1&9@Một bếp ăn chuẩn bị một số gạo đủ cho 120 người ăn trong 40 ngày. Sau khi ăn hết một nửa số gạo đó bếp ăn nhận thêm một số người nên số gạo còn lại chỉ đủ cho bếp ăn trong 12 ngày nữa (mức ăn của mỗi người không thay đổi). Hỏi bếp ăn đã nhận thêm bao nhiêu người nữa?@60@70@80@100@3@Sau khi ăn hết một nửa số gạo đó thì số gạo còn lại đủ cho 120 người ăn trong 40 : 2 = 20 (ngày)
+Sau khi nhận thêm một số người thì bếp có số người ăn là: 120 x 20 : 12 = 200 (người)
+Bếp ăn đã nhận thêm số người là: 200 - 120 = 80 (người)@1&10@Tìm một số tự nhiên có 3 chữ số, biết nếu viết thêm chữ số 8 vào đằng trước, đằng sau số đó ta được 2 số có 4 chữ số nhưng số viết đằng trước hơn số viết đằng sau 5778 đơn vị ?@245@246@247@248@2@Gọi số phải tìm là abc, ta có 2 số mới là 8abc và abc8 
+Theo bài ra ta có: 8abc = abc8 + 5778
+Phân tích theo cấu tạo số, ta được: 8000 + abc = abc0 + 8 + 5778
+Hay: 8000 - 8 - 5778 = abc0 - abc = 10 x abc - abc = 9 x abc
+2214 = 9 x abc
+Vậy abc = 2214 : 9 = 246@1&11@Tìm số tự nhiên a lớn nhất thỏa mãn điều kiện: 12,5 x a < 2010 ?@150@160@170@175@2@Ta có: 2010 : 12,5 = 160,8. Suy ra: a = 160@1&12@Tìm số tự nhiên có 3 chữ số abc biết: abc : 11 = a + b + c ?@89@100@198@200@3@Theo bài ra ta có: abc : 11 = a + b + c
+Hay: abc = 11 x (a + b + c)
+Phân tích theo cấu tạo số, ta được: 100 x a + 10 x b + c = 11 x a + 11 x b + 11 x c
+89 x a = b + 10 x c
+Vì b và c chỉ có thể nhận giá trị lớn nhất là 9 nên suy ra a = 1
+Khi đó: 89 x 1 = b + 10 x c
+b = 89 - 10 x c
+Vì b không thể là số "âm" và b không thể có 2 chữ số nên c = 8. Khi đó b = 89 - 10 x 8 = 9
+Số phải tìm là: 198@1&13@Tính: S = 1x2 + 2x3 + 3x4 + ...+ 38x39 + 39x40 ?@21320@21330@21230@21160@1@Ta có:
+S = 1x2 + 2x3 + 3x4 + ...+ 38x39 + 39x40
+S x 3 = 1x2x3 + 2x3x3 + 3x4x3 +… + 38x39x3 + 39x40x3
+S x 3 = 1x2x3 + 2x3x(4-1) + 3x4x(5-2) + ... + 38x39x(40-37) + 39x40x(41-38)
+S x 3 = 1x2x3 + 2x3x4 - 1x2x3 + 3x4x5 - 2x3x4 + ... + 38x39x40 - 37x38x39 + 39x40x41 - 38x39x40.
+S x 3 = 39x40x41
+S = 39x40x41:3= 21320@1&14@Trung bình cộng của 2 số tự nhiên bằng 1468, biết nếu viết thêm chữ số 2 vào đằng trước số bé ta được số lớn. Tìm số bé?@467@936@923@468@4@Tổng của hai số đó là: 1468 x 2 = 2936
+Gọi số bé là abc thì số lớn là 2abc
+Theo bài ra ta có: abc + 2abc = 2936
+Phân tích theo cấu tạo số, ta được:   + 2000 +   = 2936
+Hay: 2 x abc = 2936 - 2000 = 936
+Suy ra: abc = 936 : 2 = 468@1&15@Bây giờ là 3 giờ. Hỏi sau ít nhất bao lâu nữa thì kim giờ và kim phút trùng nhau?@3/11(giờ)@5/11(giờ)@3/15(giờ)@5/10(giờ)@1@Lúc 3 giờ, khoảng cách giữa kim giờ và kim phút là: 3/12 (vòng)
+1 giờ kim phút quay được: 12/12 (vòng)
+1 giờ kim giờ quay được: 1/12 (vòng)
+Kim giờ và kim phút trùng nhau sau: 3/12 : (12/12 - 1/12) = 3/11(giờ)@1&16@Biết tích 12 x 13 x 14 x 15 x a. Có kết quả đúng là số có dạng 150*960. Hãy tìm giá trị của chữ số * ?@4@5@6@7@3@Ta có: 12 x 13 x 14 x 15 x a = 150*960
+Hay: 3 x 4 x 13 x 14 x 3 x 5 x a = 150*960
+3 x 3 x 4 x 5 x 13 x 14 x a = 150*960
+9 x 20 x 13 x 14 x a = 150*960
+Suy ra: 150*960 chia hết cho 9
+Ta có: 1 + 5 + 0 + * + 9 + 6 + 0 = 21 + * chia hết cho 9
+Suy ra: * = 6@1&17@Biết tích 25 x 26 x 27 x 28 x a. Có kết quả đúng là số có dạng 39*1200. Hãy tìm giá trị của chữ số *?@2@3@4@5@2@Ta có: 25 x 26 x 27 x 28 x a = 39*1200
+Hay: 25 x 26 x 9 x 3 x 28 x a = 39*1200
+Suy ra: 39*1200 chia hết cho 9
+Ta có: 3 + 9 + * + 1 + 2 + 0 + 0 = 15 + * chia hết cho 9
+Suy ra: * = 3@1&18@Cho 4 chữ số khác nhau, hỏi có thể lập được nhiều nhất bao nhiêu số có 4 chữ số có đủ mặt 4 chữ số đã cho?@10@15@20@24@4@Theo qui tắc nhân ta có: 4 x 3 x 2 x 1 = 24 (số)@1&19@Cho phân số 77/123. Hỏi cùng phải bớt cả tử số và mẫu số đi bao nhiêu đơn vị để được phân số mới có giá trị bằng 3/5 ?@5@7@8@11@3@Gọi số cần tìm là x. 
+Theo bài ra, ta có: (77-x)/(123-x) = 3/5.
+385-5x=369-3x
+2x=16
+x=8@1&20@Giá của một chiếc điện thoại sau khi hạ giá bán 2 lần, mỗi lần 10% so với giá bán lần trước là 1458000 đồng. Hỏi giá bán ban đầu của chiếc điện thoại đó là bao nhiêu?@200000@1620000@1458000@1800000@4@Sau khi giảm 10% thì giá bán chỉ còn lại là: 100 - 10 = 90(%)
+Sau khi giảm 10% lần 2 thì giá bán là: 1458000 đồng. Suy ra giá khi chưa giảm là: 1458000 x 100 : 90 = 1620000 (đồng)
+Sau khi giảm 10% lần 1 thì giá bán là: 1620000 đồng. Suy ra giá khi chưa giảm là: 1620000 x 100 : 90 = 1800000 (đồng)@1&21@Hãy cho biết có tất cả bao nhiêu phân số bằng phân số 3/7 mà tử số và mẫu số đều là các số có 2 chữ số?@10@11@12@13@2@Để tử số là số có 2 chữ số thì số bé nhất có thể chọn là số 4
+Để mẫu số là số có 2 chữ số thì số lớn nhất có thể chọn là số 14
+Số phân số bằng phân số   mà tử số và mẫu số đều là các số có 2 chữ số là: 14 - 4 + 1 = 11 (phân số)@1&22@Hãy cho biết có tất cả bao nhiêu số có 3 chữ số khác nhau mà các chữ số đều chẵn?@47@48@49@50@2@Theo qui tắc nhân ta có: 4 x 4 x 3 = 48 (số)@1&23@Hãy cho biết có tất cả bao nhiêu số có 3 chữ số mà các chữ số của những số đó đều lớn hơn 4?@105@110@125@135@3@Những chữ số lớn hơn 4 là: 5; 6; 7; 8; 9
+Có 5 cách chọn hàng trăm, 4 cách chọn hàng chục và 3 cách chọn hàng đơn vị. Vậy có tất cả số có 3 chữ số khác nhau mà các chữ số của những số đó đều lớn hơn 4 là: 5 x 4 x 3 = 60 (số)
+Có 5 số có 3 chữ số có các chữ số giống nhau là: 555; 666, 777; 888; 999
+Có 5 x 4 = 20 số có 3 chữ số có 2 chữ số hàng chục và hàng đơn vị viết giống nhau (dạng 566; 577; 588; 599)
+Có 5 x 4 = 20 số có 3 chữ số có 2 chữ số hàng trăm và hàng chục viết giống nhau: (dạng 556; 557; 558; 559)
+Có 5 x 4 = 20 số có 3 chữ số có 2 chữ số hàng trăm và hàng đơn vị viết giống nhau: (dạng 565; 575; 585; 595)
+Vậy có tất cả: 60 + 5 + 20 + 20 + 20 = 125 (số)@1&24@Hãy cho biết có tất cả bao nhiêu số có 4 chữ số khác nhau mà các chữ số đều lẻ? @100@110@115@120@4@Theo qui tắc nhân ta có: 5 x 4 x 3 x 2 = 120 (số)@1&25@Hiện nay con 12 tuổi, bố 40 tuổi. Tính tuổi hai bố con khi tuổi bố gấp 3 lần tuổi con ?@14 và 28@14 và 42@16 và 48@16 và 43@2@Hiệu tuổi của hai bố con là: 40 - 12 = 28
+Số phần bằng nhau khi tuổi bố gấp 3 lần tuổi con là: 3 - 1 = 2 (phần)
+Tuổi của con khi tuổi bố gấp 3 lần tuổi con là: 28 : 2 = 14 (tuổi)
+Tuổi của bố khi tuổi bố gấp 3 lần tuổi con là: 14 x 3 = 42 (tuổi)@1&26@Một hình chữ nhật có diện tích bằng 867cm2. Tính chu vi hình chữ nhật đó, biết chiều rộng bằng 3/4 chiều dài?@139 (cm)@100 (cm)@109 (cm)@119 (cm)@4@Gọi chiều dài hình chữ nhật là a, thì chiều rộng của hình chữ nhật là 3/4 x a
+Theo bài ra ta có diện tích hình chữ nhật là: a x 3/4 x a = 867cm2
+Hay: a x a = 4/3 x 867 = 1156cm2
+Suy ra: a = 34cm
+Vậy chu vi hình chữ nhật đó là: (34 + 3/4 x 34) x 2 = 119(cm)@1&27@Một ô tô đi từ A đến B với vận tốc 50km/giờ mất 2 giờ 15 phút. Hỏi một xe máy đi từ A đến B với vận tốc 45km/giờ thì mất bao lâu? @2,5 (giờ)@3 (giờ)@3,5 (giờ)@4 (giờ)@1@2 giờ 15 phút = 2,25 giờ
+Quãng đường AB dài là: 50 x 2,25 = 112,5 (km)
+Xe máy đi từ A đến B với vận tốc 45km/giờ thì mất: 112,5 : 45 = 2,5 giờ@1&28@Người ta xếp 2197 khối lập phương nhỏ cạnh 1cm thành một khối lập phương lớn hơn. Hỏi cạnh hình lập phương lớn xếp được dài bao nhiêu xăng - ti - mét?@11@12@13@14@3@Thể tích của một khối hình lập phương nhỏ là: 1 x 1 x 1 = 1 (cm3)
+Thể tích của khối hình lập phương lớn là: 1 x 2197 = 2197 (cm3)
+Ta có: 2197 = 13 x 13 x 13
+Vậy cạnh của hình lập phương lớn là 13(cm)@1&29@Tìm bán kính một hình tròn, biết hình tròn đó có diện tích là 346,185 (xăng ti mét vuông)@9,5(cm)@10,5(cm)@11(cm)@11,5(cm)@2@Gọi r là bán kính hình tròn
+Theo bài ra ta có: r x r = 346,185 : 3,14 = 110,25 (cm2)
+Suy ra: r = 10,5 (cm)@1&30@Tìm hai số biết nếu đem số thứ nhất chia cho 2; số thứ hai chia cho 2,5 thì được kết quả bằng nhau và biết hiệu của chúng bằng 21,3 ?@95,2 và 106,8@95,2 và 107,5@95,2 và 106,5@85,2 và 106,5@4@Gọi số thứ nhất là a, số thứ hai là b
+Theo bài ra ta có: a/2 = b/2,5
+Suy ra: a/b = 2/2,5 = 4/5
+Số thứ nhất là: 21,3 : 1 x 4 = 85,2
+Số thứ hai là: 85,2 + 21,3 = 106,5@1&31@Cho a; b; c là các số tự nhiên và a > b; b > c thì c … a. (Điền dấu (>; <; =) thích hợp vào chỗ chấm) ?@>@<@=@A và C@2@gta@2&32@Tập hợp A là tập hợp gồm các số tự nhiên các chữ số của số 2010 là {…}. (Nhập các phần tử theo giá trị tăng dần, ngăn cách bởi dấu “;”) ?@1;2;3@1;2;1@0;0;2@0;1;2@4@gta@2&33@Tìm một phân số tối giản nhỏ hơn 1, có tổng tử số và mẫu số bằng 6 ?@1/5@2/4@1/6@4/2@1@gta@2&34@Tìm phân số có tổng tử số và mẫu số bằng 25, mẫu số lớn hơn tử số 7 đơn vị ?@9/17@8/17@9/16@9/17@3@Gọi phân số đó là a/b
+Theo bài ra ta có: a + b = 25 và b - a = 7
+Tử số là: (25 - 7) : 2 = 9
+Mẫu số là: 9 + 7 = 16 
+Phân số đó là: 9/16@2&35@Tìm số có ba chữ số, biết rằng nếu viết thêm chữ số 1 vào trước số đó thì được số mới gấp 9 lần số ban đầu ?@120@125@130@145@2@Gọi số đó là abc thì khi viết thêm chữ số 1 vào nó trước sẽ là số 1abc
+Số mới gấp 9 lần số ban đầu có nghĩa là: 1abc = 9 x abc
+Suy ra: 1000 + abc = 9 x abc
+1000 = 8 x abc
+Suy ra: abc = 1000 : 8 = 125@2&36@Tìm số tự nhiên có số nghìn là 20, chữ số hàng chục là 5 và chữ số hàng đơn vị là 2?@20052@20052@20052@20052@2@gta@2&37@Cho M = ab + 18a; với a = 15; b = 18. Khi đó giá trị của M là…?@580@340@440@540@4@gta@2&38@Cho x là một số tự nhiên thỏa mãn x . 15 + x + 15 = 463, x có giá trị là…?@28@29@30@66@1@gta@2&39@Giá trị của N = 22.(16+18).(12+3.11) là… ?@12100@15201@2122@33660@4@N = 22.(16+18).(12+3.11)
+N = 22.(34).(12+33)
+N = 22.(34).(45)
+N = 33660@2&40@Một cửa hàng có 6 thùng hàng khối lượng 316kg, 327kg, 336kg, 338kg, 349kg và 351kg. Trong một ngày cửa hàng bán hết 5 thùng hàng; trong đó khối lượng hàng bán buổi sáng gấp đúng 4 lần khối lượng hàng bán buổi chiều. Thùng hàng còn lại có khối lượng là… (kg)?@327@427@342@344@1@gta@2&41@Một người đi bộ mỗi phút được 60m, người khác đi xe đạp mỗi giờ được 24km. Tỉ số phần trăm vận tốc của người đi bộ và người đi xe đạp là…% ?@10@15@20@25@2@24km = 24000m
+Mỗi phút người đi xe đạp đi được quãng đường là: 24000 : 60 = 400(m)
+Tỉ số phần trăm vận tốc của người đi bộ và người đi xe đạp là: 60 : 400 x 100 = 15(%)@2&42@Một người đi quãng đường AB với vận tốc 15km/h trên nửa quãng đường đầu và vận tốc 10km/h trên nửa quãng đường sau. Vận tốc trung bình của người đó trên cả quãng đường AB là…?@12km/h@15km/h@13km/h@20km/h@1@Giả sử nửa quãng đường AB dài 30 km, thì thời gian đi nửa quãng đường đầu sẽ là: 30 : 15 = 2 (giờ)
+Thời gian đi nửa quãng đường sau sẽ là: 30 : 10 = 3 (giờ)
+Tổng thời gian đi hết quãng đường là: 2 + 3 = 5 (giờ)
+Vận tốc trung bình của người đó trên suốt quãng đường AB là: 30 x 2 : 5 = 12 (km/h)@2&43@Một người đi xe máy từ A đến B với vận tốc 30km/h, 20 phút sau người thứ hai cũng đi từ A đến B với vận tốc 36km/h và đến B sau người thứ nhất 5 phút. Chiều dài quãng đường AB là?@55km@35km@40km@45km@4@Người thứ hai nếu khởi hành cùng một lúc sẽ đến B trước: 20 - 5 = 15 (phút) = 0,25 (giờ)
+Nếu khởi hành cùng lúc mà người thứ nhất đến B thì người thứ hai đã qua khỏi B khoảng cách là  36 x 0,25 = 9 (km)
+Hiệu vận tốc của 2 người: 36 - 30 = 6 (km/h)
+Thời gian người thứ nhất đi từ A đến B là: 9 : 6 = 1,5 (giờ)
+Quãng đường AB là: 30 x 1,5 = 45 (km)@2&44@Số có dạng 1010…10101 chia hết cho 9999. Số đó có ít nhất bao nhiêu chữ số 1? @196@198@200@199@2@Ta có: 9999 = 1111 x 9. Suy ra, số đó phải chia hết cho 9. 
+Trong 4 đáp án trêm, chỉ có số 198 là chia hết cho 9
+Vậy số đó có ít nhất 198 chữ số 1@2&45@Số phần tử của tập hợp các số tự nhiên chẵn lớn hơn 13 và nhỏ hơn 3000 là…?@1445@1103@1403@1493@4@(2998 - 14) : 2 + 1 = 1493@2&46@Số phần tử của tập hợp các số tự nhiên chẵn lớn hơn 1010 nhưng không vượt quá 2010 là…?@499@500@699@700@2@(2010 - 1012) : 2 + 1 = 500@2&47@Số phần tử của tập hợp P = {13; 15; 17; …; 85; 87} là…?@33@35@38@40@3@Số phần tử của tập hợp P là: (87 - 13) : 2 + 1 = 38@2&48@Tỉ số của hai số là 7/12, thêm 10 vào số thứ nhất thì tỉ số của hai số là 3/4. Tổng của hai số là…?@90@95@100@105@2@Gọi số thứ nhất là a, số thứ hai là b
+Theo bài ra ta có: a/b = 7/12
+Khi thêm 10 vào số thứ nhất, ta được: (a + 10)/b = 3/4
+Hay: a/b + 10/b = 3/4
+10/b = 3/4 - a/b = 3/4 - 7/12 = 1/6
+Suy ra: b = 10 x 6 = 60;  
+Tổng của hai số là: 60 + 35 = 95@2&49@Tích của số tự nhiên nhỏ nhất có 3 chữ số với số tự nhiên lớn nhất có 2 chữ số có giá trị là…?@9900@9950@9858@9800@1@Tích là: 100 x 99 = 9900 !@2&50@Tìm số tự nhiên có 2 chữ số, biết rằng nếu lấy số đó nhân với tổng của 2 chữ số cấu tạo nên số đó thì được 640. Số tự nhiên đó là… ?@70@60@55@64@4@@2&51@Tổng của tích 5 số tự nhiên đầu tiên khác 0 với tổng của 10 số tự nhiên đầu tiên là…?@165@120@45@178@1@Tích 5 số tự nhiên đầu tiên khác 0 là: 1  x 2 x 3 x 4 x 5 = 120
+Tổng của 10 số tự nhiên đầu tiên là: (9 + 0) x 10 : 2 = 45
+Tổng của tích 5 số tự nhiên đầu tiên khác 0 với tổng của 10 số tự nhiên đầu tiên là: 120 + 45 = 165@2&52@Từ nào sau đây có tập hợp các chữ cái gồm 5 phần tử? @Sông Mê Kông@Sông Đồng Nai@Sông Đông@Sông Sài Gòn@3@Sông Đông có 5 phần tử là: S, Ô, N,G và Đ@2&53@Xếp các hộp màu theo thứ tự xanh, vàng, nâu, tím. Hỏi hộp thứ 2017 là hộp màu gì?@Xanh@Vàng@Nâu@Tím@1@Có tất cả 4 loại hộp màu gồm: xanh, vàng, nâu và tím
+Nếu xếp các hộp màu theo thứ tự xanh, vàng, nâu, tím thì sau khi xếp xong 4 hộp thì màu ban đầu sẽ quay lại.
+Ta có: 2017 : 4 = 504 dư 1. 
+Vậy hộp thứ 2017 là hộp màu xanh@2&54@Một bàn cờ có 64 ô. Giả sử ta bỏ vào ô thứ nhất 2 hạt thóc, ô thứ 2 bỏ gấp đôi ô thứ nhất, ô thứ 3 bỏ gấp đôi ô thứ 2, ô thứ 4 bỏ gấp đôi ô thứ 3, cứ như thế, số hạt thóc bỏ vào ô thứ 64 là…?@64^(2)@2^(64)@2^(6)+2^(4)@2^(6)x2^(4)@2@gta@3&55@Viết tích sau dưới dạng một lũy thừa: 15.15.15.3.15.5.3.5. Kết quả là…?@5^(6):3^(6)@5^(6)+3^(6)@8^(6)@15^(6)@4@gta@3&56@Cho các số tự nhiên a, b, c sao cho: a < b < c; 11 < a < 15; 12 < c < 15. Khi đó a = …; b = …; c = … ?@11; 10 và 14@10; 12 và 14@12; 13 và 14@11; 13 và 14@3@gta@3&57@Viết 729 dưới dạng lũy thừa cơ số 3 ta được... ?@3^(6)@3^(5)@3^(4)@3^(3)@1@gta@3&58@Tìm y, biết: (47 - y).4 = 92@24@25@26@27@1@gta@3&59@Tính: 30 + 31 + 32 + ............ + 40 = .....?@305@365@375@385@4@gta@3&60@Số tự nhiên nhỏ nhất có bốn chữ số khác nhau là: ...?@1020@1029@1023@1028@3@gta@3&61@Số các số tự nhiên lẻ có ba chữ số là: .....?@499@450@451@550@2@gta@3&62@Số phần tử của tập hợp các số có hai chữ số chia hết cho 3 là: ....?@20@30@40@45@2@gta@3&63@Cho một số chẵn có bốn chữ số, trong đó chữ số hàng trăm và chữ số hàng chục lập thành một số gấp ba lần chữ số hàng nghìn và gấp hai lần chữ số hàng đơn vị.
+Số đã cho là: ...?@4126@4127@4128@4129@1@gta@3&64@Tính nhanh: 367 + 129 + 133 + 371 + 17 = ....?@1014@1015@1016@1017@4@gta@3&65@Gọi A là tập hợp các số tự nhiên có hai chữ số, trong đó chữ số hàng chục nhỏ hơn chữ số hàng đơn vị và tổng hai chữ số bằng 12. 
+Số phần tử của A là: ...?@6@2@3@4@3@gta@3&66@Tính: 20 + 21 + 22 + 23 + ....... + 29 = ....?@245@246@247@248@1@gta@3&67@Tính: 532.37 + 34.532 + 29.532 = ......?@50200@53200@59200@53100@2@gta@3&68@Cho đường thẳng xy và một điểm O thuộc đường thẳng xy. Trên xy lấy 2 điểm M, N sao cho M nằm giữa O và N. Tia đối của tia MO là tia… @XM@ON@ME@MN@4@Tia đối là tia có chung gốc và ngược hướng@4&69@Tìm hai số, biết tổng của chúng bằng 3 lần hiệu của số lớn trừ số bé và bằng nửa tích của hai số. Hai số cần tìm là…@ 3 và 6@4 và 6@4 và 5@ 3 và 5@1@Gọi số lớn là a và số bé là b
+Theo bài ra ta có: a + b = 3 x (a - b) = 3 x a - 3 x b. Suy ra: a = 2 x b (1)
+Ta cũng có: a + b = 1/2(a x b) (2)
+Thay (1) vào (2) ta được: 2 x b + b = 1/2(2 x b x b) = b x b 
+Hay: 3 x b = b x b. 
+Suy ra: b = 3 và a = 2 x b = 2 x 3 = 6@4&70@Tổng 5 số tự nhiên liên tiếp là một số lớn hơn 11 và nhỏ hơn 21. Tổng đó có giá trị là… ?@15 hoặc  20@16 hoặc 35@10 hoặc 18@25@1@Gọi số nhỏ nhất là a
+Theo bài ra ta có: 11 < a + a + 1 +  a + 2 + a + 3 + a + 4 < 21
+11 < 5 x a + 10 < 21
+11 - 10 < 5 x a < 21 - 10
+1 < 5 x a < 11
+Suy ra: a có 2 giá trị thỏa mãn đề bài là a = 1 và a = 2
+Nếu a = 1 thì tổng a + a + 1 +  a + 2 + a + 3 + a + 4 = 15 (chấp nhận)
+Nếu a = 2 thì tổng a + a + 1 +  a + 2 + a + 3 + a + 4 = 20 (chấp nhận)@4&71@Tổng 5 số tự nhiên liên tiếp là một số lớn hơn 11 và nhỏ hơn 21. Tổng đó có giá trị là… ?@50 và 100@ 60 và 120@70 và 140@80 và 150@2@Tổng hai số bằng 180
+Tỉ số là: 2 : 1
+Tổng số phần bằng nhau là: 2 + 1 = 3
+Số bé là: 180 : 3 = 60
+Số lớn là: 60 x 2 = 120@4&72@Tổng của tất cả các số có hai chữ số khác nhau được lập bởi các số 1; 2; 3 là…?@198@132@145@150@2@Số các số có hai chữ số KHÁC NHAU được lập bởi các số 1; 2; 3 là:12,13,21,23,31, 32.
+Tổng của chúng là: 12 + 13 + 21 + 23 + 31 + 32 = 132@4&73@Trên đường thẳng d lấy thứ tự 4 điểm M, N, P, Q. Tia MN trùng với tia…?@PQ@QN@MP@MQ@4@gta@4&74@Tổng của ba số là số lớn nhất có ba chữ số. Nếu lấy số thứ nhất chia cho số thứ hai thì được thương là 5 dư 3. Số thứ nhất hơn tổng của hai số còn lại 7 đơn vị. Số lớn nhất trong ba số đó là…?@610@396@600@503@4@Tổng của ba số là 999
+Vì số thứ nhất hơn tổng của hai số còn lại 7 đơn vị. Suy ra: Số thứ nhất là: (999 + 7) : 2 = 503.
+Số thứ hai là: (503 - 3) : 5 = 100
+Số thứ ba là: 999 - 503 - 100 = 396
+Trong ba số 503, 100 và 396 thì số 503 là số lớn nhất cần tìm.@4&75@Hiện nay tuổi mẹ gấp 4 lần tuổi con và tổng số tuổi của hai mẹ con là 50. Hỏi sau bao nhiêu năm nữa tuổi mẹ gấp 2 lần tuổi con? @10@15@20@12@3@gta@4&76@Nếu a chia cho 3 dư 1; b chia cho 3 dư 2. Khi đó a.b chia cho 3 có số dư là…?@1@2@3@4@2@Ta có: a = 3 x p + 1 (p (= N )
+Tương tự ta có: b = 3 x q + 2 (q (= N )
+Theo bài ra ta có: a x b = (3 x p + 1) x (3 x q + 2)
+Hay: a x b = 9 x p x q + 3 x q + 6 x p + 2 = 3 x (p x q + q + 2 x p) + 2
+Vì: 3 x (p x q + q + 2 x p) chia hết cho 3
+Suy ra: a x b chia cho 3 có số dư là 2@4&77@Tập hợp A = {1; 2; 3; 0} có số tập hợp con là…?@16@17@18@19@1@gta@4&78@Tập hợp các số chẵn có hai chữ số chia hết cho 3 có số phần tử là…?@10@12@15@20@3@gta@4&79@Tập hợp các số tự nhiên có hai chữ số mà chữ số hàng chục lớn hơn chữ số hàng đơn vị 1 đơn vị có số phần tử là… ?@8@9@10@11@2@gta@4&80@Tìm số a thỏa mãn: 48 x 159 = 7a32 ?@6@7@8@5@1@gta@4&81@Tìm x, biết: (x - 32) : 16 = 48 ?@600@700@760@800@4@gta@4&82@Tìm x, biết: x - 4300 - (5250:1050.250) = 4250 ?@9800@9900@9500@1000@1@gta@4&83@Tìm y, biết: (7 - y).3 = 12 ?@2@3@4@5@2@gta@4&84@Tính: 25 - 18 + 36 = … ?@40@41@42@43@4@gta@4&85@Tính: (200 + 25) : 15 + 60 = … ?@70@75@89@90@2@gta@4&86@Tổng của ba số là 122. Nếu lấy số thứ nhất chia cho số thứ hai hoặc lấy số thứ hai chia cho số thứ ba thì đều được thương là 3, dư 1. Số bé nhất trong ba số đó là…?@8@9@10@11@2@gta@4&87@Tổng của ba số là 122. Nếu lấy số thứ nhất chia cho số thứ hai hoặc lấy số thứ hai chia cho số thứ ba thì đều được thương là 3, dư 1. Số lớn nhất trong ba số đó là…@100@99@80@85@4@Gọi số bé nhất trong ba số đó là a
+Số thứ hai là: a x 3 + 1
+Số thứ nhất là: (a x 3 + 1) x 3 + 1
+Theo bài ra ta có: a + a x 3 + 1 + (a x 3 + 1) x 3 + 1 = 122
+13 x a + 5 = 122
+13 x a = 117
+a = 117 : 13 = 9
+Số lớn nhất là: (9 x 3 + 1) x 3 + 1 = 85@4&88@Tổng của ba số là số lớn nhất có ba chữ số. Nếu lấy số thứ nhất chia cho số thứ hai thì được thương là 5 dư 3. Số thứ nhất hơn tổng của hai số còn lại 7 đơn vị. Số lớn nhất trong ba số đó là…?@500@502@600@503@4@Tổng của ba số là 999
+Vì số thứ nhất hơn tổng của hai số còn lại 7 đơn vị. Suy ra: Số thứ nhất là: (999 + 7) : 2 = 503@4&89@Cho AB = 15cm; CD = 8dm. So sánh độ dài AB với CD ta được kết quả AB … CD ?@=@>@<@A và B@3@gta@5&90@Tập hợp các số có hai chữ số chia hết cho 5 và 9 là...?@45;90@50;90@45;99@50;99@1@Ta nhận thấy:
+Số chia hết cho 5 có chữ số tận cùng là 0 hoặc 5
+Số chia hết cho 9 có tổng các chữ số chia hết cho 9
+Số có hai chữ số thỏa mãn cả 2 điều kiện trên là số 45 và 90@5&91@Tìm số nguyên dương p nhỏ nhất sao cho p + 5 và p + 8 đều chia hết cho 3 ?@1@2@3@4@1@Ta nhận thấy:
+1 + 5 = 6 chia hết cho 3
+1 + 8 = 9 chia hết cho 3
+Vậy: p = 1@5&92@Tìm số nhỏ nhất có dạng 23a chia hết cho cả 2 và 5 ?@200@220@230@267@3@gta@5&93@Tổng của hai số bằng 180. Thương của hai số đó bằng 5. Tích hai số đó là…?@4100@4000@4400@4500@4@Thương của hai số đó bằng 5. Suy ra: Tổng số phần bằng nhau là: 5 + 1 = 6 (phần)
+Số bé là: 180 : 6 = 30
+Số lớn là: 180 - 30 = 150
+Tích hai số đó là: 150 x 30 = 4500@5&94@Trong các cặp số tự nhiên (x;y) thỏa mãn: (2x + 1) . (y - 3) = 10, cặp số cho tích x . y lớn nhất là (…;…). (Nhập giá trị x trước y sau, ngăn cách nhau bởi dấu “;”) ?@1;5@2;5@3;5@4;5@2@Ta có: 10 = 1 x 10 = 5 x 2
+Nếu: (2x + 1) = 1 thì (y - 3) = 10
+Giải ra ta được: x = 0 và y = 13
+Tích của hai số là: 0 x 13 = 0
+Nếu: (2x + 1) = 5 thì (y - 3) = 2
+Giải ra ta được: x = 2 và y = 5
+Tích của hai số là: 2 x 5 = 10
+Vậy: Cặp số tự nhiên (x;y) cho tích lớn nhất là: (2;5)@5&95@Biết rằng số có dạng 691k là một số chia hết cho 9. Vậy k = ...?@1@2@3@4@2@Số chia hết cho 9 có tổng các chữ số chia hết cho 9. Ta có: 6 + 9 + 1 = 16. Suy ra: k = 2@5&96@Biết tổng của n số tự nhiên liên tiếp bắt đầu từ 1 bằng 190. Khi đó n = ...?@19@20@21@22@1@Theo bài ra ta có: 1 + 2 + … + n = 190
+Áp dụng công thức tính tổng n số hạng, ta có: n x (n + 1) : 2 = 190
+n x (n + 1) = 190 x 2 = 380 = 19 x 20
+Suy ra: n = 19@5&97@Cho P là tập hợp các số có hai chữ số chia hết cho cả 2 và 5. Số tập hợp con của P là… @500@510@512@550@3@P = {10; 20; 30; 40; 50; 60; 70; 80; 90} 
+Số tập hợp con của P là 2^9 = 512 (tập hợp)@5&98@Có bao nhiêu số chia hết cho 3 có dạng a1 ?@2@3@4@5@2@Để a1 chia hết cho 3 thì tổng a + 1 phải chia hết cho 3
+Nếu: a = 2 thì a + 1 = 3 chia hết cho 3
+Vì: 0 < a ≤ 9. Suy ra: a còn 2 giá trị nữa là a = 5 và a = 8
+Vậy: Có 3 số chia hết cho 3 có dạng a1@5&99@Có bao nhiêu số có 4 chữ số khác nhau mà các chữ số của mỗi số đều là số chia hết cho 2?@94@95@96@97@3@Có 5 chữ số chia hết cho 2 là: 0; 2; 4; 6; 8
+Có 4 cách chọn chữ số hàng nghìn (loại chữ số 0)
+Có 4 cách chọn chữ số hàng trăm (loại chữ số hàng nghìn)
+Có 3 cách chọn chữ số hàng chục (loại chữ số hàng nghìn và chữ số hàng trăm)
+Có 2 cách chọn chữ số hàng trăm (loại chữ số hàng nghìn, chữ số hàng trăm và chữ số hàng chục)
+Theo quy tắc nhân, ta có: 4 x 4 x 3 x 2 = 96 (số)@5&100@Có tất cả bao nhiêu số có 3 chữ số chia hết cho 9?@90@99@100@110@3@Số lớn nhất có 3 chữ số chia hết cho 9 là 999
+Số nhỏ nhất có 3 chữ số chia hết cho 9 là 108
+Tổng số các số có 3 chữ số chia hết cho 9 là: (999 - 108) : 9 + 1 = 100@5&101@Có tất cả bao nhiêu số có dạng ab3 chia hết cho 3? (a khác b) ?@27@28@29@30@1@gta@5&102@Có tất cả bao nhiêu số có hai chữ số chia hết cho 2?@40@45@50@60@2@Số lớn nhất có hai chữ số chia hết cho 2 là 98
+Số nhỏ nhất có hai chữ số chia hết cho 2 là 10
+Tổng số các số có hai chữ số chia hết cho 2 là: (98 - 10) : 2 + 1 = 45@5&103@Có tất cả bao nhiêu số nhỏ hơn 100 chia hết cho 3 và 5?@5@6@7@8@3@A = {0; 15; 30; 45; 60; 75; 90}@5&104@Dùng ba trong bốn số: 4; 3; 1; 5 ghép lại thành số chia hết cho 9 và chia hết cho 5. Số các số ghép được là…?@5@4@3@2@4@Số chia hết cho 5 có chữ số tận cùng là 5. Suy ra: Ta có 1 cách chọn chữ số hàng đơn vị
+Số chia hết cho 9 có tổng các chữ số tận chia hết cho 9. Suy ra: Ta chỉ có hai số 1 và 3 thỏa mãn điều kiện khi công với 5 thì chia hết cho 9. Suy ra: Ta có 2 cách chọn chữ số hàng trăm
+Ta có: 1 cách chọn chữ số hàng chục (loại chữ số hàng trăm vì tổng không chia hết cho 9) 
+Theo quy tắc nhân, ta có: 1 x 2 x 1 = 2 (số)@5&105@Gọi A là tập hợp các số có 3 chữ số chia hết cho 9. Số phần tử của tập hợp A là…?@90@95@100@120@3@Số lớn nhất có 3 chữ số chia hết cho 9 là 999
+Số nhỏ nhất có 3 chữ số chia hết cho 9 là 108
+Tổng số các số có 3 chữ số chia hết cho 9 là: (999 - 108) : 9 + 1 = 100@5&106@Gọi A là tập hợp các số có hai chữ số chia hết cho 5; Gọi B là tập hợp các số có hai chữ số chia hết cho cả 2 và 5. Tập hợp C chứa các phần tử chung của A và B có số phần tử là…?@8@9@10@11@2@A = {10; 15; 20; 25; 30; 35; 40; 45; 50; 55; 60; 65; 70; 75; 80; 85; 90; 95}
+B = {10; 20; 30; 40; 50; 60; 70; 80; 90}
+C = A ∩ B = {10; 20; 30; 40; 50; 60; 70; 80; 90}@5&107@Tập hợp các số có 1 chữ số chia hết cho 2 có số phần tử là…?@5@6@7@8@1@A = {0; 2; 4; 6; 8}@5&108@Tìm số a biết 5a312 chia cho 9 dư 4 ?@1@2@3@4@2@Để 5a312 chia cho 9 dư 4 thì tổng của các chữ số phải bằng 13
+Ta có: 5 + 3 + 1 + 2 = 11
+Suy ra: a = 2@5&109@Tìm số nguyên dương p nhỏ nhất sao cho 4p + 1 và 2p + 3 đều là số chia hết cho 5 ?@1@2@3@4@1@Ta có: 4p + 1 và 2p + 3 chia hết cho 5. Nên 4p + 1 và 2p + 3 đều có bội số chung nhỏ nhất là 5
+Mà n là nhỏ nhất nên: 4p + 1 = 2p + 3 = 5
+Vậy: p = 1@5&110@Tìm số tự nhiên a nhỏ nhất khác 5 biết khi chia a cho 12; cho 15 và cho 18 đều dư 5 ?@180@185@190@195@2@Vì a chia cho 12; 15 và 18 đều dư 5. Suy ra: (a - 5) chia hết cho 12; 15 và 18
+Ta có: 
+12 = 2 x 2 x 3
+15 = 3 x 5
+18 = 2 x 3 x 3
+Suy ra: (a - 5) chia hết cho 2; 3; 4; 5; 6 và 9
+Vì (a - 5) là số nhỏ nhất nên: (a - 5) = 2 x 3 x 5 x 6= 180
+Suy ra: a = 180 + 5 = 185@5&111@Tìm số tự nhiên nhỏ nhất có dạng 6a14b chia hết cho cả 2, 3 và 5 ?@61137@61138@61139@61140@4@Để 6a14b chia hết cho cả 2 và 5 thì b phải là chữ số 0
+Để 6a140 chia hết cho 3 thì tổng các chữ số phải chia hết cho 3. Suy ra: a =1
+Số phải tìm là: 61140@5&112@Tìm số tự nhiên x, y sao cho (x - 2) . (2y + 3) = 26 ?@6 và 5@3 và 4@4 và 3@4 và 5@4@Ta có: 26 = 1 x 26 = 26 x 1 = 13 x 2 = 2 x 13
+Xét trường hợp: x - 2 = 1 và 2y + 3 = 26. Ta được: x = 3 và y = 23/2 (loại)
+Xét trường hợp: x - 2 = 26 và 2y + 3 = 1. Ta được: x = 28 và y = -1 (loại)
+Xét trường hợp: x - 2 = 13 và 2y + 3 = 2. Ta được: x = 15 và y = -1/2 (loại)
+Xét trường hợp: x - 2 = 2 và 2y + 3 = 13. Ta được: x = 4 và y = 5 (nhận)
+Vậy: Hai số đó là: x = 4 và y = 5@5&113@Từ các chữ số 4; 3; 1; 0. Hãy lập tất cả các số có hai chữ số chia hết cho 5 ?@2@3@4@5@2@Vì số chia hết cho 5 có chữ số tận cùng là 0. Suy ra: Ta có 1 cách chọn chữ số hàng đơn vị
+Ta có: 3 cách chọn chữ số hàng chục (loại chữ số 0) 
+Theo quy tắc nhân, ta có: 1 x 3 = 3 (số)@5&114@Dùng ba trong bốn số 4; 3; 1; 5 ghép lại thành số chia hết cho 9 và chia hết cho 5 ?@135;305@135;351@153;315@135;315@4@gta@6&115@Gọi A là tập hợp ước của 154. A có số tập hợp con là .... tập ?@256@257@258@259@1@gta@6&116@Tập hợp các số có hai chữ số là bội của 32 là ?@32;60;902@32;64;96@32;66;96@32;64;902@2@gta@6&117@Tập hợp các số có hai chữ số là bội của 41 là ?@41;81@41;91@41;82@41;83@3@gta@6&118@Tập hợp các số tự nhiên nhỏ hơn 120 chia hết cho 2 và 5 có số phần tử là ?@11@12@13@14@2@Số hạng đầu tiên là: 0
+Số hạng cuối cùng là: 110
+Khoảng cách là: 10
+Số phần tử của tập hợp là: (110 - 0) : 10 + 1 = 12 (phần tử)@6&119@Tập hợp các số tự nhiên x là bội của 13 và 26 < x < 104 có .... phần tử ?@7@8@9@10@1@gta@6&120@Tổng của tất cả các số nguyên tố có 1 chữ số là ?@15@16@17@18@3@2 + 3 + 5 + 7 = 17@6&121@Cho 6 điểm; trong đó không có 3 điểm nào thẳng hàng. Số tất cả các đường thẳng đi qua 2 trong 6 điểm đã cho là… ?@14@15@16@17@2@Số tất cả các đường thẳng đi qua 2 trong 6 điểm đã cho là: 5 x 6 : 2 = 15 (đường thẳng)@6&122@Cho A là tập hợp các số tự nhiên lẻ có 3 chữ số. Số phần tử của tập hợp A là… ?@410@440@430@450@4@Số hạng đầu tiên là: 101
+Số hạng cuối cùng là: 999
+Số phần tử của tập hợp A là: (999 - 101) : 2 + 1 = 450 (phần tử)@6&123@Cho năm chữ số 2; 5; 0; 6; 1. Có thể lập được tất cả bao nhiêu số có hai chữ số chia hết cho 5?@6@7@8@9@3@Số chia hết cho 5 có chữ số tận cùng là 0 hoặc 5
+Ta có 2 cách chọn chữ số hàng đơn vị (chữ số 0 hoặc 5)
+Vì đề bài không yêu cầu các chữ số khác nhau. Do đó ta có 4 cách chọn chữ số hàng chục (loại chữ số 0)
+Theo quy tắc nhân, ta có: Số số có hai chữ số chia hết cho 5 có thể lập được là: 2 x 4 = 8 (số)@6&124@Cho năm chữ số 2; 5; 9; 7; 4. Có thể lập được tất cả các số có hai chữ số khác nhau từ các chữ số trên là…?@10@15@18@20@4@Có 5 cách chọn chữ số hàng chục
+Có 4 cách chọn chữ số hàng đơn vị
+Theo quy tắc nhân, ta có: 5 x 4 = 20 (số)@6&125@Có năm đội bóng đá thi đấu vòng tròn hai lượt trong một giải đấu (hai đội bất kì đều gặp nhau một trận lượt đi và một trận lượt về). Số trận đấu của giải đó là…?@20@24@26@30@1@4 x 5 = 20@6&126@Có năm đội bóng đá thi đấu vòng tròn trong một giải đấu (hai đội bất kì đều gặp nhau một trận). Số trận đấu của giải đó là… ?@10@30@20@25@1@4 x 5 : 2 = 10@6&127@Có tất cả bao nhiêu số có 3 chữ số khác nhau mà tổng các chữ số của các số đó bằng 5?@7@8@9@10@2@Vì là số có 3 chữ số khác nhau cho nên ta chỉ xét 2 trường hợp là các số tạo bởi 0, 1, 4 và 0, 2, 3
+* Xét trường hợp là các số tạo bởi 0, 1, 4; ta có: 
+2 cách chọn chữ số hàng trăm
+2 cách chọn chữ số hàng chục
+1 cách chọn chữ số hàng đơn vị
+Theo quy tắc nhân, ta có: 2 x 2 x 1 = 4 (số)
+* Tương tự đối với trường hợp các số tạo bởi 0, 2, 3; ta cũng có 4 số
+Vậy: Số số thỏa mãn đề bài là: 4 x 2 = 8 (số)@6&128@Khi chia một số cho 48 được số dư là 41. Nếu chia số đó cho 24 thì số dư là… ?@15@16@17@18@3@Vì 48 : 24 = 2
+Suy ra: Nếu chia số đó cho 24 thì số dư là: 41 - 24 = 17@6&129@Lớp 6A có 24 học sinh nữ và 18 học sinh nam. Cô giáo chủ nhiệm muốn chia đều số nam và nữ vào các tổ. Số cách chia của cô giáo chủ nhiệm là …?@3@4@5@6@2@Ta có: 
+18 = 2 x 32
+24 = 23 x 3
+ƯCLN(18,24) = 2 x 3 = 6
+ƯCLN(18,24) = Ư(6) ={1, 2, 3, 6}
+Suy ra: Có 4 cách chia lớp là:
+Cách 1: Cả lớp là 1 tổ
+Cách 2: Lớp chia làm 2 tổ
+Cách 3: Lớp chia làm 3 tổ
+Cách 4: Lớp chia làm 6 tổ@6&130@Số phần tử của tập hợp các số tự nhiên chẵn lớn hơn 13 và nhỏ hơn 3000 là…?@1493@2998@2984@1501@1@Số hạng đầu tiên là: 14
+Số hạng cuối cùng là: 2998
+Số phần tử của tập hợp là: (2998 - 14) : 2 + 1 = 1493 (phần tử)@6&131@Số phần tử của tập hợp các số tự nhiên chia hết cho 5 và nhỏ hơn 49 là…?@5@8@10@12@3@Số hạng đầu tiên là: 0
+Số hạng cuối cùng là: 45
+Khoảng cách giữa các số hạng là: 5
+Số phần tử của tập hợp là: (45 - 0) : 5 + 1 = 10 (phần tử)@6&132@Số phần tử của tập hợp các số tự nhiên chia hết cho 7 và nhỏ hơn 50 là…?@8@9@10@11@1@Số hạng đầu tiên là: 0
+Số hạng cuối cùng là: 49
+Khoảng cách giữa các số hạng là: 7
+Số phần tử của tập hợp là: (49 - 0) : 7 + 1 = 8 (phần tử)@6&133@Số phần tử của tập hợp các số tự nhiên không vượt quá 2010 là… ?@2010@2011@2012@2013@2@gta@6&134@Số phần tử của tập hợp các số tự nhiên lẻ không nhỏ hơn 54 và không lớn hơn 1997 là… ?@969@970@971@972@4@Số hạng đầu tiên là: 55
+Số hạng cuối cùng là: 1997
+Số phần tử của tập hợp là: (1997 - 55) : 2 + 1 = 972 (phần tử)@6&135@Tập hợp các chữ cái của từ “VIOLYMPIC” có số phần tử là…?@7@8@9@10@2@gta@6&136@Tập hợp các số nguyên tố nhỏ hơn 31 có số phần tử là…?@10@11@12@13@1@Số phần tử của tập hợp là: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29@6&137@Tập hợp các số tự nhiên x thỏa mãn 7 - x = 8 có số phần tử là…?@0@1@2@3@1@gta@6&138@Tích của 3 số tự nhiên liên tiếp là 990. Vậy tổng của 3 số đó là…?@10@20@30@35@3@Ta có: 990 = 9 x 10 x 11
+Vậy: Tổng của 3 số đó là: 9 + 10 + 11 = 30@6&139@Tổng của hai số bằng 172. Lấy số lớn chia cho số bé thì được thương là 4 và dư 2. Vậy số lớn nhất trong hai số đó là…?@170@136@137@138@4@Nếu chia không dư thì tổng hai số là: 172 - 2 = 170
+Tổng số phần bằng nhau lúc này là: 4 + 1 = 5 (phần)
+Số lớn là: 170 : 5 x 4 + 2 = 138@6&140@Từ nào sau đây có tập hợp các chữ cái gồm 5 phần tử?@Sông Hồng@Sông Sài Gòn@Sông Đồng Nai@Sông Mê Kông@1@gta@6&141@Biểu thức nào dưới đây không chia hết cho 6?@A = 80 + 17 + 9@C = 54 - 36@B = 60 + 24@D= 48 + 54@1@gta@7&142@Khẳng định nào sau đây là sai?@45 + 37 chia hết cho 2@133 + 8 chia hết cho 2@100 chia hết cho 2 và 5@108 chia hết cho 2 và 3@2@gta@7&143@Tập hợp các ước chung của 2250; 1001 và 7429 là…?@Có 1 phần tử@Có 2 phần tử@Có 3 phần tử@Tập rỗng@1@1, 2250, 2, 1125, 3, 750, 5, 450, 6, 375, 9, 250, 10, 225, 15, 150, 18, 125, 25, 90, 30, 75, 45, 50
+1, 1001, 7, 143, 11, 91, 13, 77
+1, 4729
+Có 1 phần tử chung là 1@7&144@Tập hợp ước chung của 18 và 60 có số phần tử là… ?@3@4@5@6@2@Ư(18) = {1, 18, 2, 9, 3, 6}
+Ư(18) = {1, 60, 2, 30, 3, 20, 4, 15, 5, 12, 6, 10}
+Ư(18, 60) = {1, 2, 3, 6}@7&145@Tìm số tự nhiên lớn nhất nhỏ hơn 150 mà khi chia cho 2, 3, 4, 5, 6 đều có số dư là 1.@118@119@120@121@4@Gọi số cần tìm là a
+Vì a chia cho 2, 3, 4, 5, 6 đều có số dư là 1. Suy ra: a - 1 chia hết cho 2, 3, 4, 5, 6
+Ta có: 
+4 = 2 x 2
+6 = 2 x 3
+BCNN(2, 3, 4, 5, 6) = 2 x 5 x 6 = 60
+BC(2, 3, 4, 5, 6) = BC(60) = {0, 60, 120, 180, …}
+Suy ra: a - 1 = {0, 60, 120, 180, …}
+Suy ra: a = {1, 61, 121, 181, …}
+Vì a < 150. Suy ra: a = 121@7&146@Trong các số sau, số nào chia hết cho 3?@7853@7241@246@323@3@gta@7&147@Từ các chữ số 0; 3; 6; 9 lập được số các số có ba chữ số khác nhau chia hết cho 2 là…?@9@10@11@12@2@Trường hợp chữ số 0 ở hàng đơn vị, ta có:
+1 cách chọn hàng đơn vị
+3 cách chọn hàng trăm
+2 cách chọn hàng chục
+Theo quy tắc nhân, ta có: 1 x 3 x 2 = 6 (số)
+Trường hợp chữ số 6 ở hàng đơn vị, ta có:
+1 cách chọn hàng đơn vị
+2 cách chọn hàng trăm
+2 cách chọn hàng chục
+Theo quy tắc nhân, ta có: 1 x 2 x 2 = 4 (số)
+Vậy: Số các số có ba chữ số khác nhau chia hết cho 2 là: 6 + 4 = 10 (số)@7&148@Cho đoạn thẳng AB có độ dài 16. Có I là trung điểm của AB. K là trung điểm của AI, H là trung điểm của AK, M là trung điểm của AH. Độ dài AM bằng …cm ?@1@2@3@4@1@gta@7&149@Cho đoạn thẳng AB có độ dài 60cm. Gọi C là điểm thuộc tia đối của tia AB sao cho CA = AB. Gọi M là trung điểm của đoạn thẳng AC, gọi N là trung điểm của đoạn thẳng MB. Độ dài đoạn thẳng MN bằng …cm ?@43@44@45@46@3@Ta có: CA = AB. Suy ra: CA = 60 (cm)
+Vì M là trung điểm của đoạn thẳng CA. Suy ra: MB = MA + AB = 60 : 2 + 60 = 90 (cm)
+Vì N là trung điểm của đoạn thẳng MB. Suy ra: MN = 90 : 2 = 45 (cm)@7&150@Cho tập hợp C = {1; 2; 3; 4; 5}. Số tập hợp con có 4 phần tử của C là… ?@2@3@4@5@4@Ta có 5 tập hợp con là: {1; 2; 3; 4}, {1; 2; 3; 5}, {1; 2; 4; 5}, {1; 3; 4; 5}, {2; 3; 4; 5}@7&151@Hai số tự nhiên liên tiếp có số ước chung là … ?@1@2@3@4@1@gta@7&152@Nếu a chia 26 có số dư là 8 thì a chia cho 13 có số dư là …?@7@8@9@10@2@Ta có: 26 = 13 x 2
+Vì 8 < 13 nên khi a chia cho 13 số dư vẫn là 8@7&153@Số các ước số của số 120 là ...?@16@17@18@19@1@Ư(120) = {1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60, 120}@7&154@Số phần tử của tập hợp các số là bội của 6 và nhỏ hơn 30 là ...?@3@4@5@6@3@Số phần tử của tập hợp các số là bội của 6 và nhỏ hơn 30 là ...@7&155@Số tự nhiên nhỏ nhất có đúng 8 ước số là …?@24@30@35@50@1@Công thức tính ước số của 1 số: Nếu số a phân tích dưới dạng: a = (a1)t1(a2)t2...(an)tn thì số ước số = (t1+1)(t2+1)...(tn+1)
+Áp dụng công thức trên, ta có: 
+(t1+1)(t2+1)...(tn+1) = 8 = 2.2.2 = 2.4
+* Trường hợp 1: (t1+1)(t2+1)...(tn+1) = 2.2.2
+Suy ra: t1 = t2 = t3 = 1
+Vì: a1, a2, a3 là số nguyên tố nhỏ nhất, nên ta được: a1 = 2, a2 = 3 và a3 = 5
+Vậy số đó là: 2.3.5= 30
+* Trường hợp 2: (t1+1)(t2+1)...(tn+1) = 2.4
+Suy ra: t1 = 3; t2 = 1
+Vì: a1, a2 là số nguyên tố nhỏ nhất, nên ta được: a1 = 2, a2 = 3
+Vậy số đó là: 23.3 = 24
+Vậy: Số tự nhiên nhỏ nhất có đúng 8 ước số là 24@7&156@Số ước chung của 3 số 42, 165 và 69 là… ?@6@4@3@2@4@Ư(42) = {1, 2, 3, 6, 7, 14, 21, 42}
+Ư(69) = {1, 3, 23, 69}
+Ư(165) = {1, 3, 5, 11, 15, 33, 55, 165}
+Suy ra: ƯCNN(42,165,69) = 3
+Suy ra: ƯC(42,165,69) = Ư(3) = {1, 3}
+Vậy: Số ước chung của 3 số 42, 165 và 69 là 2@7&157@Tập hợp A = {x là số tự nhiên ǀ x < 9} có tất cả bao nhiêu phần tử là số nguyên tố? @4@5@6@7@1@Các phần tử đó là: 2, 3, 5, 7@7&158@Tập hợp B gồm các số tự nhiên không lớn hơn 100 có số phần tử là …?@99@100@101@102@3@gta@7&159@Tập hợp các số tự nhiên n sao cho 2n + 3 chia hết cho n + 1 là {…} ?@{0}@{1;2}@{5;10}@{1;6;9}@1@n chỉ có 1 giá trị duy nhất là 0@7&160@Tập hợp các ước chung của ba số 12; 55; 31 là {…}@{0}@{1, 2, 6, 12}@{1, 5, 11, 55}@{1}@4@Ư(12) = {1, 2, 6, 12}
+Ư(31) = {1, 31}
+Ư(55) = {1, 5, 11, 55}
+3 số trên có 1 ước chung là 1@7&161@Tập hợp ƯC(4; 12) là {…} ?@{0;1;2}@{1;2;4}@{2;3;4}@{1;3;8}@2@Ư(4) = {1, 2, 4}
+Ư(12) = {1, 2, 3, 4, 6, 12}
+2 số trên có 1 ước chung là 1; 2; 4@7&162@Với a, b là các số tự nhiên thỏa mãn: a.b = 20 và a < b. Khi đó a + b có giá trị lớn nhất là ...?@19@20@21@22@3@Ta có:
+20 = 1 x 20
+20 = 2 x 10
+20 = 4 x 5
+a + b có giá trị lớn nhất là: 1 + 20 = 21@7&163@Cho a = ƯCLN(172;90) x BCNN(172;90) và b = 172 x 90 thì …?@a = b@a > b@a < b@b > a@1@gta@8&164@Cho a là số lớn nhất có n chữ số, b là số nhỏ nhất có n + 1 chữ số thì …?@a = b@a > b@a < b@b < a@3@gta@8&165@Để số a81b chia hết cho 2; 3; 5; 9 thì a, b phải là …?@a = 9; b = 5@a = 4; b = 5@a = 5; b = 4@a = 9; b = 0@4@gta@8&166@Trong các tập hợp sau, tập hợp có các phần tử đều là số nguyên tố là … ?@{13; 15; 17; 19@{13; 17; 19; 23}@{13; 17; 19; 27}@{13; 17; 19; 21}@2@gta@8&167@Giá trị của biểu thức: D = 99 - 97 + 95 - 93 + 91 - 89 + ... + 7 - 5 + 3 - 1 là ?@50@25@60@35@1@Ta có:
+99 - 97 = 2
+95 - 93 = 2
+… 
+3 - 1 = 2
+Số số hạng của biểu thức là: (99 - 1) : 2 + 1 = 50 (số hạng)
+Suy ra: Số cặp có giá trị bằng 2 là: 50 : 2 = 25 (cặp)
+Giá trị của biểu thức D là: 2 x 25 = 50@8&168@Hai số nguyên tố có tổng là 99. Số nguyên tố lớn là ?@90@95@97@100@3@Tổng của hai số nguyên tố là một số lẻ. Suy ra: 1 trong 2 số phải là số chẵn
+Số 2 là số nguyên tố chẵn duy nhất. Suy ra: Số nguyên tố lớn là: 99 - 2 = 97@8&169@Hai số tự nhiên liên tiếp có tích bằng 156. Số bé là ?@12@10@15@18@1@Ta có: 12 x 13= 156
+Suy ra: Số bé là 12@8&170@Kết quả của phép tính: 33 x 98 + 67 x 42 + 67 x 34 + 67 x 22 là ?@9500@9400@9600@9800@4@Ta có: 
+33 x 98 + 67 x 42 + 67 x 34 + 67 x 22
+= 33 x 98 + 67(42 + 34 + 22)
+= 33 x 98 + 67 x 98
+= (33 + 67) 98
+= 100 x 98
+= 9800@8&171@Một hình vuông có diện tích là 400 mét vuông. Chu vi hình vuông đó là 80 m ?@70@80@90@100@2@Ta có: 400 = 20 x 20
+Suy ra: Cạnh hình vuông là 20m
+Chu vi hình vuông đó là: 20 x 4 = 80 (m)@8&172@Số lớn nhất có hai chữ số khác nhau là ?@98@99@100@101@1@gta@8&173@Số nguyên tố chẵn duy nhất là ?@2@4@6@10@1@gta@8&174@Số phần tử của tập hợp Q = {1; 3; 5; ...; 201} là ?@100@101@102@103@2@gta@8&175@Số tự nhiên nhỏ nhất có 3 chữ số mà khi chia cho 18; 30; 45 có số dư lần lượt là 8; 20; 35 là số... ?@150@160@170@190@3@Gọi số cần tìm là A
+Theo đề bài suy ra A + 10 chia hết cho cả 18; 30; 45
+BCNN(18; 30; 45) = 90
+Suy ra: BCNN có 3 chữ số của 18; 30; 45 là: 90 x 2 = 180
+Hay: A + 10 = 180
+Suy ra: A = 170@8&176@Tập hợp các số nguyên tố nhỏ hơn 10 là ?@1;3;5;7@2;4;5;7@2;3;5;9@2;3;5;7@4@gta@8&177@ƯCLN(12; 18) là ?@2@4@6@8@3@gta@8&178@ƯCLN(13; 15; 17) là  ?@1@2@3@4@1@gta@8&179@Biểu thức B = 2015 + |x + 3| đạt giá trị nhỏ nhất khi x = ?@2@-2@-3@-4@3@Biểu thức B = 2015 + |x + 3| đạt giá trị nhỏ nhất khi |x + 3| = 0
+Hay: x = -3@9&180@Giá trị của biểu thức A = 1 – 2 + 3 – 4 +5 – 6 +⋯ + 199 – 200 là .... ?@90@-100@-90@120@2@Số số hạng là: (200 - 1) + 1 = 200 (số)
+2 số nguyên liên tiếp luôn được hiệu là: -1
+Số cặp như vậy là: 200 : 2 = 100 (cặp)
+Giá trị của biểu thức A là: -1 x 100 = -100@9&181@Kết quả của phép tính: |-70| - 70 + |-75| là ?@70@-70@75@-75@3@Ta có: |-70| - 70 + |-75| = 70 - 70 + 75 = 75@9&182@Nếu -13 - y = -20 thì y có giá trị là ?@6@-6@7@-7@3@Ta có: 
+-13 - y = -20
+y = 20 - 13 = 7@9&183@Số nguyên âm lớn nhất có hai chữ số khác nhau là ?@-12@12@-19@-10@4@gta@9&184@Tìm ba số tự nhiên a, b, c nhỏ nhất khác 0 sao cho: 250a = 300b = 400c ?@22;20;16@14;22;15@24;20;25@24;20;15@4@Theo bài ra ta có: 250a = 300b = 400c (1)
+Ta có: BCNN(250; 300; 400) = 6000
+Chia các vế của (1) cho 6000, ta được:
+150a/6000 = 300b/6000 = 400c/6000
+a/24 = b/20 = c/15
+a, b, c nhỏ nhất khác 0 khi:
+a/24 = b/20 = c/15 = 1
+Suy ra: a = 24; b = 20 và c = 15@9&185@Tính: (-28) + (7) =... ?@-20@-21@35@-35@2@gta@9&186@Tổng của số nguyên dương lớn nhất có hai chữ số với số nguyên âm nhỏ nhất có ba chữ số là ?@-900@900@-999@988@2@Số nguyên dương lớn nhất có hai chữ số là 99 
+Số nguyên âm nhỏ nhất có ba chữ số là -999 
+Tổng của chúng là: 90 + (-999) = -900@9&187@Tổng của tất cả các số nguyên tố nhỏ hơn 10 là ?@15@16@17@18@3@Ta có: 2 + 3 + 5 + 7 = 17@9&188@Cho 20 điểm cùng nằm trên một đường thẳng. Số cặp tia đối nhau trên hình vẽ là .. ?@20@30@35@40@1@gta@9&189@Cho AB = 50cm, C là trung điểm của AB. Gọi M, N lần lượt là trung điểm của AC, CB. Độ dài đoạn MN là …cm ?@20@21@24@25@4@gta@9&190@Cho B = (-3).(-5) - 5.(-7). Số liền sau của số B là … ?@50@51@52@53@2@Theo bài ra ta có: (-3).(-5) - 5.(-7) = 15 + 35 = 50
+Số liền sau của 50 là 51@9&191@Cho ba số nguyên liên tiếp có tổng bằng 0, số nhỏ nhất trong ba số đó là ...?@-1@-2@0@1@1@gta@9&192@Cho các số a; b; c biết a + b = 12; b + c = 13; c + a = -15. Khi đó a + b + c = ... ?@3@4@5@6@3@a + b + c = [12 + 13 + (-15)] : 2 = 5@9&193@Cho đoạn thẳng AB = 15cm. Trên tia AB lấy C sao cho AC = 1cm. Trên tia BA lấy D sao cho BD = 4cm. Độ dài đoạn CD là …cm?@14@12@8@10@4@gta@9&194@Có bao nhiêu số nguyên tố nhỏ hơn 30?@8@9@10@11@3@Các số nguyên tố đó là: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29@9&195@Có bao nhiêu số tự nhiên có ba chữ số khác nhau? @645@646@647@648@4@Với 10 số tự nhiên từ 0 đến 9, ta có: 
+9 cách chọn chữ số hàng trăm (loại chữ số 0)
+9 cách chọn chữ số hàng chục (loại chữ số hàng trăm)
+8 cách chọn chữ số hàng đơn vị (loại chữ số hàng trăm và chữ số hàng chục)
+Theo quy tắc nhân, ta có: 9 x 9 x 8 = 648 (số)@9&196@Giá trị của biểu thức: 1 + 2 + 3 + 4 + … + 199 + 200 là ...?@20100@20102@2010@2018@1@gta@9&197@Giá trị nhỏ nhất của p để p; p + 3; p + 8 đều là các số chính phương là p = ...?@1@2@3@4@1@gta@9&198@Số nguyên tố x thỏa mãn: (x + 2)(x + 4) < 0 là …?@-2@-3@-4@1@2@Vì: (x + 2)(x + 4) < 0 nên (x + 2) và (x + 4) trái dấu
+Mà: x + 2 < x + 4 nên suy ra: x + 2 < 0 và x + 4 > 0
+Suy ra: x < -2 và x > -4
+Suy ra: x = -3@9&199@Tập hợp các số nguyên dương n thỏa mãn 3n + 10 ⋮ n - 1 là {…}?@2;14@2;18@3;14@318@1@Ta có: 
+3n + 10 ⋮ n - 1
+3n - 3 + 13 ⋮ n - 1
+3(n - 1) + 13 ⋮ n - 1
+Suy ra: 13 ⋮ n - 1
+Hay: 
+n - 1 = {-13; -1; 1; 13}
+Suy ra: n = {-12; 0; 2; 14}
+Vì n là số nguyên dương, suy ra: n = {2; 14}@9&200@Tập hợp các số nguyên x thỏa mãn ǀx + 2ǀ = 10 là {…} ?@-8;12@-10;6@-12;10@-12;8@4@Nếu x + 2 = -10. Suy ra: x= -12
+Nếu x + 2 = 10. Suy ra: x= 8@9&201@Tìm số nguyên âm x thỏa mãn: |-125| - |x| = (-6).(-20) ?@-8@-7@-6@-5@4@Theo bài ra ta có: 
+|-125| - |x| = (-6).(-20)
+125 - x = 120
+|x| = 125 - 120
+|x| = 5
+Suy ra: x = -5 và x = 5
+Vì đề bài yêu cầu tìm số nguyên âm nên x = -5@9&202@Tìm x sao cho: (x + 1)3 = - 343 ?@-7@-5@-8@-9@3@Ta có: -343 = -73
+Suy ra: x + 1 = -7
+Hay x = -8@9&203@Tính: -48.68 + 32.(-48) = ...?@4800@8400@-8400@-4800@4@gta@9&204@Tính: A = 5.(-3)2 - 14.(-8) + (-57) ?@100@-100@-120@120@1@gta@9&205@Tổng tất cả các số nguyên x thỏa mãn: (x + 6)(x - 9) = 0 là ...?@1@2@3@4@3@Tổng tất cả các số nguyên x thỏa mãn: (x + 6)(x - 9) = 0 là ...@9&206@Phần tử lớn nhất của tập hợp các số nguyên x thỏa mãn ǀ-17 - xǀ = 7 là x = … ?@10@-10@12@-12@2@gta@10&207@So sánh A = (-17) - (-3) và B = (-16) + 5 - (-3) ta được A … B ?@>@=@<@A và B@3@gta@10&208@Số nguyên âm nhỏ nhất có ba chữ số khác nhau là …?@-987@-102@-103@-123@1@gta@10&209@Số nguyên x thỏa mãn x - ǀ-47ǀ = -90 ?@43@-137@137@-43@4@gta@10&210@Tập hợp các chữ số tận cùng có thể có của một số chính phương là {…} ?@0;1;3;4;7;9@0;1;4;5;8;9@0;1;2;5;6;9@0;1;4;5;6;9@4@gta@10&211@BCNN(72; 180; 200) = … ?@1800@190@180@1900@1@gta@10&212@Cho điểm M nằm giữa hai điểm A và B, biết AB = 30cm, bảo mật = 18cm. Độ dài đoạn thẳng AM là …cm ?@10@11@12@13@3@gta@10&213@Cho đoạn thẳng AB = 12cm. Trên AB lấy điểm C sao cho AC = 3cm và lấy điểm D sao cho BD = 4cm. Tính độ dài đoạn thẳng CD là ... cm?@3@4@5@6@3@gta@10&214@Giá trị của biểu thức: D = 1 - 4 + 7 - 10 + … + 307 - 310 + 313 là ... ?@175@157@167@155@2@gta@10&215@Giá trị của biểu thức: D = 2 + 4 + 6 + 8 + … + 100 là ... ?@2550@2500@3000@4150@1@gta@10&216@Giá trị nhỏ nhất của biểu thức: A = ǀx + 1ǀ3 + 1050 là ...?@1500@1550@1000@1050@4@gta@10&217@Kết quả của phép tính: ǀ-100ǀ - 30 + ǀ-30ǀ là … ?@100@200@300@400@1@gta@10&218@Khối 6 của một trường có khoảng 350 học sinh đến 400 học sinh. Khi xếp hàng 10, hàng 12, hàng 15 đều dư ra 8 học sinh. Tính số học sinh khối 6 của trường ?@368@369@370@371@1@gta@10&219@Nếu x là một số tự nhiên khác 0 thì x0 + 1 = ... ?@1@2@3@4@2@gta@10&220@Số các giá trị nguyên của x thỏa mãn -5 < x < 3 là ... ?@6@7@8@9@2@gta@10&221@Số tự nhiên n có dạng n = 29k là số nguyên tố khi k = ... ?@-1@0@1@2@3@gta@10&222@Tập hợp A = {0; 1; 2; 3} có số tập con là ...?@24@18@25@16@4@Số tập con là: 2^4 = 16 (tập con)@10&223@Tập hợp các số tự nhiên gồm các số nguyên dương và số …?@-1@0@1@2@2@gta@10&224@Tìm số nguyên tố p nhỏ nhất sao cho hai số p + 8 và p + 10 là số nguyên tố ?@1@2@3@4@3@gta@10&225@Tìm số tự nhiên a lớn nhất biết rằng 452 chia a dư 32 và 321 chia a dư 21 ?@80@50@70@60@4@gta@10&226@Tính: -245 + 150 = ... ?@95@-95@395@-395@2@gta@10&227@Tính: 7 - 12 + 13 - 15 = ... ?@-7@-13@7@13@1@gta@10&228@Tổng của số nguyên âm lớn nhất có ba chữ số khác nhau với số nguyên âm lớn nhất có hai chữ số giống nhau là …?@-110@110@113@-113@4@gta@10&229@Cho B = 27 – 16 + (- 42). Số liền trước của số B là ?@-30@-32@27@-27@2@gta@11&230@Kết quả của phép tính -50 + |-250| là ?@200@-200@300@-300@1@gta@11&231@Số đối của số 50 là ?@50@-50@100@0@2@gta@11&232@Tập hợp các số nguyên x thỏa mãn |x| = 2016 là  ?@-2016;2016@-2016;2017@2016;2017@-2016;2019@1@gta@11&233@Tính: A = 1 + (-2) + 3 + (-4) + 5 + (-6) + 7 + (-8) + 9 + (-10) ?@5@-5@10@-10@2@gta@11&234@Tổng tất cả các số nguyên x thỏa mãn -100 < x < 101 là ?@-100@102@101@100@4@x = {-99; -98; …; 99; 100}
+Tổng là: 
+-99 + (-98) + … + 99 + 100 =
+= 100 + 99 + (-99) + 98 + (-98) + … + 1 + (-1) + 0
+= 100 + 0
+= 100@11&235@Viết số 27 thành tổng của các số tự nhiên liên tiếp. Hỏi tổng đó có nhiều nhất bao nhiêu số hạng?@26@27@28@29@2@Ta có: 27 = 2 + 3 + 4 + 5 + 6 + 7@11&236@Với n là một số tự nhiên bất kì, số dư của phép chia (8n + 3).(6n + 5) cho 2 là ?@4@5@6@1@4@gta@11&237@BCNN(18;21) là ...?@120@122@124@126@4@gta@11&238@Biết 5x + 5x + 100 = 150. Khi đó giá trị của x = ...?@2@3@4@5@1@gta@11&239@Cho 3 số tự nhiên liên tiếp có tích bằng 120. Số lớn nhất trong 3 số đó là ...?@4@5@6@7@3@gta@11&240@Cho: a = 180; b = 90; c = 120. Khi đó ƯCLN(a,b,c) là ...?@20@30@40@45@2@gta@11&241@Cho: b = (-20) + 12. Số đối của b là ...?@8@9@10@11@1@gta@11&242@Cho điểm M nằm giữa hai điểm A và B; biết AB = 20cm và BM = 6cm. Độ dài đoạn thẳnh AM là ...cm ?@11@12@13@14@4@gta@11&243@Cho đoạn thẳng AB, gọi M là điểm nằm giữa A và B. Gọi I và K lần lượt là trung điểm của AM và MB. Nếu độ dài đoạn IK = 20cm thì độ dài đoạn AB = ...cm ?@30@35@40@45@3@gta@11&244@Cho n điểm, trong đó không có 3 điểm nào thẳng hàng. Cứ qua 2 điểm ta vẽ được 1 đường thẳng, biết số đường thẳng ta vẽ được là 120. Khi đó giá trị của n là ..?@13@14@15@16@4@Với n điểm, số đường thẳng vẽ được là: n x (n - 1) : 2
+Theo bài ra ta có: n x (n - 1) : 2 = 120
+Hay: n x (n - 1) = 120 x 2 = 16 x 15
+Vậy: n = 16@11&245@Giá trị của biểu thức: D = 1 + 3 + 5 + 7 + … + 101 là ...?@2600@2601@2602@2603@2@gta@11&246@Kết quả của phép tính: (-11) + (-9) là … ?@2@20@-10@-20@4@gta@11&247@Nếu 27 - x = 50 thì số nguyên x có giá trị là ... ?@-23@23@67@-67@1@gta@11&248@Số nguyên âm nhỏ nhất có hai chữ số là ...?@-99@98@-10@99@1@gta@11&249@Tập hợp các số nguyên x thỏa mãn: ǀx - 22ǀ - 33 = -20 là {…}. ?@9;50@6;36@9;40@9;35@4@gta@11&250@Tính: ǀ-100ǀ - (-30) + ǀ-30ǀ =  ...?@-160@-100@100@160@4@gta@11&251@Tổng của số nguyên âm lớn nhất có ba chữ số với số nguyên âm lớn nhất có hai chữ số giống nhau là ...?@-111@111@112@113@1@gta@11&252@Ba số nhuyên tố a, b, c thỏa mãn 2a + 3b + 6c = 78 là ... ?@ a = 3; b = 2; c = 11
+@ a = 5; b = 2; c = 1
+@ a = 3; b = 5; c = 10
+@ a = 1; b = 5; c = 11
+@1@gta@12&253@Ba tấm vải có tổng chiều dài là 126m. Tấm thứ nhất dài gấp hai lần tấm thứ ba và ngắn hơn tấm thứ hai là 6m. Khi đó độ dài tấm thứ ba là …cm ?@2200@2201@2300@2400@4@Theo bài ra ta có:
+Tấm thứ nhất: !----------!----------!
+Tấm thứ hai:     !----------!----------!-6m-!
+Tấm thứ ba:       !----------!
+Nếu tấm thứ hai bớt đi 6m thì tổng chiều dài của cả ba tấm là: 126 - 6 = 120 (m)
+Tổng số phần bằng nhau là: 2 + 2 + 1 = 5 (phần)
+Độ dài tấm thứ ba là: 120 : 5 = 24 (m)
+Đổi 24m = 2400cm@12&254@Cho S = -(x - y - z) + (-z + y + x) - (x + ) với x, y là các số nguyên, x > y. Khi đó giá trị tuyệt đối của S bằng …?@x + y@x - y@x - y + z@x + y - z@2@gta@12&255@Tìm các số tự nhiên a, b nguyên tố cùng nhau thỏa mãn (a + 7b)/(a + 5b) = 29/28 ?@a = 11; b = 12@a = 50; b = 12@a = 5; b = 10@a = 51; b = 1@4@Theo bài ra ta có: 
+28(a + 7b) = 29(a +5b) 
+28a + 196b = 29a + 145b
+29a - 28a = 196b -145b
+a = 51b
+Vì a, b là nguyên tố cùng nhau có ƯCLN là 1. Suy ra: a = 51; b = 1@12&256@Tìm số có hai chữ số ab biết ab bằng 6 lần tích các chữ số của nó ?@12@15@24@35@1@gta@12&257@Tìm x thỏa mãn 5(x + 35) = 115 ?@12@-12@15@-20@2@gta@12&258@Tính: ǀ-2010ǀ + ǀ-6ǀ = … ?@2016@2017@2018@2004@1@gta@12&259@Trên tia Ox lấy ba điểm A, B, C sao cho OA = 10cm; OB = 6cm; OC = 8cm. Trong bốn điểm O, A, B, C điểm nào là trung điểm của đoạn thẳng nối hai trong ba điểm còn lại?@O là trung điểm của AB@A là trung điểm của BC@B là trung điểm của AC@C là trung điểm của AB@4@gta@12&260@Với x, y là các số nguyên thì ǀx - yǀ - ǀy - xǀ … ?@0@1@2@3@1@gta@12&261@BCNN(45;75) = … ?@225@226@227@228@1@Ta có: 
+45 = 3^2 x 5
+75 = 3 x 5^2
+BCNN(45;75) = 3^2 x 5^2 = 225@12&262@Các số nguyên a, b, c thỏa mãn cả ba điều kiện a + b = 5; b + c = 24; c + a = -11 là … ?@a = -15; b = -10; c = 4@a = -15; b = 10; c = 3@a = 15; b = 20; c = 7@a = -15; b = 20; c = 4@4@gta@12&263@Cặp số nào là cặp số nguyên tố cùng nhau trong các cặp số sau …?@ (15; 45)
+@ (21; 28)
+@ (15; 21)
+@ (15; 28)
+@4@gta@12&264@Cho dãy số: 1; 4; 10; 13; … Số hạng thứ 1000 của dãy là …?@2998@2999@3000@3001@1@gta@12&265@Cho đoạn thẳng AB = 2cm. Lấy điểm C sao cho A là trung điểm của BC. Lấy điểm D sao cho B là trung điểm của AD. Khi đó CD = …cm ?@5@6@7@8@2@gta@12&266@Cho p là số nguyên tố lớn hơn 3 và p + 2 cũng là số nguyên tố. Khi đó số dư của p khi chia cho 6 là …?@5@6@7@8@1@gta@12&267@Kí hiệu S(n) là tổng các chữ số của một số tự nhiên n. Tìm số tự nhiên n sao cho: n + S(n) = 54 ?@43@44@45@46@3@gta@12&268@Một ngày cửa hàng gạo có 6 bao gạo 73kg; 88kg; 97kg; 102kg; 106kg; 115kg. Cửa hàng đó đã bán được 5 bao, biết khối lượng gạo bán buổi sáng gấp 4 lần buổi chiều. Như vậy bao gạo còn lại là bao có khối lượng là …kg?@73@106@115@120@2@gta@12&269@Với mọi số tự nhiên m, n và A = 90m + 420n thì khẳng định nào sau đây là đúng? @A chia hết cho 42@A chia hết cho 45@A chia hết cho 60@A chia hết cho 30@4@gta@12&270@Cho a, b là hai số nguyên. Biết tích của a và b là 132. Khi đó a.(-b) = ...?@132@-132@1@-1@2@gta@13&271@Cho a, b là hai số nguyên. Biết tích của a và b là 204. Khi đó (-a).(-b) = ...?@204@-204@1@-1@1@gta@13&272@Phân số thứ 20 của dãy: 1/3; 1/15; 1/35; 1/63; ... là … ?@1/1599@1/168@1/1098@1/321@1@gta@13&273@Số nguyên x bé nhất thỏa mãn: (2x + 3) chia hết cho (x - 2) là .. ?@-4@4@5@-5@4@Ta có: 
+(2x + 3) chia hết cho (x - 2)
+(x + x + 3) chia hết cho (x - 2)
+(x - 2 + x - 2 + 4 + 3) chia hết cho (x - 2)
+[(x – 2) + (x - 2) + 7] chia hết cho (x - 2)
+Suy ra: 7 chia hết cho (x - 2)
+Vì: 7 chia hết cho (x - 2). Suy ra: (x - 2) ∈ Ư(7)
+Ta có: Ư(7) = {-7; -1; 1; 7}. Suy ra: x = {-5; 1; 3; 9}
+Vậy: Số nguyên x bé nhất thỏa mãn (2x + 3) chia hết cho (x - 2) là -5@13&274@Tập hợp các ước nguyên dương của 17 là {…}. (Nhập các giá trị theo thứ tự tăng dần, cách nhau bởi dấu “;”) ?@0;15@1;16@1;17@0;16@3@Vì 17 là số nguyên tố nên Ư(17) = {1;17}@13&275@Tìm số nguyên x thỏa mãn: x + 2x = -36 ?@-12@12@10@-10@1@Ta có: 
+x + 2x = -36
+3x = -36
+x = -36 : 3
+x = -12@13&276@Tìm x biết (x + 1) + (x + 2) + … + (x + 2017) = 0 ?@-2017@2017@-1009@1009@3@Ta có: 
+(x + 1) + (x + 2) + … + (x + 2017) = 0
+2017x + 1 + 2 + … + 2017 = 0
+2017x + (1 + 2017) x 2017 : 2 = 0
+2017x + 2035153 = 0
+2017x = -2035153
+x = (-2035153) : 2017
+x = -1009@13&277@Tính: (42 - 1)(22 - 32)= … ?@-75@75@80@-80@1@gta@13&278@Tính: (-13)(-11)= … ?@143@-143@168@-168@1@gta@13&279@Tính: (-13).(-64) + (-13).(-36) = …?@-1500@1500@-1300@1300@4@gta@13&280@Số nguyên nhỏ nhất là ước của 7 là ... ?@1@-1@7@-7@4@Ta có: Ư(7) = {-7; -1; 1; 7}
+Vậy: Số nguyên nhỏ nhất là ước của 7 là -7@13&281@Tập hợp các chữ số tận cùng có thể có khi lập phương 1 số nguyên tố là {...}. (Nhập các giá trị theo thứ tự tăng dần, cách nhau bởi dấu “;”) ?@1;2;5;7;8;9@1;3;5;7;8;9@1;2;5;6;8;9@0;3;5;6;8;9@2@Ta có: 
+2^3 = 8
+3^3 = 27
+5^3 = 125
+7^3 = 343
+11^3 = 1331
+19^3 = 6859
+Vậy: Tập hợp các chữ số tận cùng có thể có khi lập phương 1 số nguyên tố là {1;3;5;;7;8;9}@13&282@Tập hợp các giá trị nguyên của x thỏa mãn: (x - 2).(2x + 14) = 0 là {…}. (Nhập các giá trị theo thứ tự tăng dần, cách nhau bởi dấu “;”) ?@0;2@-5;5@-5;2@-7;2@4@Trường hợp: (x - 2) = 0
+Suy ra: x = 2
+Trường hợp: (2x + 14) = 0
+Suy ra: x = -7
+Vậy: x = {-7;2}@13&283@Tập hợp các giá trị nguyên của x thỏa mãn: ǀx + 2015ǀ + 2016 = 2017 là S = {…}. (Nhập các giá trị theo thứ tự tăng dần, cách nhau bởi dấu “;”) ?@-2019;-2017@-2018;-2016@-2016;-2015@-2016;-2014@4@Ta có: 
+ǀx + 2015ǀ + 2016 = 2017
+ǀx + 2015ǀ = 2017 - 2016
+ǀx + 2015ǀ = 1
+Trường hợp: x + 2015 = -1 thì x = -2016
+Trường hợp: x + 2015 = 1 thì x = -2014
+Vậy: x = {-2016;-2014}@13&284@Biết ǀ4xǀ = - (-9) - (-7). Các giá trị nguyên của x thỏa mãn là … ?@ 4 và -4@ 5 và -5@ 3 và -3@3 và -5@1@gta@13&285@Biết a và b là hai số nguyên tố cùng nhau. Khi đó ước chung tự nhiên lớn nhất của a và b là …?@1@2@3@4@1@gta@13&286@Cho tập hợp A = {2; 4; 6; 8; …; 2012; 2014; 2016}. Số phần tử của A là ... ?@1007@1008@1009@1010@2@gta@13&287@Cho tổng M = 9 + 12 + 2015 + x. Điều kiện của x để M chia hết cho 5 là … ?@x chia cho 5 dư 3@x chia cho 5 dư 1@x chia cho 5 dư 4@x chia hết cho 5@3@Ta có: 9 + 2 + 5 = 16 
+Để M chia hết cho 5 thì x phải có chữ số tận cùng là 4 hoặc 9
+Suy ra: x chia cho 5 dư 4 thỏa mãn yêu cầu đề bài@13&288@Từ các chữ số 1; 2; 4; 5; 0 lập được tất cả bao nhiêu số có 4 chữ số khác nhau chia hết cho 5?@40@41@42@43@3@* Tận cùng bằng 0:
+- Có 1 cách chọn chữ số hàng đơn vị (là 0)
+- Có 4 cách chọn chữ số hàng nghìn
+- Có 3 cách chọn chữ số hàng trăm
+- Có 2 cách chọn chữ số hàng chục
+Vậy có: 1 x 4 x 3 x 2 = 24 (số)
+* Tận cùng bằng 5:
+- Có 1 cách chọn chữ số hàng đơn vị (là 5)
+- Có 3 cách chọn chữ số hàng nghìn
+- Có 3 cách chọn chữ số hàng trăm
+- Có 2 cách chọn chữ số hàng chục
+Vậy có: 1 x 3 x 3 x 2 = 18 (số)
+Có tất cả: 24 + 18 = 42 (số)@13&289@Số nguyên bé nhất trong các số: 3; -15; 6; -12; -9; 0 là ... ?@-15@3@0@-9@1@gta@14&290@Số nguyên lớn nhất trong các số: 9; -5; 6; -12; -9; 0 là .. ?@9@12@-12@-5@1@gta@14&291@Tính: 666 - (-111) - (-333) + 50 = ... ?@1157@1158@1159@1160@4@gta@14&292@Tính: 2155 - (174 + 2155) + (-68 + 174) = ...  ?@-68@-67@-66@-65@1@gta@14&293@Tính giá trị biểu thức: A = (139139.133 - 133133.139):(2 + 4 + 6 + … + 2002) =...?@0@1@2@3@1@Ta có: 
+139139.133 = 18505487
+133133.139 = 18505487
+Suy ra: A = 0@14&294@Tính tổng của dãy số sau: 1; 4; 7; 10; …; 1000 ?@167166@167167@167168@167169@2@Ta có: 
+Số hạng đầu tiên là: 1
+Số hạng cuối cùng là: 1000
+Đơn vị khoảng cách là: 3
+Số số hạng là: (1000 - 1) : 3 + 1 = 334 (số)
+Tổng là: (1000 + 1) x 334 : 2 = 167167@14&295@Biết số 30xy chia hết cho cả 2 và 9 và chia 5 dư 2. Khi đó x + y = ...?@4@5@6@7@3@Vì 30xy chia hết cho 2, suy ra: y là số chẵn
+Vì 30xy chia cho 5 dư 2, suy ra: y = 2
+Vì 30x2 chia hết cho 9, suy ra: x = 4
+Suy ra: x + y = 4 + 2 = 4@14&296@Cho 20 điểm, trong đó có a điểm thẳng hàng (a < 20). Cứ qua 2 điểm ta vẽ được một đường thẳng. Tìm a biết vẽ được tất cả 170 đường thẳng ?@5@6@7@8@3@gta@14&297@Có tất cả bao nhiêu số có 3 chữ số chia hết cho 5?@453@100@995
+@180@4@Số hạng đầu tiên là: 100 
+Số hạng cuối cùng là: 995
+Số số có 3 chữ số chia hết cho 5 là: (995 - 100) : 5 + 1 = 180 (số)@14&298@Có tất cả bao nhiêu số có 3 chữ số chia hết cho cả 2 và 5?@80@90@100@110@2@Số hạng đầu tiên là: 100 
+Số hạng cuối cùng là: 990
+Số số có 3 chữ số chia hết cho 5 là: (990 - 100) : 5 + 1 = 90 (số)@14&299@Số học sinh khối 6 của một trường trong khoảng từ 120 đến 150 học sinh. Khi xếp hàng 12, hàng 18 đều thiếu 1 học sinh. Vậy số học sinh khối 6 của trường đó là … học sinh ?@140@141@142@143@4@gta@14&300@Số phần tử của tập hợp A = {1; 3; 5; …; 29; 31} là ...?@15@16@17@18@2@Số phần tử của tập hợp A là: (31 - 1) : 2 + 1 = 16 (phần tử)@14&301@Tập hợp các chữ cái trong cụm từ “VIOLYMPIC VÒNG 14” có số phần tử là ... ?@10@11@12@13@1@Số phần tử của tập hợp là: V; I; O; L; Y; M; P; C; N; G@14&302@Tập hợp các số là ước của 75 và là bội của 3 là S = {…} ?@6;15;95@5;15;70@4;15;75@3;15;75@4@gta@14&303@Tập hợp các số tự nhiên n để 16 + 7n chia hết cho n + 1 là S = {...}. (Nhập các giá trị theo thứ tự tăng dần, ngăn cách nhau bởi dấu “;”) ?@0;2;8@0;2;10@0;5;8@1;3;8@1@Ta có: 
+(16 + 7n) chia hết cho (n + 1)
+[9 + 7(n + 1)] chia hết cho (n + 1)
+Suy ra: 9 chia hết cho (n + 1)
+Suy ra: (n + 1) thuộc Ư(9)
+Ta có: Ư(11) = {-9;-3;-1;1;3;11}
+Suy ra: a = {-10;-4;-2; 0;2;8} 
+Vì n là số tự nhiên, suy ra: n = {0;2;8}@14&304@Tìm cặp số tự nhiên (x0;y0) thỏa mãn (2x + 1)(y - 5) = 12 sao cho x0 + y0 lớn nhất ?@1;19@ 0;17@ 0;19@1;15@2@gta@14&305@Tìm số 1x8y2 lớn nhất chia hết cho 36 ?@19870@19871@19872@19873@3@gta@14&306@Tìm số nguyên lớn nhất để n + 2 chia hết cho n - 3 ?@7@8@9@10@2@gta@14&307@Tìm số tự nhiên a biết 1960 và 2002 chia cho a có cùng số dư là 28 ?@42@43@44@45@1@Vì 1960 và 2002 chia cho a có cùng số dư là 28. Suy ra: a = 2002 - 1960 = 42@14&308@Tìm x lớn nhất thỏa mãn: 2.ǀx + 9ǀ = 10 ?@0@1@-4@4@3@gta@14&309@Tính: 512.(2 - 128) - 128.(-512) = … ?@1024@2048@1121@1234@1@gta@14&310@Tính: 4524 - (864 - 999) - (36 + 3999) = … ?@2312@2313@623@624@4@gta@14&311@Tổng tất cả các giá trị x thỏa mãn: 3.ǀx - 5ǀ = 21 là ... ?@5@9@10@16@3@gta@14&312@Kết quả phép tính: (-5) + (-6) + (-9) là … ?@20@-20@-1@1@2@gta@15&313@Nếu x + 12 = 5 thì x bằng … ?@-17@17@7@-7@4@gta@15&314@Từ ba chữ số 0; 5; 9, ta có thể viết tất cả … số có ba chữ số, trong mỗi số các chữ số đều khác nhau ?@4@5@6@7@1@Có 2 cách chọn chữ số hàng trăm
+Có 2 cách chọn chữ số hàng chục
+Có 1 cách chọn chữ số hàng đơn vị
+Theo quy tắc nhân, ta có: 2 x 2 x 1 = 4 (số)@15&315@Từ ba chữ số 1; 4; 6, ta có thể viết tất cả … số có hai chữ số, trong mỗi số các chữ số đều khác nhau ?@4@5@6@7@3@Có 3 cách chọn chữ số hàng chục
+Có 2 cách chọn chữ số hàng đơn vị
+Theo quy tắc nhân, ta có: 3 x 2 = 6 (số)@15&316@Biết rằng 3n + 1 và 5n + 4 (n thuộc N) là hai số không nguyên tố cùng nhau. Khi đó ƯCLN của 3n + 1 và 5n + 4 là ... ?@4@5@6@7@4@Gọi a là ƯCLN của 3n + 1 và 5n + 4
+Suy ra: (3n + 1) chia hết cho a và (5n + 4) chia hết cho a
+Suy ra: 5(3n + 1) = (15n + 5) chia hết cho a và 3(5n + 4) = (15n + 12) chia hết cho a
+Suy ra: [(15n + 12) - (15n + 5)] chia hết cho a
+Hay: 7  chia hết cho a
+Suy ra: a = {1; 7}
+Vì a lớn nhất, suy ra: a = 7@15&317@Biết x thỏa mãn: x : [(1600 + 800) : 30] = 560 : (315 - 35). Giá trị của x là … ?@160@170@172@180@1@Ta có: 
+x : [(1600 + 800) : 30] = 560 : (315 - 35)
+x : 2400 : 30 = 560 : 280
+x : 80 = 2
+x = 2 x 80
+x = 160@15&318@Cho số tự nhiên a là số có 3 chữ số. Biết rằng nếu bớt số đó đi 8 thì được số chia hết cho 7, nếu bớt đi 9 thì được số chia hết cho 8, nếu bớt đi 10 thì được số chia hết cho 9. Vậy số tự nhiên a chỉ có thể là ... ?@500@505@510@520@2@Vì nếu bớt số đó đi 8 thì được số chia hết cho 7, nếu bớt đi 9 thì được số chia hết cho 8, nếu bớt đi 10 thì được số chia hết cho 9. Suy ra:
+(a -1) chia hết cho 7
+(a -1) chia hết cho 8
+(a -1) chia hết cho 9
+BCNN(7,8,9) = 7 x 8 x 9 = 504
+Vậy: Số tự nhiên a chỉ có thể là: 504 + 1 = 505@15&319@Cho x là số tự nhiên. Biết rằng khi lấy x nhân với 2, cộng thêm 50 vào tích, nhân tổng với 5, được bao nhiêu trừ đi 200, rồi chia hiệu cho 10 thì được 30. Vậy giá trị của x là .. ?@22@23@24@25@4@Giá trị của x là: [(30 x 10 + 200) : 5 - 50] : 2 = 25@15&320@Cho x là số tự nhiên. Biết rằng khi x chia 3 dư 1, chia 4 dư 2, chia 5 dư 3, chia 6 dư 4, còn chia 11 thì không dư. Vậy giá trị nhỏ nhất của x có thể là ... ?@418@419@420@421@1@gta@15&321@Cho x thuộc N. Biết 113 + 2x chia hết cho 7. Giá trị nhỏ nhất của x là … ?@1@2@3@4@3@Ta có: 
+(113 + 2x) chia hết cho 7
+(112 + 1 + 2x) chia hết cho 7
+Suy ra: (1 + 2x) chia hết cho 7
+Vì x nhỏ nhất. Suy ra: x = 3@15&322@Có 100 quyển vở và 90 chiếc bút mực. Cô giáo chia số vở và bút thành một số phần thưởng như nhau gồm cả vở và bút để phát thưởng cho học sinh. Còn thừa 4 quyển vở và 18 bút mực không thể chia đều cho các học sinh. Số học sinh được thưởng là ... học sinh ?@24@25@26@27@1@Gọi số học sinh được thưởng là a (a thuộc N*)
+Vì khi chia đều 100 quyển vở và 90 bút mực cho a bạn thì còn lại 4 quyển vở và 18 bút mực không thể chia vào các phần thưởng nên:
+(100 - 4) chia hết cho a. Suy ra: 96 chia hết cho a (a > 4)
+(90 - 18) chia hết cho a. Suy ra: 72 chia hết cho a (a > 18)
+Suy ra: a ∈ ƯCLN(96;72) và a > 18
+Ta có: ƯCLN(96;72) = 24. Suy ra: a = {1;2;3;4;6;8;12;14}
+Vì: a > 18. Suy ra: a = 24
+Vậy: Số học sinh được thưởng là 24 bạn@15&323@Giá trị của biểu thức: A = 100 + 98 + 96 + … + 2 - 1 - 3 - … - 95 - 97 là ... ?@149@150@151@152@1@Ta có: A = 100 + 98 + 96 + … + 2 - 1 - 3 - … - 95 - 97
+* Xét tổng: 100 + 98 + 96 + … + 2 ta có:
+Đơn vị khoảng cách là 2
+Số số hạng là: (100 - 2) : 2 + 1 = 50 (số hạng)
+Tổng là: (100 + 2) x 50 : 2 = 2550
+* Xét hiệu: -1 - 3 - … - 95 - 97 ta có:
+Đơn vị khoảng cách là 2
+Số số hạng là: (97 - 1) : 2 + 1 = 49 (số hạng)
+Hiệu là: [-97 + (-1)] x 49 : 2 = -2401
+Suy ra: A = 2550 + (-2401) = 149
+Vậy: A = 149@15&324@Một hình lập phương có cạnh là 7cm. Khi đó thể tích của hình lập phương đó là …xăng ti mét khối ?@342@343@344@345@2@Thể tích hình lập phương là: 7 x 7 x 7 = 343 (cm3)@15&325@Một lớp học có 28 nam và 24 nữ. Để có thể chia số học sinh của lớp thành các tổ sao cho số nam và số nữ được chia đều cho các tổ thì ta có tất cả ... cách chia ?@1@2@3@4@3@Ta có: 
+28 = 22 x 7
+24 = 23 x 3
+Suy ra: ƯCLN(28,24) = 22 = 4
+Suy ra: ƯCLN(28,24) = Ư(4) = {1; 2; 4}
+Vậy ta có tất cả 3 cách chia@15&326@Một số chẵn có bốn chữ số, trong đó chữ số hàng trăm và chữ số hàng chục lập thành một số gấp 3 lần chữ số hàng nghìn và gấp 2 lần chữ số hàng đơn vị. Số đó là … ?@4123@4124@4125@4126@4@Gọi số phải tìm là abcd
+Theo bài ra ta có: bc = 3a = 2d
+Vì d là số chẵn, suy ra: d = 6, a = 4 và bc = 12
+Số phải tìm là: 4126@15&327@Người ta muốn chia 240 quyển vở, 210 bút máy và 180 bút bi thành một số phần thưởng như nhau. Vậy ta có thể chia được nhiều nhất là … phần thưởng ?@30@35@40@45@1@Ta có: 
+240 = 2^4 x 3 x 5
+210 = 2 x 3 x 5 x 7
+180 = 2^2 x 3^2 x 5
+Suy ra: ƯCLN(240,210,180) = 2 x 3 x 5 = 30
+Vậy ta có thể chia được nhiều nhất là 30 phần thưởng như nhau@15&328@Tính giá trị biểu thức: B = 1 + 2 - 3 - 4 + 5 + 6 - … - 303 - 304 + 305 + 306 ?@306@307@308@309@2@Ta có: 
+1 + 2 - 3 = 0
+1 + 2 - 3 - 4 = - 4
+1 + 2 - 3 - 4 + 5 = 1
+1 + 2 - 3 - 4 + 5 + 6 = 1 + 6 = 7
+Suy ra: 1 + 2 - 3 - 4 + 5 + 6 - … - 303 - 304 + 305 + 306 = 1 + 306 = 307
+Vậy: B = 307@15&329@Tính giá trị biểu thức: C = 53 . 39 + 47 . 39 - 53 . 21 - 47 . 21 + 2 . 53 . 12 + 4 . 6 . 87 - 3 . 8 . 40 ?@3900@4000@4100@4200@4@Ta có: 
+C = 53 . 39 + 47 . 39 - 53 . 21 - 47 . 21 + 2 . 53 . 12 + 4 . 6 . 87 - 3 . 8 . 40
+= (53 + 47) . 39 - (53 + 47) . 21 + 24 . 53 + 24 . 87 - 24 . 40
+= 100 . 39 - 100 . 21 + 24 . (53 + 87 - 40)
+= 100 . (39 - 21) + 24 . 100
+= 100 . (18 + 24)
+= 100 . 42
+= 4200
+Vậy: C = 4200@15&330@Tổng của 30 số tự nhiên liên tiếp là 2025. Giả sử d là ƯCLN của các số đó. Khi đó, giá trị lớn nhất của d là ... ?@0@1@2@3@2@Gọi 30 số tự nhiên liên tiếp đó lần lượt là: a, a + 1, a + 2, …, a + 29
+Vì d là ƯCLN của các số đó. Suy ra:
+(a + 1 - a) ⋮ d, suy ra: 1 ⋮ d. Vì 1 là số chỉ có 1 ước duy nhất là chính nó, suy ra: d = 1
+(a + 2 - a) ⋮ d, suy ra: 2 ⋮ d. Vì 2 là số nguyên tố, suy ra: d = 1
+…
+(a + 29 - a) ⋮ d, suy ra: 29 ⋮ d. Vì 29 là số nguyên tố, suy ra: d = 1
+Vậy: Giá trị lớn nhất của d là 1@15&331@Tập hợp các số nguyên n để n/(n + 3) có giá trị là số nguyên là S = {…} ?@-6;-4;-2;0@-6;-4;-2;1@-6;-3;-2;0@-6;-4;-1;0@1@Ta có: 
+n/(n + 3) = (n + 3 - 3)/(n + 3) = 1 - 3/(n + 3)
+Để n/(n + 3) là số nguyên thì 3 chia hết cho (n + 3)
+Suy ra: (n + 3) thuộc Ư(3)
+Ta có: Ư(3) = {-3; -1; 1; 3}
+Suy ra: n = {-6; -4; -2; 0}
+Vậy: S = {-6;-4;-2;0}@16&332@Tìm x thỏa mãn: 9 - (27 - 2x) = -│-27│ - 15 ?@-10@10@12@-12@4@Ta có: 
+9 - (27 - 2x) = -│-27│ - 15
+9 - 27 + 2x = -27 - 15
+9 + 2x = -15
+2x = -24
+x = -24 : 2
+x = -12@16&333@Kết quả của phép tính: │(-105 + (-15)│ + │(-111) - (-31)│ ?@200@-200@-190@190@1@gta@16&334@Kết quả của phép tính: │-1010│ + │-1001│ + │-1001│là ?@2015@-2017@2018@-2016@2@gta@16&335@Tổng tất cả ước nguyên của 28 là ...?@0@1@2@3@1@Ta có: 12 ước nguyên của 28 là: -28, -14, -7, -4, -2, -1, 1, 2, 4, 7, 14, 28
+Vì chúng là các số đối đôi một nên tổng của chúng bằng 0@16&336@Cho x thuộc Z, biết x + │2 - x│ = 6 với x > 2. Khi đó giá trị của x là … ?@2@3@4@5@3@Ta có: 
+x + │2 - x│ = 6
+6 - x = │2 - x│
+* Nếu: 2 - x >= 0, ta có: 6 - x = 2 - x (vô lý, loại)
+* Nếu: 2 - x < 0, ta có: 
+6 - x = x - 2
+2x = 8
+x = 4 (nhận)@16&337@Có tất cả … số vừa là bội của 5 vừa là ước của 50 ?@4@5@6@7@1@Ta có: 
+B(5) = {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55,…}
+Ư(5) = {1, 2, 5, 10, 25, 50}
+Suy ra: Có tất cả 4 số vừa là bội của 5 vừa là ước của 50 là: 5, 10, 25, 50@16&338@Để đánh số trang của một cuốn sách từ trang số 1 bạn An phải viết 372 chữ số.  Vậy cuốn sách đó có … trang ?@244@81@183@160@4@Từ trang 1 đến trang 99 dùng hết 189 chữ số
+Số chữ số dùng để đánh số các trang có 3 chữ số là: 372 - 189 = 183 (chữ số)
+Số trang có 3 chữ số là: 183 : 3 = 61 (trang)
+Số trang của cuốn sách là: 99 + 61 = 160 (trang)@16&339@Để p + 2; p + 6 và p + 8 là số nguyên tố thì giá trị nhỏ nhất của số nguyên tố p là …  ?@4@5@6@7@2@Vì: p + 2; p + 6 và p + 8 đều là số nguyên tố. Suy ra: p phải là số lẻ (2 là số nguyên tố chẵn duy nhất)
+Nếu p = 3 thì p + 6 = 9 là hợp số (loại)
+Nếu p = 5 thì p + 2 = 7; p + 6 = 11; p + 8 = 13 đều là các số nguyên tố (nhận)
+Vậy: Số tự nhiên nhỏ nhất để p + 2; p + 6 và p + 8 đều là số nguyên tố là: p = 5@16&340@Giá trị của biểu thức: A = 78 . 31 + 78 . 24 + 78 . 17 + 22 . 72 + 22 . 15 là …? (Dấu "." là ký hiệu của phép nhân)@7530@7200@6703@6543@1@Ta có:
+78 . 31 + 78 . 24 + 78 . 17 + 22 . 72 + 22 . 15
+= 78 . (31 + 24 + 17) + 22 . 72 + 22 . 15
+= 78 . 72 + 22 . 72 + 22 . 15
+= (78 + 22) . 72 + 22 . 15
+= 100 . 72 + 22 . 15
+= 7200 + 330
+= 7530
+@16&341@Có bao nhiêu phân số bằng phân số -15/20 có mẫu là số nguyên dương nhỏ hơn 30? (Lưu ý trừ ra phân số -15/20)@6@7@8@9@1@Ta có:
+-15/20 = -3/4
+30 : 4 = 7 (dư 2)
+Suy ra: Số phân số bằng phân số -15/20 có mẫu là số nguyên dương nhỏ hơn 30 là: (7 - 1) : 1 + 1 - 1 = 6 (phân số) 
+Vậy: Số phân số bằng phân số -15/20 có mẫu là số nguyên dương nhỏ hơn 30 là 6 phân số (gồm: -3/4, -6/8, -9/12, -12/16, -18/24, -21/28). (Trừ 1 ở phép tính trên là trừ ra phân số -15/20)@16&342@Tập hợp các số nguyên x thỏa mãn 3/(x + 2) = (x + 2)/3 là  ?@-6;0@-5;0@-6;1@-5;1@4@gta@17&343@Rút gọn biểu thức: A = -2/(1.3) -2/(3.5) -2/(5.7) - ... -2/(19.21) -2/(23.25) -2/(25.27) -2/27 ta được A = …?@0@-1@1@2@2@gta@17&344@Tìm phân số a/b (a, b là các số tự nhiên) có giá trị bằng 15/35, biết ƯCLN(a,b) x BCNN(a,b) = 189.
+Trả lời: a/b = ... ?@9/21@9/22@10/21@10/22@1@gta@17&345@Tìm cặp số tự nhiên (a; b) thỏa mãn a.b = 0 và a + 4b = 41 ?
+Trả lời: (a; b) = (........)@40; 1@40; 0@41; 1@41; 0@4@gta@17&346@Cho a; c là các chữ số khác 0 thỏa mãn a + c = 9. Gọi A là tập hợp các giá trị của chữ số b thỏa mãn abc + cba là một số có ba chữ số. Số phần tử của tập hợp A là ...?@4@5@6@7@2@gta@17&347@Giá trị của biểu thức A = 13a + 19b + 4a - 2b với a + b = 100 là A = ....?@1200@1500@1600@1700@4@gta@17&348@Cho dãy số 6; 7; 9; 12; 16; ....
+Số hạng thứ 100 của dãy số là ....?@4954@4955@4956@4957@3@gta@17&349@Cho dãy số 2; 3; 5; 9; 17; 33; 65; 129; .....
+Số hạng thứ 11 của dãy số trên là .......?@1023@1024@2048@2049@1@gta@17&350@Số tự nhiên a lớn nhất biết 480 chia hết cho a và 600 chia hết cho a là ?@40@60@120@180@3@gta@17&351@Số các số tự nhiên k để 23.k là số nguyên tố là ?@0@1@2@3@2@gta@17&352@Cho hai số tự nhiên a và b, với a > b và biết 3(a + b) = 5(a - b).
+Vậy a/b = ... ?@5@1/4@4@1/5@3@gta@17&353@Số các giá trị nguyên của x thỏa mãn: Ιx - 4Ι + Ι4 - xΙ + 2Ιx - 9Ι = 0 là:?@0@1@2@3@1@gta@17&354@Gọi A là tập hợp các số tự nhiên có 4 chữ số chia cho 5 dư 4 và chia cho 7 dư 6. Số phần tử của A là ?@287@257@267@277@2@gta@17&355@Tập hợp các số nguyên x để (x + 3) . (6 + 2x) = 0 là  ?@3@-3;3@-3@-2;3@3@Theo bài ra ta có: (x + 3) . (6 + 2x) = 0
+* Nếu: (x + 3) = 0. Suy ra: x = -3
+* Nếu: (6 + 2x) = 0. Suy ra: x = -3
+Vậy: Tập hợp các số nguyên x thỏa mãn điều kiện đề bài là: x = -3@18&356@Tập hợp các số tự nhiên n để A = (2n + 5)/(n + 1) có giá trị là số nguyên là ?@0;2@2;4@0;3@1;2@1@Ta có:  
+Vì 2(n + 1) chia hết cho (n + 1). Suy ra: 
+Để   nhận giá trị nguyên thì 3 chia hết cho (n + 1)
+Suy ra: (n +1) thuộc Ư(3)
+Ta có: Ư(3) = {-3, -1, 1, 3}
+Suy ra: n = {-4; -2; 0; 2}
+Vậy: Tập hợp các số tự nhiên thỏa mãn điều kiện đề bài là: n = {0; 2}@18&357@Tìm ba số nguyên a; b; c biết a + b - c = -3; a - b + c = 11; a - b - c = -1
+Trả lời: (a;b;c) =...?@3;-1;7@2;-1;5@4;-1;5@4;-1;6@4@Theo bài ra ta có: 
+a + b – c = -3 (1)
+a - b + c = 11 (2)
+a - b - c = -1 (3)
+Lấy (1) + (2), ta được: 2a = 8, suy ra: a = 4
+Lấy (1) - (3), ta được: 2b = -2, suy ra: b = -1
+Lấy (2) - (3), ta được: 2c = 12, suy ra: c = 6
+Vậy: (a;b;c) = (4;-1;6)@18&358@Biết: 345345 = k.(-345). Vậy k = ...?@-1001@1001@2012@-2012@1@Ta có:
+345345 = k.(-345)
+k = 345345/(-345))
+k = -1001@18&359@Giá trị của x để A = a. [(3x + 9).(5 - x)]/(2x - 10) có giá trị bằng 0 với mọi a ∈ Z là x = ...?@-3@-2@-1@0@1@Điều kiện: 2x - 10 ≠ 0, suy ra: x khác 5
+Để A có giá trị bằng 0 với mọi a thuộc Z thì hoặc (3x + 9) = 0 hoặc (5 - x) = 0
+* Nếu: (3x + 9) = 0 thì x = -3
+* Nếu: (5 - x) = 0 thì x = 5 (loại vì mâu thuẫn với điều kiện x khác 5)
+Vậy: x = -3@18&360@Tìm hai số nguyên dương a; b biết: a/b = 10/25 và BCNN(a;b) = 100 ?@40;50@20;50@30;50@40;60@2@Ta có: 
+a/b = 10/25 = 2/5 = 2k/5k
+Vì: BCNN(a;b) = 100. Suy ra: 100 ⋮ 2k và 100 ⋮ 5k
+Suy ra: 100 chia hết cho 10k
+Do: 100 chia hết cho 10k nên 10k 
+Suy ra: k = {1, 2, 5, 10}
+Nếu: k = {1, 2, 5} thì BCNN(a;b) < 100 (loại)
+Khi: k = 10, ta có: 
+a = 2.10 = 20
+b = 5.10 = 50
+Vậy: a = 20 và b = 50@18&361@Tập hợp các ước nguyên của 7 là: {..........} ?@1; 7 ; 14@-7; -14; 14; 7@-7; 0; 7@-7; -1; 1; 7@4@gta@18&362@Tìm x biết: 5x - 8/x = -1 
+Trả lời: x = ..... ?@1@2@3@4@3@gta@18&363@Hiệu của số chẵn lớn nhất có 5 chữ số và số lẻ nhỏ nhất có 4 chữ số là: ..... ?@98996@98997@98998@98999@2@gta@18&364@Cho dãy số 1; 4; 9; 16; 25; 36; 49; ....
+Số hạng thứ 80 của dãy là ....?@6400@6401@6402@6403@1@gta@18&365@Tìm hai số nguyên tố x, y biết 35x + 2y = 84 
+Trả lời: (x; y) = (.....) ?@2 ; 5@1 ; 6@2 ; 9@2 ; 7@4@gta@18&366@Cộng cả tử và mẫu của phân số 15/23 với cùng một số tự nhiên n rồi rút gọn ta được 2/3. 
+Vậy n = ..... ?@0@1@2@3@2@gta@18&367@Cho A = (1; 0; 3). Số tập hợp con của tập hợp A là: ..... ?@6@7@8@9@3@gta@18&368@Tìm hai số nguyên dương x; y biết x/y = -21/-91 và ƯCLN(x; y) = 5 ?
+Trả lời: (x; y) = (......)@15; 65@15; 60@16; 60@16; 70@1@gta@18&369@Viết liên tiếp các số tự nhiên từ 1 đến 100 ta được số có……..chữ số ?@190@191@192@193@3@gta@19&370@Một người đi quãng đường AB vận tốc 15/km trên nửa quãng đường đầu và vận tốc 10/km trên nửa quãng đường sau. Vận tốc trung bình của người đó trên cả quãng đường AB là …..km/h ?@12@13@14@15@1@gta@19&371@Một tháng có ba ngày chủ nhật đều là ngày chẵn. Ngày 15 tháng đó là thứ…?@4@5@6@7@4@gta@19&372@Hiện nay tuổi anh gấp 2 lần tuổi em, cách đây 6 năm tuổi anh gấp 5 lần tuổi em. Tổng số tuổi của 2 anh em hiện nay là ?@20@10@30@40@3@ Anh 20, em 10@19&373@Tính diện tích một hình tròn, biết nếu giảm đường kính hình tròn đó đi 20% thì diện tích giảm đi 113,04 cm2@314@315@316@317@1@Giảm đường kính đi 20% thì bán kính cũng giảm đi 20%
+bán kính của hình tròn mới là 100% - 20%= 80%
+diện tích hình tròn có bán kính 80% là 80% * 80% = 64%
+diên tích hình tròn cũ hơn hình tròn mới là 100% * 100% - 64%= 36%
+36%=113,04cm2 => diện tích hình tròn ban đầu là 113,04: 36 * 100 = 314cm2@19&374@Hãy cho biết có bao nhiêu số thập phân có 2 chữ số ở phần thập phân mà lớn hơn 24 và nhỏ hơn 25?@98@99@100@101@2@Số nhỏ nhất thoả mãn đề bài là: 24,01
+Số lớn nhất thoả mãn đề bài là: 24,99
+Từ 1 đến 99 có: 
+     (99 - 1) : 1 + 1 = 99 (số)
+Vậy có 99 số thoả mãn đầu bài.@19&375@ Chia 126 cho một số tự nhiên a ta được số dư là 25. Vậy số a là ?@100@101@102@103@2@126: a dư 25=>a khác 0 ; 1;126
+=>126-25=101 chia hết cho a
+Mà 101=1.101
+=>a=1(L) hoặc a=101(TM)
+Vậy a=101@19&376@Có bao nhiêu số tự nhiên có 4 chữ số?
+Có bao nhiêu số chẵn có 3 chữ số?
+@447@448@449@450@4@Có số các số tự nhiên có 4 chữ số là:
+(9999-1000): 1+1=9000 (số)
+Đáp số: 9000 số
+Có số các số chẵn có 3 chữ số là:
+(998-100):2+1=450 (số)@19&377@Tìm số tự nhiên nhỏ nhất biết rằng khi chia số này cho 29 thì dư 5 và chia cho 31 dư 28 ?@120@121@122@123@2@gta@19&378@Gọi A là tập hợp ước của 154. A có số tập hợp con là?@254@255@256@257@3@Để tìm tập hợp con của A ta chỉ cần tìm số ước của 154
+Ta có:154 = 2 x 7 x 11
+Số ước của 154 là : ( 1 + 1 ) x  ( 1 + 1 ) x ( 1 + 1 ) = 8 ( ước )
+Số tập hợp con của tập hợp A là:
+2n trong đó n là số phần tử của tập hợp A
+=> 2n = 28 = 256 ( tập hợp con )@19&379@Có tất cả bao nhiêu cách viết số 34 dưới dạng tổng của hai số nguyên tố? Trả lời:……cách ?@3@4@5@6@2@gta@19&380@Có……số vừa là bội của 3 và là ước của 54 ?@6@7@8@9@1@gta@19&381@Số các ước tự nhiên có hai chữ số của 45 là ?@15 và 45@10 và 45@5 và 45@25 và 45@1@gta@19&382@Tìm các chữ số x ,y sao cho: C =x1995y  chia hết cho 55 ?@y = 0 và x = 7@y = 1 và x = 7@y = 2 và x = 6@y = 5 và x = 9@1@gta@19&383@Tìm số tự nhiên sao cho 4n-5 chia hết cho 2n-1 ?@1 ; 2@3 ; 4@5 ; 6@6 ; 8@1@Ta có 4n-5 = 2( 2n-1)-3          
+để 4n-5 chia hết cho 2n - 1 => 3 chia hết cho 2n - 1  
+=>* 2n - 1=1 => n =1
+*2n – 1 = 3 => n = 2                                            
+vậy n = 1 ; 2   @20&384@Một bác nông dân mang cam đi bán. Lần thứ nhất bán 1/2số cam và 1/2 quả; Lần thứ 2 bán 1/3 số cam còn lạivà 1/3 quả ; Lần thứ 3 bán 1/4số cam còn lại và 3/4 quả. Cuối cung còn lại 24 quả . Hỏi số cam bác nông dân đã mang đi bán ?@1000@1001@1002@1003@2@Số cam còn lại sau lần bán thứ 2 là :
+(24+3/4): 3/3 =33(quả)               
+Số cam còn lại sau lần bán thứ nhất .
+(33+1/3) : 2/3 =50 (quả) 
+Số cam bác nông dân mang đi bán .
+(50+1/2) : 1/2 =1001 ( quả)@20&385@Cho 101 đường thẳng trong đó bất cứ hai đường thẳng nào cũng cắt nhau, không có ba đường thẳng nào đồng quy. Tính số giao điểm của chúng ?@5000@5001@5050@5090@3@Mỗi đường thẳng cắt 100 đường tẳng còn lại  tạo nên 100 giao điểm. Có 101  đường thẳng nên có 101.100 giao điểm . nhưng mỗi giao điểm đã được tính hai lần nên chỉ có 101.100:2= 5050 ( giao điểm)@20&386@Hai lớp 6A; 6B cùng thu nhặt một số giấy vụn bằng nhau. Lớp 6A có 1 bạn thu được 26 kg còn lại mỗi bạn thu được 11 kg ; Lớp 6B có 1 bạn thu được 25 kg còn lại mỗi bạn thu được 10kg . Tính số học sinh mỗi lớp biết rằng số giấy mỗi lớp thu được trong khoảng 200kg đến 300kg ?@21 và 24@21 và 22@25 và 26@20 và 22@4@Gọi số giấy mỗi lớp thu được là x (Kg) thì ( x-26)   11 và ( x-25)   10.
+Do đó (x-15) thuộc BC(10;11) và 200 x 300  => x-15 = 220  => x = 235.
+Số học sinh lớp 6A là:  (235 - 26) : 11 + 1 = 20. hs
+Số học sinh lớp 6B là:  (235 - 25) : 10 + 1 = 22 hs. @20&387@Tìm số tự nhiên nhỏ nhất sao cho số đó chia cho 3 dư 1; chia cho 4 dư 2 ; chia cho 5 dư 3; chia cho 6 dư 4 và chia hết cho 11 ?@416@417@418@419@418@gta@20&388@Cho 3 số 18, 24, 72 . Tìm BCNN của 3 số đó ?@24@72@86@102@2@Ta có 72 thuộc B(18) ; 72 thuộc B(24)  => BCNN (18;24;72) = 72.@20&389@Tính tuổi của anh và em biết rằng 5/8 tuổi anh hơn 3/4 tuổi em là 2 năm và 1/2 tuổi anh hơn  3/8 tuổi em là 7 năm ?@32 và 24@30 và 25@26 và 21@30 và 19@1@1/2 tuổi anh thì hơn 3/8 tuổi em là 7 năm. Vậy tuổi anh hơn 6/8 tuổi em là 14 năm
+Mà 5/8 tuổi anh lớn hơn 3/4 tuổi em là 2 năm, 
+nên 1 – 5/8 = 3/8 tuổi anh = 14 – 2 = 12 năm. 				    
+Vậy tuổi anh là: 12 : 3/8 = 32 tuổi.						 
+3/4 tuổi em bằng 32 – 14 = 18 tuổi						
+Tuổi em là: 18:3/4 = 24 tuổi	@20&390@Có bao nhiêu số có 3 chữ số trong đó có đúng một chữ số 5?@222@223@224@225@4@gta@20&391@Người ta thả một số Bèo vào ao thì sau 6 ngày bèo phủ kín đầy mặt ao. Biết rằng cứ sau một ngày thì diện tích bèo tăng lên gấp đôi. Hỏi : Sau mấy ngày bèo phủ được nửa ao?@2@3@4@5@4@Vì 6 ngày bèo phủ kín ao và cứ sau 1 ngày diện tích bèo tăng lên gấp đôi nên để phủ kín nửa ao thì phảI sau ngày thứ 5@20&392@Tuổi trung bình của một đội văn nghệ là 11 tuổi. Người chỉ huy là 17 tuổi. Tuổi trung bình của đội đang tập (trừ người chỉ huy) là 10 tuổi. Hỏi đội có mấy người ?@6@7@8@9@2@gta@20&393@Dùng 3 chữ số 3; 0; 8 để ghép thành những số có 3 chữ số: thì số những số này thỏa mãn điệu kiện nào sau đây ?@Chia hết cho 2@Chia hết cho 5@Không chia hết cho cả 2 và 5@Chia hết cho 3@1@gta@20&394@Cho 100 điểm trong đó không có ba điểm nào thẳng hàng. Cứ qua 2 điểm ta vẽ một đường thẳng. có tất cả bao nhiêu đường thẳng ?@4948@4949@4950@4951@3@Chọn một điểm. Qua điểm đó và từng điểm trong 99 điểm còn lại, ta vẽ được 99 đường thằng.
+Làm như vậy với 100 điểm ta được 99.100 đường thẳng.
+Nhưng mỗi đường thẳng được tính 2 lần, do đó tất cả có 99.100 : 2 = 4950 đường thẳng.@20&395@Một số chia hết cho 4 dư 3, chia cho 17 dư 9, chia cho 19 dư 13. Hỏi số đó chia cho 1292 dư bao nhiêu ?@1266@1267@1268@1269@2@gta@20&396@Trong đợt thi đua, lớp 6A có  42 bạn được từ 1 điểm 10 trở lên, 39 bạn được 2 điểm 10 trở lên, 14 bạn được từ 3 điểm 10 trở lên, 5 bạn được 4 điểm 10, không có ai được trên 4 điểm 10. Tính xem trong đợt thi đua lớp 6A được bao nhiêu điểm 10 ?@90@99@100@110@3@Tổng số điểm của 10 lớp 6A là
+(42 - 39) . 1 + (39 - 14) . 2 + (14 - 5) . 3 + 5 . 4 = 100 (điểm 10)
+@20&397@Cho 25 điểm trong đó không có 3 điểm thẳng hàng. Cứ qua 2 điểm ta vẽ một đường thẳng. Hỏi có tất cả bao nhiêu đường thẳng?
+Nếu thay 25 điểm bằng n điểm thì số đường thẳng là bao nhiêu?@200@300@500@600@2@Có (24 x 25)/2 = 300 đường thẳng !@20&398@Hai xe ôtô khởi hành từ hai địa điểm A,B đi ngược chiều nhau. Xe thứ nhất khởi hành từ A lúc 7 giờ. Xe thứ hai khởi hành từ B lúc 7 giờ 10 phút. Biết rằng để đi cả quãng đường AB . Xe thứ nhất cần 2 giờ , xe thứ hai cần 3 giờ. Hỏi sau khi đi 2 xe gặp nhau lúc mấy giờ?@8 giờ 15 phút @7 giờ 15 phút @9 giờ 10 phút @8 giờ 16 phút @4@gta@20&399@Tìm một số tự nhiên nhỏ nhất biết rằng khi chia số đó cho 3 dư 2, cho 4 dư 3, cho 5 dư 4 và cho 10 dư 9 ?@50@60@70@80@2@gta@20&400@Cho đoạn thẳng AB dài 7cm. Trên tia AB lấy điểm I sao cho AI = 4 cm. Trên tia BA lấy điểm K sao cho BK = 2 cm. Tính IK= ...cm?@1@2@3@4@1@gta@20&

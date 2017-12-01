@@ -110,10 +110,10 @@ public class ClsLanguage {
 
 	public static string doContentMoney()
 	{
-		string vaothi = "Bài 3: Bạn hãy dùng ngón tay. Để giúp chú khỉ chọn móc treo tấm bảng của mình sao cho số hoặc biểu thức trong bảng có giá trị bằng số hoặc biểu thức ghi trên móc treo.";
+		string vaothi = "Bài 2: Bạn điền kết quả đúng vào bảng của chú khỉ đang cầm trên tay sao cho phù hợp với câu hỏi ở trên bảng chính. Mỗi câu hỏi đúng được cộng 10 điểm làm sai trừ 5 điểm.";
 		if (VioGameController.instance.tienganh)
 		{
-			vaothi = "Lesson 3: Use your fingers. You help monkey choose its hook by choose the number or expression value in the table is equal to the numerical value or expression is written on the hook.";
+			vaothi = "Lesson 2: Enter the correct result on the board. Make 10 plus points. Failure minus 5 points. There are all 10 questions!";
 		}
 
 		return vaothi;

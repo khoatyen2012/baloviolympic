@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class VioGameController : MonoBehaviour {
 
@@ -10,6 +12,10 @@ public class VioGameController : MonoBehaviour {
 	public bool ckResetLv = true;
 	public string[] mang;
 	public string stSumcoin = "";
+	public List<DinhNui> lstSum = new List<DinhNui>();
+	public int checkvip = 0;
+	public int sumCoin = 0;
+	public int sumTime;
 
 
 	#region Singleton
@@ -34,6 +40,7 @@ public class VioGameController : MonoBehaviour {
 		vuotqua = DataManager.GetHightLevel();
 		level = vuotqua + 1;
 		tienganh = CheckNgonNgu ();
+		checkvip = DataManager.GetVip();
 	}
 
 
@@ -43,6 +50,19 @@ public class VioGameController : MonoBehaviour {
 
 		VioPopUpController.instance.HideLevel();
 		VioPopUpController.instance.HideLoading();
+
+		TextAsset txt;
+		if (tienganh)
+		{
+			txt = (TextAsset)Resources.Load("dinhnuien", typeof(TextAsset));
+		}
+		else
+		{
+			txt = (TextAsset)Resources.Load("dinhnuivi", typeof(TextAsset));
+		}
+		string content = txt.text;
+
+		GetDaTa(content);
 
 	}
 
@@ -61,13 +81,38 @@ public class VioGameController : MonoBehaviour {
 	{
 		VioPopUpController.instance.ShowStartDinhNui (1);
 	}
+	public void ShowLevel2()
+	{
+		VioPopUpController.instance.ShowStartThongThai ();
+	}
+
+	void GetDaTa(string tmg)
+	{
+		string[] mang = tmg.Trim().Split('&');
+		//Debug.Log("KK:"+mang[mang.Length-2]);
+
+
+		for (int i = 0; i < mang.Length - 1; i++)
+		{
+
+			string[] items = mang[i].Split('@');
+			DinhNui dn = new DinhNui(items[1], items[2], items[3], items[4], items[5], int.Parse(items[6]), items[7], int.Parse(items[8]));
+			lstSum.Add(dn);
+
+
+		}
+
+
+
+
+	}
 
 	// Use this for initialization
 	void Start () {
 	
 		stSumcoin = DataManager.GetHightStringCoin();
 		mang = stSumcoin.Split('+');
-		StartCoroutine(WaitTimeLoadData(2f));
+		StartCoroutine(WaitTimeLoadData(3f));
 
 	}
 

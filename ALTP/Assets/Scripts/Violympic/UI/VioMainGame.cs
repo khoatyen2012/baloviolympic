@@ -10,8 +10,9 @@ public class VioMainGame : MonoBehaviour {
 
 	void onClick_Play()
 	{
-		VioPopUpController.instance.HideMainGame ();
 		VioPopUpController.instance.ShowLevel ();
+		VioPopUpController.instance.HideMainGame ();
+
 	}
 	void onClick_BuyVip()
 	{
