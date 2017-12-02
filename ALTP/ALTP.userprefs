@@ -1,15 +1,15 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Violympic\Cls\ClsLanguage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Violympic\UI\QuestionMonkey.cs">
     <Files>
-      <File FileName="Assets\Scripts\Violympic\UI\StartGame.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\UI\QuestionDN.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\UI\StopDinhNui.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\Controller\VioGameController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\Controller\VioPopUpController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Violympic\UI\VioMainGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Violympic\UI\QuestionDN.cs" Line="67" Column="1" />
+      <File FileName="Assets\Scripts\Violympic\UI\QuestionMonkey.cs" Line="31" Column="5" />
+      <File FileName="Assets\Scripts\Violympic\Controller\VioGameController.cs" Line="55" Column="13" />
       <File FileName="Assets\Scripts\Violympic\UI\StartThongThai.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Violympic\Controller\VioPopUpController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Violympic\Cls\ClsLanguage.cs" Line="113" Column="189" />
+      <File FileName="Assets\Scripts\Violympic\Item\LvItem.cs" Line="66" Column="57" />
+      <File FileName="Assets\Scripts\Violympic\Moduls\ThongThai.cs" Line="20" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

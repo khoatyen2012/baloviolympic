@@ -115,7 +115,9 @@
      <Compile Include="Assets\Scripts\Violympic\Controller\VioPopUpController.cs" />
      <Compile Include="Assets\Scripts\Violympic\Item\LvItem.cs" />
      <Compile Include="Assets\Scripts\Violympic\Moduls\DinhNui.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Moduls\ThongThai.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\QuestionDN.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\QuestionMonkey.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartDinhNui.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartGame.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartThongThai.cs" />
@@ -219,6 +221,7 @@
      <Compile Include="Assets\UnityLitJson\Unity\UnityTypeBindings.cs" />
      <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
      <None Include="Assets\Fonts\font.fnt" />
+     <None Include="Assets\Resources\khobauen.txt" />
      <None Include="Assets\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
      <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
      <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
@@ -240,6 +243,7 @@
      <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
      <None Include="Assets\Resources\dinhnuien.txt" />
      <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Resources\khobauvi.txt" />
      <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
      <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
      <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />

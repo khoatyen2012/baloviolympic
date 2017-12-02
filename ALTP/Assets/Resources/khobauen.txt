@@ -1,0 +1,295 @@
+1@In 8,640, what digit is in the tens place?@4@gta@1&2@In 56,492, what digit is in the ones place?@2@The 2 is in the ones place.@1&3@How do you write this number using digits?@86@You write eighty-six as 86.@1&4@How do you write this number using digits?
+five hundred ninety-six@596@You write five hundred ninety-six as 596.@1&5@What number does this Roman numeral represent? X@10@X represents 10.@1&6@Steve recorded 871 hit songs that made it on the best-seller charts. Something many people don't know, however, is that he also wrote 29 songs that were never released. How many songs did Steve write in all?@900@gta@1&7@Last week, Emma and Mika went on a road trip. Emma drove 315 miles and Mika drove 31 miles. Overall, how many miles did they travel?@346@gta@1&8@Last year, 6 companies decided to include their coupon in a local coupon pack. Each company had to print 1574 copies of their coupon. How many coupons were printed in total?@9444@gta@1&9@There are 9 rows of seats in the classroom. Each row has 12 seats. How many seats are there in all?
+@108@12 x 9 = 108@1&10@Pam worked at a law firm for 3 years. She earned $9000 per year. How much money did Pam earn?@27000@Pam earned 3 x $9000 = $27000.@1&11@Multiply : 12 x 4 x 11 = ... ?@528@gta@1&12@Students from 5 schools wrote letters to the local newspaper. Each school had 7 students participate. If every student wrote 2 letters, how many letters did they write in all?@70@Multiply the numbers in the story to find the total number of letters.
+5 x 2 x 7 = 70
+They wrote 70 letters in all.@1&13@In an apartment complex, there are 3 windows in each apartment, and 9 apartments on each floor. How many windows are there on 2 floors?@54@Multiply the numbers in the story to find the total number of windows.
+3 x 9 x 2 = 54
+There are 54 windows.@1&14@A photographer wants to arrange all of his photographs into albums. Each album can hold 90 photographs. If the photographer has 3600 photographs in all, how many albums will he need?@40@gta@1&15@A car dealership has $1600 to spend on newspaper ads. If each ad costs $400, how many ads can the dealership buy?@4@gta@1&16@A costume designer needs 6000 centimeters of orange thread for a project. If there are 2000 centimeters of thread on each spool, how many should she buy?@3@gta@1&17@If a city with a population of 500000 doubles in size every 12 years, what will the population be 48 years from now?@8000000@gta@1&18@A colony of 15 bacteria doubles in size every 42 minutes. What will the population be 84 minutes from now?@60@First, find out how many times the population will double. Divide the number of minutes by how long it takes for the population to double.
+84 : 42 = 2
+The population will double 2 times.
+Now figure out what the population will be after it doubles 2 times. Multiply the population by 2 a total of 2 times.
+15 x 2 x 2 = 60@2&19@How much of a radioactive kind of actinium will be left after 44 years if you start with 88 grams and the half-life is 22 years?@22@gta@2&20@What is the greatest common factor of 5 and 8?@1@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 5: 5, 1
+Factors of 8: 8, 4, 2, 1
+The greatest common factor of 5 and 8 is 1.@2&21@What is the greatest common factor of 6 and 3?@3@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 6: 6, 3, 2, 1
+Factors of 3: 3, 1
+The greatest common factor of 6 and 3 is 3.@2&22@What is the greatest common factor of 20 and 12?@4@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 20: 	20, 10, 5, 4, 2, 1
+Factors of 12: 	12, 6, 4, 3, 2, 1
+The greatest common factor of 20 and 12 is 4.@2&23@What is the greatest common factor of 9 and 18?@9@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 9: 	9, 3, 1
+Factors of 18: 	18, 9, 6, 3, 2, 1
+The greatest common factor of 9 and 18 is 9.@2&24@What is the greatest common factor of 14 and 7?@7@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 14: 	14, 7, 2, 1
+Factors of 7: 	7, 1
+The greatest common factor of 14 and 7 is 7.@2&25@What is the greatest common factor of 19 and 10?@1@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 19: 	19, 1
+Factors of 10: 	10, 5, 2, 1
+The greatest common factor of 19 and 10 is 1.@2&26@What is the least common multiple of 2 and 11?@22@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 2: 	2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22
+Multiples of 11: 11, 22, 33, 44, 55
+The least common multiple of 2 and 11 is 22.@2&27@What is the least common multiple of 12 and 2?@12@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 12: 12, 24, 36, 48, 60
+Multiples of 2: 	2, 4, 6, 8, 10, 12
+The least common multiple of 12 and 2 is 12.@2&28@What is the least common multiple of 12 and 4?@12@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 12: 12, 24, 36, 48, 60
+Multiples of 4: 	4, 8, 12, 16, 20
+The least common multiple of 12 and 4 is 12.@2&29@What is the least common multiple of 9 and 11?@99@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 9: 	9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99
+Multiples of 11: 11, 22, 33, 44, 55, 66, 77, 88, 99
+The least common multiple of 9 and 11 is 99.@2&30@What is the least common multiple of 3 and 11?@33@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 3: 	3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33
+Multiples of 11: 11, 22, 33, 44, 55
+The least common multiple of 3 and 11 is 33.@2&31@
+What is the least common multiple of 8 and 7?@56@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 8: 	8, 16, 24, 32, 40, 48, 56
+Multiples of 7: 	7, 14, 21, 28, 35, 42, 49, 56
+The least common multiple of 8 and 7 is 56.@2&32@What is the least common multiple of 10 and 11?@110@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 10: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110
+Multiples of 11: 11, 22, 33, 44, 55, 66, 77, 88, 99, 110
+The least common multiple of 10 and 11 is 110.@2&33@What is the least common multiple of 12 and 9?@36@List the multiples of each number. Find the smallest number that appears in both lists.
+Multiples of 12:12, 24, 36, 48, 60
+Multiples of 9: 	9, 18, 27, 36, 45
+The least common multiple of 12 and 9 is 36.@2&34@Otto is buying two types of paper clips at a local office supply store. The first type comes in packages of 19, whereas the second comes only in packages of 11. If Otto needs to purchase the same number of each type of paper clip, what is the smallest number of each type that he must buy?@209@The least common multiple is the smallest whole number that is a multiple of each of two or more numbers.@2&35@At a concert, the band has 14 men's T-shirts and 7 women's T-shirts. The band wants to set up tables to sell the shirts, with an equal number of men's and women's shirts available at each table and no shirts left over. What is the greatest number of tables the band can sell shirts from?@7@List the factors of each number. Find the largest number that appears in both lists.
+Factors of 14: 	14, 7, 2, 1
+Factors of 7: 7, 1@2&36@What is 1.8 rounded to the nearest whole number?@2@gta@3&37@What is 877.6 rounded to the nearest whole number?@878@gta@3&38@A summer camp has 12 campers. One-third of them like to hike. How many campers like to hike?@4@gta@3&39@There are 48 birds sitting on a wire. One-quarter of the birds are black. How many black birds are sitting on the wire?@12@gta@3&40@Of the 50 students on a field trip to the zoo, one-tenth want to go see the bears. How many students want to see the bears?@5@gta@3&41@Sasha made 44 sandwiches. One-quarter of the sandwiches were peanut butter and jelly. How many peanut butter and jelly sandwiches did Sasha make?@11@gta@3&42@Of the 8 popsicles in the freezer, one-eighth are cherry. How many cherry popsicles are in the freezer?@1@gta@3&43@Tom made 33 tarts and put almonds on one-eleventh of them. How many tarts have almonds?@3@gta@3&44@One-half of the 40 plates in the cupboard are blue. How many blue plates are in the cupboard?@20@gta@3&45@Of the 14 students in Mrs. Griffin's art class, one-seventh are in sixth grade. How many sixth graders are in Mrs. Griffin's art class?@2@gta@3&46@There are 36 children in the park. One-sixth of them are playing sports. How many children are playing sports?@3@gta@3&47@There are 21 people waiting for the train. One-seventh of them have an umbrella. How many people waiting for the train have an umbrella?@3@gta@3&48@Roza made 33 cupcakes and put sprinkles on one-third of them. How many cupcakes have sprinkles?@11@gta@3&49@Of the 25 students on the playground, one-fifth are wearing white shoes. How many children on the playground are wearing white shoes?@5@gta@3&50@One-tenth of the 40 students at Bella's school voted for Bella for president. How many students voted for Bella?@4@gta@3&51@A printing press needs to ship 88560 new textbooks to the publishing company. If each box can hold 9 textbooks, how many boxes will the printing press need?@9840@gta@4&52@There are 4 actors in a new movie. Each actor was paid $366204. How much did it cost to pay all the actors?@1464816@gta@4&53@A group of 4 students gets to go on a helicopter ride. If each helicopter holds 2 students, how many helicopters should the group plan to use?@2@gta@4&54@Maria decided to close her comic book store, so she is selling some of her 35325 comic books. She now has 7148 comic books left. How many comic books has Maria sold?@28177@gta@4&55@Last year, 1575 people were born in a country, and 2052 people immigrated to it. How many new people began living in the country last year?@3627@gta@4&56@Since he was hired, a chef has served 51594 adults and 9503 children. What is the total number of guests served?@61097@gta@4&57@Evaluate the expression.
+1 + 2 x 5 = ... ?@11@gta@4&58@Evaluate the expression.
+3 + 2 - 2 = ... ?@3@gta@4&59@Evaluate the expression.
+2 - 4 : 2 = ... ?@0@gta@4&60@Evaluate the expression.
+4 x 2 : 2 = ... ?@4@gta@4&61@Evaluate the expression.
+4 : 2 - 1 = ... ?@1@gta@4&62@Evaluate the expression.
+3 - 2 + 5 = ... ?@6@gta@4&63@Evaluate the expression.
+2 + 5 : 1 = ... ?@7@gta@4&64@Evaluate the expression.
+2 x 5 + 5 = ... ?@15@gta@4&65@Evaluate the expression.
+5 - 1 x 4 = ... ?@1@gta@4&66@A cafe has 4 indoor tables and 14 outdoor tables. Each indoor table has 7 chairs, and each outdoor table has 2 chairs. How many chairs are there in all?@56@Step 1: Find the number of chairs at indoor tables.
+4 x 7 = 28
+Step 2: Find the number of chairs at outdoor tables.
+14 x 2 = 28
+Step 3:  Find the total number of chairs.
+28 + 28 = 56
+There are 56 chairs in all.@5&67@Tyler has 20 more orange pencils than blue pencils, and 2 more blue pencils than red pencils. The red pencils are 5 centimeters shorter than the orange and blue pencils. He has 6 red pencils. How many orange, blue, and red pencils does Tyler have in all?@42@You do not need to know about the lengths of the pencils. It is extra information.
+Find the number of orange pencils and the number of blue pencils, then add together the numbers of orange, blue, and red pencils.
+(20 + 2 + 6) + (2 + 6) + 6 = 42@5&68@There are 20 bicycles and 6 tricycles in the storage area at Cora's apartment building. Each bicycle has 2 wheels and each tricycle has 3 wheels. How many wheels are there in all?@58@Step 1:Find the number of bicycle wheels.
+2 x 20 = 40
+Step 2:Find the number of tricycle wheels.
+3 x 6 = 18
+Step 3:Find the total number of wheels.
+40 + 18 = 58
+There are 58 wheels in all.@5&69@There are 20 students in the third grade and twice that number in the fourth grade. There are 18 boys and 17 girls in the second grade. How many students are in grades 2 through 4 altogether?@95@Step 1: Find the number of students in the fourth grade.
+2 x 20 = 40
+Step 2: Find the number of students in the second grade.
+18 + 17 = 35
+Step 3: Find the total number of students.
+40 + 20 + 35 = 95
+There are 95 students in grades 2 through 4.@5&70@Susan goes to the fruit stand and buys oranges, lemons, and limes. She buys 15 oranges, 11 lemons, and 16 limes. How many pieces of fruit does Susan buy in all?@42@Add the number of oranges, the number of lemons, and the number of limes.
+15 + 11 + 16 = 42@5&71@Brenna bought 11 boxes of greeting cards, 6 rolls of purple wrapping paper, and 11 rolls of red wrapping paper. There were 16 meters of wrapping paper on each roll. How many meters of wrapping paper did Brenna buy in all?@272@Multiply the length of the wrapping paper on each roll by the total number of rolls.
+16 x (6 + 11) = 272@5&72@Troy drove 12 kilometers from his house to Riverville. From Riverville, Troy drove 15 kilometers to Pond Village. Then he drove 14 kilometers from Pond Village to Streamburg. How far did Troy drive in all, from his house to Streamburg?@41@Add the following distances: from Troy's house to Riverville, from Riverville to Pond Village, and from Pond Village to Streamburg.
+12 + 15 + 14 = 41@5&73@Russell's Snack Shop sells small, medium, and large sodas. Yesterday, they sold 2 large sodas and 13 more medium sodas than large sodas. They also sold 18 containers of popcorn. Russell's Snack Shop also sold 17 small sodas yesterday. How many total sodas did Russell's Snack Shop sell yesterday?@34@Find the number of medium sodas, then add together the numbers of small, medium, and large sodas.
+(2 + 13) + 2 + 17 = 34@5&74@Find the unit rate.
+12 donuts in 2 boxes = .... donuts per box ?@6@Divide:
+12 : 2 = 6
+6 donuts per box@5&75@Find the unit rate.
+20 seats in 4 rows = .... seats per row ?@5@Divide:
+20 : 4 = 5
+5 seats per row@5&76@Find the unit rate.
+10 orders in 2 days =... orders per day ?@5@Divide:
+10 : 2 = 5
+5 orders per day@5&77@Find the unit rate.
+8 deliveries in 4 hours =... deliveries per hour ?@2@Divide:
+8 : 4 = 2
+2 deliveries per hour@5&78@Rosa grew 4 flowers with 2 seed packets. How many seed packets does Rosa need to have a total of 20 flowers in her garden? Solve using unit rates.@10@gta@5&79@Shontal took a total of 12 quizzes over the course of 4 weeks. How many weeks of school will Shontal have to attend this quarter before she will have taken a total of 15 quizzes? Solve using unit rates.@5@gta@5&80@Sancho spent 10 minutes on the phone while routing 2 phone calls. If he routes 3 phone calls, how much time will Sancho have spent on the phone in total? Solve using unit rates.@15@gta@5&81@Nancy walked a total of 16 kilometers by making 4 trips to school. After 5 trips to school, how many kilometers will Nancy have walked in total? Solve using unit rates.@20@gta@5&82@Diana jarred 6 liters of jam after 3 days. How many days did Diana spend making jam if she jarred 8 liters of jam? Solve using unit rates ?@4@gta@5&83@Mike prepared 9 kilograms of dough after working 3 hours. How much dough did Mike prepare if he worked for 5 hours? Solve using unit rates ?
+@15@gta@5&84@Katie wrote a total of 12 pages over 6 hours. After spending 8 hours writing this week, how many pages will Katie have written in total? Solve using unit rates ?@16@gta@5&85@
+Devon knit a total of 8 centimeters of scarf over 2 nights. After 3 nights of knitting, how many centimeters of scarf will Devon have knit in total? Solve using unit rates ?@12@gta@5&86@Luann bought 18 large marbles and 2 bags of small marbles. There were 7 marbles in each bag. Each bag was 12 centimeters tall. How many marbles did Luann buy in all?@32@You do not need to know the height of each bag. It is extra information.
+Multiply the number of bags times the number of marbles in each bag, then add the number of large marbles.
+(2 x 7) + 18 = 32@6&87@Lucy brought dessert to the class picnic. She brought 3 blueberry pies and 15 cherry pies. Each blueberry pie had 8 slices and each cherry pie had 11 slices. How many slices of pie did Lucy bring to the picnic?@189@Add the number of blueberry pie slices and the number of cherry pie slices.
+(3 x 8) + (15 x 11) = 189@6&88@There are 41 students in the orchestra and twice that number in the band. There are 14 boys and 17 girls in the choir. If each student only participates in one group, how many students total are there in the orchestra, the band, and the choir?@154@Step 1:Find the number of students in the band.
+2 x 41 = 82
+Step 2:Find the number of students in the choir.
+14 + 17 = 31
+Step 3:Find the total number of students.
+82 + 41 + 31 = 154
+There are 154 students total in the orchestra, the band, and the choir.@6&89@Carter bought 19 bags of red potatoes and 11 bags of white potatoes. Each bag of potatoes weighed 12 kilograms. He also bought 4 onions. How many kilograms of potatoes did Carter buy in all?@360@Multiply the weight of each bag by the total number of bags.
+12 x (19 + 11) = 360@6&90@Michelle's Pizza sells small, medium, and large pizzas. Yesterday, they sold 18 small pizzas. They sold 17 more medium pizzas than large pizzas. Michelle's Pizza sold 4 large pizzas yesterday. How many total pizzas did Michelle's Pizza sell yesterday?@43@Find the number of medium pizzas, then add together the numbers of small, medium, and large pizzas.
+18 + (17 + 4) + 4 = 43@6&91@The corporate team-building event will cost $8 if it has 4 attendees. If there are 6 attendees, how much will the corporate team-building event cost? Solve using unit rates ?@12@gta@6&92@Clarence took a total of 10 pages of notes during 5 hours of class. After attending 10 hours of class, how many total pages of notes will Clarence have in his notebook? Solve using unit rates ?@20@gta@6&93@
+Vince bought 8 souvenirs during 2 days of vacation. How many days will Vince have to spend on vacation before he will have bought a total of 20 souvenirs? Solve using unit rates ?@5@gta@6&94@Andy drew a scale drawing of a house and its lot. The porch is 3 inches wide in the drawing. The actual porch is 18 feet wide. What scale did Andy use?
+1 inch = ..... feet ?@6@gta@6&95@Chad measured a house and made a scale drawing. The scale he used was 1 centimeter = 3 meters. If the actual length of the garage is 6 meters, how long is the garage in the drawing?@2@gta@6&96@Tony measured a house and its lot and made a scale drawing. The scale he used was 1 inch = 10 feet. The backyard is 5 inches in the drawing. How long is the actual yard? Answer: ..... feet.@50@gta@6&97@Lexi measured a neighborhood park and made a scale drawing. In real life, a soccer field in the park is 68 yards wide. It is 34 inches wide in the drawing. What scale did Lexi use?
+1 inch = ... yards !@2@gta@6&98@Michelle made a scale drawing of a summer camp. She used the scale 1 centimeter = 6 meters. The sand volleyball court is 3 centimeters in the drawing. How long is the actual volleyball court? answer: ..... meters@18@gta@6&99@Robert measured a farm and made a scale drawing. The scale he used was 1 millimeter = 2 meters. The goat pen is 12 meters long in real life. How long is the pen in the drawing? answer: ...... millimeters.@6@gta@6&100@Steve measured a city and made a scale drawing. The scale of the drawing was 1 inch = 5 yards. If a neighborhood park is 15 inches in the drawing, how wide is the actual park?
+ answer ..... yards@75@gta@6&101@80% of 95 = ... ?@76@gta@7&102@25% of 36 =...?@9@gta@7&103@What is 70% of 50?@35@gta@7&104@80%  of $5 = $......?@4@gta@7&105@What is 75% of 100?@75@gta@7&106@40% of 25 =.... ?@10@gta@7&107@90% of 70 = ... ?@63@gta@7&108@What is 50% of 68?@34@gta@7&109@60% of 35 = ... ?@21@gta@7&110@What is 100% of 30?@30@gta@7&111@Anne took a math quiz last week. There were 60 problems on the quiz and Anne answered 75% of them correctly. How many problems did Anne get correct?@45@gta@7&112@The lunch choices last Friday were mushroom or pepperoni pizza. The cafeteria made 100 pizzas in all, 25% of which were mushroom pizzas. How many mushroom pizzas did the cafeteria make?@25@gta@7&113@Dedra's Diner offers its clients a choice of regular and diet soda. Last night, the diner served 80 sodas in all, 70% of which were regular. How many regular sodas did the diner serve?@56@gta@7&114@
+To celebrate the first day of school, Sanjay brought in a tray of caramel brownies and walnut brownies. The tray had a total of 20 brownies, of which 90% were caramel. How many caramel brownies did Sanjay bring?@18@gta@7&115@Gemma bought cupcakes for her sister's birthday party. 60% of the 50 cupcakes had sprinkles on top. How many cupcakes had sprinkles?@30@gta@7&116@A biology class examined some flowers in a local meadow. They saw 35 flowers, of which 20% were perennials. How many perennial flowers did the students see?@7@gta@7&117@...... % of $19 = $19 ?@100@gta@8&118@...... % of $88 = $22 ?@25@gta@8&119@..... % of 92 = 23 ?@25@gta@8&120@.... % of 44 = 33 ?@75@gta@8&121@...... % of $8 = $6 ?@75@gta@8&122@The lunch choices last Friday were mushroom or pepperoni pizza. The cafeteria made 50 pizzas in all, 25 of which were mushroom pizzas. What percentage of the pizzas were mushroom pizzas?@50@gta@8&123@In order to select new board members, the French club held an election. 1 out of the 4 members of the French club voted in the election. What percentage of the members voted?@25@gta@8&124@At Jack's Hats, 15 out of the 20 hats at the store are baseball caps. What percentage of hats at the store are baseball caps?@75@gta@8&125@At the sewing store, Vera bought a bag of mixed buttons. She got 47 buttons in all. 47 of the buttons were large. What percentage of the buttons were large?@100@gta@8&126@Jayden ordered a set of purple and green pins. He received 48 pins in all. 24 of the pins were purple. What percentage of the pins were purple?@50@gta@8&127@100% of ..... = 17 ?@17@gta@8&128@50% of .... = 23 ?@46@gta@8&129@94 is 100% of what number?@94@gta@8&130@9 is 50% of what number?@18@gta@8&131@40 is 100% of what number?@40@gta@8&132@
+4 is 50% of what number?@8@gta@8&133@The French club at the high school is going on a trip to Paris. Each member needs to raise $860. So far, John has raised $761 by having a bake sale and a carwash. How much more does he need to raise?@99@gta@9&134@How many years are in a century?@100@gta@9&135@How many years are in a millennium?@1000@gta@9&136@How many years are in a decade?@10@gta@9&137@How many days are in a week?@7@gta@9&138@
+How many hours are in a day?@24@gta@9&139@How many days are in a normal year (not a leap year)?@365@gta@9&140@How many days are in a leap year?@366@gta@9&141@How many whole weeks are in a year?@52@gta@9&142@How many minutes are in an hour?@60@gta@9&143@How many whole weeks are in a month?@4@gta@9&144@How many seconds are in a minute?@60@gta@9&145@How many months are in a year?@12@gta@9&146@How many years are in a century?@100@gta@9&147@How many years are in a millennium?@1000@gta@9&148@Find the value of the expression 
+g : 4
+for g = 8.@2@gta@9&149@Find the value of the expression 
+z + 8
+for z = 5.
+@13@gta@9&150@Find the value of the expression 
+k - 10
+for k = 20.@10@gta@9&151@How many terms are in this expression?
+a + 3c@2@gta@9&152@How many terms are in this expression?
+7n + 4k + m@3@gta@9&153@Use the equation f=k+8 to find the value of f when k=10 ?@18@gta@9&154@Use the equation d=c - 2 to find the value of d when c=8 ?@6@gta@9&155@Use the equation y=g-1 to find the value of y when g=7 ?@6@gta@9&156@A donut costs 5000 VND. Linh bought a dozen of these donuts. How much did she pay for them?@60000@A dozen = 12
+5000 x 12 = 60000@10&157@A nurse poured 1.5 l of cough mixture equally into 6 bottles. How many ml cough mixture were there in each bottle?@250@gta@10&158@A rectangular carton measures 5cm by 10cm by 25cm. It container 1l of milk. How much empty space is there in the carton? (Express your answer in cm3)@250@5 x 10 x 25 = 1250(cm3)
+1l = 1000(cm3)
+Empty space in the carton: 1250 - 1000 = 250(cm3)@10&159@A rectangular tank is 50cm long, 40cm wide and 45cm high. The height of the water level in the container is 15cm. How many more liters of water are required to fill up the tank completely?@60@50 x 40 x 45 = 90000(cm3)
+50 x 40 x 15 = 30000(cm3)
+90000 - 30000 = 60000(cm3) = 60(dm3) = 60(liters)@10&160@A school has 1500 pupils. On a certain day, 30 of the pupils were absent. 40% of the pupils absent were girls, how many girls were absent on that day?@12@The girls of the pupils were absent: 30 x 40 : 100 = 12(girls)@10&161@A school has 1500 pupils. On a certain day, 30 of the pupils were absent. Find the percentage of the pupils who were present on that day?@98@The percentage of the pupils were absent: 30 x 100 : 1500 = 2(%)
+The percentage of the pupils who were present on that day: 100 - 2 = 98(%)@10&162@A string of 2.1m was cut into 6 equal parts. What’s the length of each part in cm? @35@2.1m = 210cm
+The length of each part is: 210 : 6 = 35(cm)@10&163@Express 12/20 as a percentage ?@60@gta@10&164@Express 3000cm3 in liter ?@3@gta@10&165@Find digit in the place of sign * such that: 6*4  is divisible by 9 ?@8@gta@10&166@Find the missing number in the following number sequence: 1, 4, 10, 22, 46, …, 190?@94@1 x 2 + 2 = 4;
+4 x 2 + 2 = 10; 
+10 x 2 + 2 = 22;
+46 x 2 + 2 = 94@10&167@Find the missing number in the following number sequence: 2, 2, 3, 5, 14, …, 965 ?@69@2 x 2 - 1 = 3; 3 x 2 - 1 = 5; 5 x 3 - 1 = 14; 14 x 5 - 1 = 69@10&168@What is 60% of 80? @48@gta@10&169@Find the value for the expression: 12/4 + (15 - 4) x 2 = ... ?@25@gta@10&170@Find the value for the expression: 12 - (9 - 4) + 2@9@gta@10&171@The students in Ms. Chen's after-school science program are graphing their ages. There are 7 students in the class and their ages are:
+8 8 8 9 7 8 8
+What is the mean age of the students?@8@Now add all the numbers together:
+8 + 8 + 7 + 8 + 8 + 8 + 9 = 56
+Now divide the sum by the number of numbers:
+56 : 7 = 8
+The mean age of the students is 8.@10&172@What is the mean?
+6 10 6 4 9@7@Now add all the numbers together:
+6 + 10 + 6 + 4 + 9 = 35
+Now divide the sum by the number of numbers:
+35 : 5 = 7
+The mean is 7.
+@10&173@Use the equation y=z - 6 to find the value of y when z=7 ?@1@gta@10&174@
+Use the equation n=b+2 to find the value of n when b=3 ?@5@gta@10&175@Use the equation r=s-7 to find the value of r when s=8 ?@1@gta@10&176@Use the equation b=z+6 to find the value of b when z=1 ?@7@gta@10&177@This equation shows how Johnny's total calorie consumption is related to the number of late-night snacks he eats.
+c = 20s
+The variable s represents the number of late-night snacks he eats, and the variable c represents the total calories he consumes. After eating 1 late-night snack, how many calories will Johnny have consumed in total?@20@gta@10&178@This equation shows how the number of pictures Kenneth has taken so far this year is related to the number of days he spends on vacation.
+p = d + 9
+The variable d represents the number of days he spends on vacation, and the variable p represents the total number of pictures taken this year. After 5 days of vacation, how many pictures will Kenneth have taken?@14@gta@10&179@This equation shows how the time required to ring up a customer is related to the number of items being purchased.
+t = 5p
+The variable p represents the number of items being purchased, and the variable t represents the time required to ring up the customer. How long does it take to ring up a customer with 2 items?@10@gta@10&180@How many total legs are there on 4 horses and 11 people? @38@4 horses are there: 4 x 4 = 16 (legs)
+11 people are there: 11 x 2 = 22 (legs)
+4 horses and 11 people are there: 16 + 22 = 38 (legs)@11&181@How many minutes are there in 1 day?@1440@24 x 60 = 1440@11&182@What is the next number in the pattern: 11, 13, 15, 17, 19, _?@21@gta@11&183@What is the next number in the pattern: 51, 44, 37, _?@30@44 + 7 = 51
+37 + 7 = 44
+30 + 7 = 37@11&184@What is the value of the following expression: 3 x (3 + 7) : 2?@15@gta@11&185@Which number is “nine more than half seventy - four”?@46@Half seventy - four is: 74 : 2 = 37
+37 + 9 = 46@11&186@Which number, n, satisfies the equation: 5n + 1 = 26? @5@gta@11&187@A train needs to transport 1200 tourists. Give that each wagon has 110 seats. How many wagons at least are needed to transport all those tourists?@11@1200 : 110 = 10.9@11&188@Agnes is 10 years old. Her mother Lisa is 4 times as old as Agnes. How old will Lisa be when Agnes is twice as old as she now? @50@Lisa's age is four times Agnes's age and is: 10 x 4 = 40 (age)
+Agnes's age will double her age by 10 years. Then, the age of Lisa would be: 40 + 10 = 50 (age)@11&189@Anna wrote 2 - digit number. Ben created a 4 - digit number by coping Anna’s number twice. Then Anna divided Ben’s number by her number. What was the result she got? @101@The two-digit number that Anna wrote was: ab, the number Ben wrote was abab
+The analysis of the structure is:
+abab = 100 x ab + ab = 101 x ab
+The result of the division is abab: ab = 101 x ab: ab = 101@11&190@Calculate: 4 x 25 x 116 = ...?@11600@gta@11&191@Calculate: 28 x 16 + 28 x 84 = …?@2800@gta@11&192@Calculate: 28 x 116 - 28 x 16 = ...?@2800@gta@11&193@Calculate the speed of a car, given that it takes the car 2.5 hours fo a distance of 150km ?@60@150 : 2.5 = 60@11&194@Edmond was one of 14 athletes in the track – and – field team. They are numbered from 1 to 14. The sum of the numbers of the other 13 athletes is 100. What is Edmond’s number?@5@Edmond’s number is: (1 + 14) x 14 : 2 - 100 = 5@11&195@Eric is in a building. He is 25m above the ground. He climb up 4 flights of stairs, each of which is 3m high. How high is Eric now above the ground? @37@4 x 3 + 25 = 37@11&196@What is the range?
+6 2 5 7 10 5 3@8@First, find the greatest number. The greatest number is 10.
+Next, find the least number. The least number is 2.
+Subtract the least number from the greatest number:
+10 - 2 = 8
+The range is 8.@11&197@What is the mode?
+1 5 1 1 5@1@gta@11&198@In a promotional sale, anyone who buys a bottle of juice at the regular price of 7 dollars can get a second bottle of juice by paying 1 more dollar. A group has 9 people, each of them wants a bottle of juice. How many dollars does the group have to pay at least? @39@To be able to buy 9 bottles of fruit juice at the cheapest price, they need to appoint 4 people to buy 8 bottles for: (7 + 1) x 4 = 32 (dollars)
+The total amount they will pay for 9 bottles is: 32 + 7 = 39 (dollars)@12&199@The 8 people at a party are 4 couples. Each man shakes hands with everyone except his own wife. No women shake hands with each other. What is the total number of handshakes among these 14 peoples?@18@gta@12&200@Write in numeral form: five hundred and twenty ?@520@gta@12&201@Use each of the digits 3, 4, 5 and 6 exactly once to form two 2 - digit number. What is the difference between the largest possible product and the smallest possible product of two such numbers?@1792@The largest possible product is : 63 x 54 = 3402
+The smallest possible product is : 35 x 46 = 1610
+The difference between the largest possible product and the smallest possible product of two such numbers is : 3402 - 1610 = 1792@12&202@A farmer plants 450 seeds per row in his field. How many FULL ROWS would he be able to plant with 50000 seeds?@111@50000 : 450 = 111.111
+(FULL ROWS)@12&203@Calculate: 1/10 + 2/10 + 3/10 + 4/10 + 5/10 + 6/10 + 7/10 + 8/10 + 9/10 + 55/10 =....?@10@gta@12&204@If you make the 8000km trip, about how much would it cost at today's prices of 3.00 dollar per liter of gas when your car gets 25km per liter?@960@The number of liters of used gasoline is: 8000: 25 = 320 (liters)
+The total amount charged is: 320 x 3 = 960 (dollars)@12&205@If your parents give you one penny on Day 1, 2 pennies on Day 2, 4 pennies on Day 3, 8 pennies on Day 4. If the pattern continues, how many pennies will your parents give you on Day 15?@16384@The rule of the sequence is the next number in its preceding number multiplied by 2@12&206@It takes Abby twice as long as Blair and half as long as Caitlin to ride her bike to school. If it takes Blair 10 minutes to ride her bike to school, how long does it take Caitlin to go to school?
+Answer: ... minutes.@40@Abby's travel time is twice the travel time of Blair and is: 10 x 2 = 20 (minutes)
+Abby's time was half the time of Caitlin. Calculate the travel time of Caitlin is: 20 x 2 = 40 (minute)@12&207@Joel is three years younger than his brother Jaime. The sum of their ages is fifty-five. How old is Joel?
+Answer: .... years old.@26@Joel's age is: (55 - 3): 2 = 26 (age)@12&208@The 112 4-grade students at Edgemont School donate pennies to raise 75 dollar for a local charity. What is the minimum number of pennies each student needs to bring if they are to meet their goal of collecting 75 dollar? (1 dollar = 100 pennies)
+Answer: .... pennies@67@75 x 100 : 112 = 66.96@12&209@What is the next number in the pattern: 1, 8, 27, ...?@64@gta@12&210@What is the next number in the pattern: 25, 23, 21, 19, 17, ...?@15@gta@12&211@What is the value of the following expression: 3 x (3 + 7) : 2 = ?@15@gta@12&212@The value of 9 feet in inches is: 9 x 12 = ... ?@108@gta@12&213@Your school is having a canned food drive for Harvesters. How many total cans would you have if you made a solid pyramid with 15x15 cans on the first level, 14x14 on the second level and continue the pattern all the way up to just one can on top?@1240@gta@12&214@What is the median?
+2 0 2 9 1 7 1
+@2@First, arrange the numbers from least to greatest:
+0 1 1 2 2 7 9
+Now find the number in the middle.
+0 1 1 2 2 7 9
+The number in the middle is 2.@12&215@What is the range?
+5 3 8 7 7
+@5@First, find the greatest number. The greatest number is 8.
+Next, find the least number. The least number is 3.
+Subtract the least number from the greatest number:
+8 - 3 = 5
+The range is 5.@12&216@There are twenty one shells. The shells are equally divided among three students. How many shells will each student get?@7@gta@13&217@There were ten frogs in a pond. Each frog has four legs. How many frog legs were there altogether?@40@gta@13&218@100 pupils participate a drawing competition. 58 of them are girls. What percentage of the pupils who participate the competition are boys?@48@gta@13&219@Anna is 1.53m tall. What is her height in centimeters?@153@gta@13&220@Given 50 lines that any 3 lines are not concurrent. How many intersection point are there?@1225@49 x 50 : 2 = 1225@13&221@Given 100 points with any 3 points non-aligned. Draw all the line passing through any 2 of these points. How many lines are there?@4950@Choose a point. Through that point and every point in the remaining 99 points, we draw 99 straight lines. To do this with 100 points, we get 99 x 100 straight lines. But each line is counted twice, so all 99 x 100: 2 = 4950 straight lines@13&222@Given that 4 points A, B, C, D are on the same line. How many segments are there?@6@AB, AC, AD
+BC, BD
+CD@13&223@Given that a ? b= ( a+ b)(a - b). Evaluate: 4 ? 3 =...?@7@gta@13&224@Maria is 10 years old and her sister is 7 years old. In how many years' time will their total age be 41 years?@12@The total age of the two sisters is: 10 + 7 = 17 (age)
+The number of years you want to have and age is: 41 - 17 = 24 (age)
+Number of years required to total age of two sisters is 41: 24: 2 = 12 (years)@13&225@The cube of 3 is ?@27@gta@13&226@The fourth power of 3 is ... ?@81@gta@13&227@Find x such that 2x - 3 = 5 ?@4@We have: 2x - 3 = 5
+2x = 5 + 3
+x = 8: 2 = 4@13&228@Give that 5 points A, B, C, D, E are on the same line. How many segments are there?@10@Apply the straight line equation: (n - 1) x n: 2, we get: (4 x 5): 2 = 10 (straight line)@13&229@Given 15 points with any 3 points non - aligned. Draw all the line passing through any 2 of these points. How many lines are there? @105@Apply the linear equation: (n - 1) x n: 2, we obtain: (14 x 15): 2 = 105 (straight line)@13&230@Give that 1234a is divisible by 10. What is the value of a?@0@To divide 1234a by 10, the last digit must be 0@13&231@Kim has the following data:
+10 14 13 18 d
+If the mode is 14, which number could d be?@14@gta@13&232@Kim has the following data:
+15 15 19 a
+If the mean is 16, which number could a be?@15@gta@13&233@There are 60 questions in a test. David answered 80% of them correctely. How many questions did David answer incorrectly? @12@The percentage of false answers is: 100% - 80% = 20%
+The number of incorrect answers is: 60 x 20: 100 = 12 (sentences)@14&234@What is the greatest remainder when a number divisible by 5?@4@The maximum balance when dividing a number by 5 is: 4@14&235@What is the sum of 23 and the product of 5 and 2? @33@The sum of 23 with the product of 5 times 2 is: 23 + 5x 2 = 33@14&236@Which of the following number is divisible by 2? @132@Divisible by 2 is 132@14&237@Which of the following number is divisible by 5?@125@Divisible by 5 is 125@14&238@Calculate: 7 + 5 x 5 - 6 = … ?@26@gta@14&239@Find the value of x that makes the sentence true: x + 6 = 82 ?@76@gta@14&240@Solve for x: 128 - 3(x + 4) = 23 ?@31@gta@14&241@Solve for x: (x + 1) + (x + 2) + (x + 3) +(x + 4) +(x + 5) = 75 ?@12@gta@14&242@The number 234 is not divisible by…?@4@gta@14&243@The sale price of an item on sale for 40% is $48. What was the original price?@80@The price of an item after a 40% reduction is $ 48. Imagine: $ 48 = 60% of the price of the item
+Price of the item when not reduced is: 48 x 100: 60 = 80 ($)@14&244@The sum of nine consecutive integers is 2016. What is the smallest of these ? @220@gta@14&245@Three times a number plus eight is eleven. What is the number? @1@1 x 3 + 8 = 11 -> Answer: 1@14&246@A man has 570 oranges. He packs them into packets of fifteen. How many packets does he make? @38@570 : 15 = 38@14&247@A factory produces 67200 pairs of shoes in a year. How many pairs of shoes are produced in a month?@5600@67200 : 12 = 5600@14&248@Molly has the following data:
+16 12 h 13 14
+If the median is 13, which number could h be?@9@gta@14&249@Dale is buying a new pair of skates. There are 5 styles of skate to choose from and 4 different color schemes. How many different skates can Dale buy?@20@There are 5 style choices and 4 color scheme choices. Multiply.
+5 x 4 = 20
+Dale can buy 20 different skates.@14&250@Fill the missing number in the follwing number sequence: 0, 3, 9, 18, 30, ?, 63 ?@45@We have:
+3 = 0 + 3 x 1
+9 = 3 + 3 x 2
+18 = 9 + 3 x 3
+30 = 18 + 3 x 4
+The number to search for is: 30 + 3 x 5 = 45@15&251@Find the quotient when 1392 is divided by 24 ?@58@gta@15&252@Find the remainder when 1037 is divided by 37 ?@1@gta@15&253@Find the sum of 29438 and 178299 and 9526 ?@217263@gta@15&254@Find the sum of 363597 and 285742 ?@649339@gta@15&255@Find the value of 36479 - 4386 - 27116 ?@4977@gta@15&256@Given the number sequence: 21, 27, 33, 39, ?, 51. Fill in the missing number ?@45@The rule of the sequence is: The following number is the same number plus 6
+The number to search for is: 39 + 6 = 45@15&257@Goe sells 5880 bottles of fruit juice in a month. How many bottles of fruit juice can he sell in a year? @70560@5880 x 12 = 70560@15&258@John has 4675 marbles. He puts 25 marbles into each box. How many boxes does he need?@187@4675 : 25 = 187@15&259@Refer to the following number sequence 5, 10, 17, 26, 37, 50,…. Determine the 19th tern in the sequence ?@401@gta@15&260@Subtract 864 from 2736 ?@1872@gta@15&261@The difference between two numbers is 6259. If the smaller number is 3927, find the larger number ?@10186@gta@15&262@There are 36 classes in a school. Every class sends four pupils to take part in a mathematics quiz. How many pupils are taking part in the mathematics quiz?@144@gta@15&263@There are 1783 blue marbles, 965 green marbles and 874 red marbles in a box. Calculate the total number of marbles in the box ?@3622@gta@15&264@What is the value of the digit 6 in the number 5627389?@600000@gta@15&265@Which the follwing number is divisible by 24?@6936@gta@15&266@Zea bought 3 boxes of apples, each box contained 50 apples. 25 apples were rotten and were thrown away. He packed the remaining apples equally into 5 bag. How many apples were there in each bag?@25@Number of apples Zea buy: 50 x 3 = 150 (fruit)
+The number of apples damaged was: 25 (fruit)
+The remaining apples are: 150 - 25 = 125 (fruit)
+The number of apples in each basket is: 125: 5 = 25 (fruit)@15&267@Alice is ordering a new skateboard. There are 2 shapes to choose from and 8 types of wheels. How many different skateboards can Alice create?@16@There are 2 shape choices and 8 wheel choices. Multiply.
+2 x 8 = 16
+Alice can create 16 different skateboards.@15&268@Given that 452a is divisible by 9. What is the value of a?@7@gta@16&269@Given that 511 is the sum of two prime numbers a and b, (a < b). What is the value of a?@2@The sum of two numbers a and b is an odd number. Describe: One of the two numbers must be even
+Number 2 is the only prime number. Find out: a = 2@16&270@Given that 511 is the sum of two prime numbers a and b, (a < b). What is the value of b?@509@The sum of two numbers a and b is an odd number. Describe: One of the two numbers must be even
+Number 2 is the only prime number. Find out: a = 2
+So: b = 511 - 2 = 509@16&271@Given that A = 5 X 17. How many divisors does the number A have?@4@Number A has four constants: (1 + 1) (1 + 1) = 4@16&272@Given that a1 is a prime number. How many values of a are possible?@5@There are 5 values a corresponding to the numbers: 11, 31, 41, 61, 71@16&273@Given that b513 is divisible by 9. What is the value of b?@9@gta@16&274@How many prime numbers less than 10 are there?@4@There are 4 prime numbers less than 10: 2, 3, 5, 7@16&275@A 4 - digit number   is divisible by 2, 3, 5 and 9. Find the value of x + y ?@4@The divisor for both 2 and 5 has the last digit of 0. Calculate: The number must be in the form
+We have: 3 + 2 + 0 = 5
+To divide by 9, x = 9 - 5 = 4
+The number to search is: 3240
+Describe: x + y = 4 + 0 = 4@16&276@A 4 - digit number is divisible by all of the numbers from 1 to 10 without any remainder. Find the smallest possible value of 4 - digit number ?@2520@In order for a 4-digit minimum number to be divisible by 1 to 10, it must be the smallest common multiple of the product of 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 x 9. x 10
+We have:
+6 = 3 x 2
+8 = 4 x 2
+9 = 3 x 3
+10 = 5 x 2
+The number to look for is: 1 x 5 x 7 x 8 x 9 = 2520@16&277@A 5 - digit number   is divisible by 5 and 9. How many the possible numbers satisfy these conditions?@3@Divisible by 5 with the digits 0 or 5
+Divisible by 9 with the sum of digits divisible by 9
+If b = 0, we have: 9 + 4 + 5 + 0 = 18 (divisible by 9); so a can be either 0 or 9
+If b = 5, we have: 9 + 4 + 5 + 5 = 23; then a can only be 4
+So there are 3 numbers that meet the requirements of the post: 94050, 94950, and 94455@16&278@Calculate: 1 - 11 + 21 - 31 + 41 - 51 + 61 - 71 + 81 - 91 + 101 = … ?@51@1 + 10 x 5 = 51@16&279@Calculate: 11 + 13 + 15 + 17 + … + 97 + 99 = …?@2475@gta@16&280@Calculate: 22 x 33 + 33 x 44 + 44 x 55 + 55 x 66 = …?@8228@22 x 33 + 33 x 44 + 44 x 55 + 55 x 66
+= (22 + 44) x 33 + (44 + 66) x 55
+= 66 x 33 + 110 x 55
+= 2178 + 6050
+= 8228@16&281@Calculate: 75 x 2 : 8 x 126 : 15 x 4 = … ?@630@gta@16&282@Calculate: 201 + 301 + 401 + 501 + 601 - 199 - 299 - 399 - 499 - 599 = …  ?@10@Available: 201 + 301 + 401 + 501 + 601 - 199 - 299 - 399 - 499 - 599 = 201 - 199 + 301 - 299 + 401 - 399 + 501-499 + 601-599 = 2 + 2 + 2 + 2 + 2 = 10@16&283@183 x 24 + 183 x 76 = 183 x … The missing number is .. ?@100@gta@16&284@A ringmaster is scheduling the acts for a circus performance. If there are 5 acts ready to perform, in how many different orders can the ringmaster schedule the acts?@120@The ringmaster can schedule the circus acts in 5! different orders.
+5! = 5 x 4 x 3 x 2 x 1 = 120
+The ringmaster can schedule the circus acts in 120 different orders.@16&285@Somerville City Diner is introducing a new dessert menu, which includes vanilla custard, fudge, and banana pudding. In how many different orders could the desserts be listed on the menu?@6@gta@16&286@Find LCM of 6, 9 and 15 ?@90@gta@17&287@Given that a and 21 are relatively prime numbers. The value of a can be …?@8@gta@17&288@Given that a13b is divisible by 2, 5 and 9. The value of a + b is …?@5@gta@17&289@How many positive divisors of 200 are also multiples of 200?@1@gta@17&290@I multiply 2 natural numbers. Their product is 64. Their sum cannot be …?@64@gta@17&291@If 2 pears weigh as much as 3 peaches and 2 peaches weigh as much as 30 grapes, then … pears weigh as much as 135 grapes ?@6@The volume of one part of the grape compared to the grapes is: 30: 2 = 15 (times more than the grapes).
+The volume of 135 parts of grapes compared to the number of parts is: 135: 15 = 9 (the dig)
+Pear weight vs. 135 grape parts: 9: 3 x 2 = 6 (section)@17&292@If my pet runs 450cm per second and your rocket flies 450m per second then your rocket travel … times as fast as my pet ?@100@Change 450m = 45000cm
+The faster times are: 45000: 450 = 100 (times)@17&293@James wants to tle a floor measuring 90cm by 120cm with square tiles of the same side. Given that he uses only whole tiles, find the largest possible length of each tile?@30@90 and 120 have the greatest common denominator of 30
+Inference: The edge of the largest brick can be used to cover the floor is: 30cm@17&294@Ten years ago, the sum of the ages of Ted and his twin brother Told was 44. How old is Ted? @32@The total age of the twins 10 years ago is 44. In my estimation: the total age of the two brothers is now: 44 + 10 x 2 = 64 (age)
+Ted's age is now: 64: 2 = 32 (age)@17&295@The average of 11, 12, 13, 14, 15, 16, 17, 18, 19 is …?@15@The average of the series is: (11 + 19): 2 = 15@17&296@The greatest divisor of 9 is … ?@9@gta@17&297@The least common multiple (LCM) of 4 and 6 is …?@12@gta@17&298@The smallest multiple (non - zero) of 9 is …?@9@gta@17&299@The sum of 2 prime numbers is equal to 999. Find the product of these two numbers ?@1994@Because 999 is the sum of two primes, is an odd number. Describe: One of the two numbers must be even numbers
+Number 2 is the only prime number. Find out: The first number is 2, the second number is 997
+The product of these two numbers is: 2 x 997 = 1994@17&300@We have 8 tents for 26 campers. Each tent holds either 2 or 4 campers. Exactly how many of our tents hold 2 campers?@3@Assuming all the tents are 4 people, the number of people in the tent is: 4 x 8 = 32
+There are 2 people in the tent: (32 - 26): 2 = 3 (tent)@17&301@A restaurateur is planning a new menu. If 4 appetizers will be offered, in how many different orders can they be listed on the menu?@24@gta@17&302@Class 6A has 42 pupils. 30 of them joined the Swimming club and 25 of them joined the Gymastic club. All pupils must be a member of at least one club, find the number of pupils who joined both clubs ?@13@gta@18&303@Find the distance from point -2 to point -8 on the number line ?@6@gta@18&304@Find the distance from point 6 to point -2 on the number line ?@8@gta@18&305@Find the smallest natural number which has exactly nine divisors ?@36@We have: U (36) = 1, 2, 3, 4, 6, 9, 12, 18, 36
+So: The smallest natural number has 9 is 36@18&306@Given 20 points. Draw the lines through the 2 points of these 20 points. How many lines are there if only 3 of 20 points are aligned?@188@If 3 points are not aligned we can draw: 3 x 2: 2 = 3 (straight line)
+If we cross three straight lines, we can draw only one straight line
+So, if there are 3 out of 20 straight lines, the number of lines will decrease: 3 - 1 = 2 (straight line)
+So in 20 points where there are 3 points in straight line we can draw: 20 x (20 - 1): 2 - 2 = 188 (straight line)@18&307@Given a segment AB = 4cm. Let C be a point such that A is midpoint of segment CB. Find the length of segment CA.
+Answer: CA= .... cm@4@gta@18&308@Given a segment AB = 100cm. Let C be a point between A and B. Let M, N be respectively the midpoint of the segment BC, AC. Find the length of the segment MN.
+Answer: MN= ... dm ?@5@gta@18&309@Given that M is the midpoint of the segment AB. Calculate the length of the segment MB if AB = 10cm ?
+Answer: MB= .... cm. @5@gta@18&310@Given that n is a natural number and 1 + 2 + 3 + ... + n = 780. Find n ?@39@gta@18&311@Given that the distance from point a to point -1 on the number line is 7. Find a if a > 0 ?@6@gta@18&312@How many numbers from 1 to 1000 are divisible by 5 or 7?@314@We have:
+The numbers from 1 to 1000 divided by 5 are: (1000 - 5): 5 + 1 = 200 (term)
+The numbers from 1 to 1000 divided by 7 are: (994 - 7): 7 + 1 = 142 (term)
+Numbers from 1 to 1000 divided by 35 are: (980 - 35): 35 + 1 = 28 (term)
+Describe: The number of 1 to 1000 divisible by 5 or 7 is: 200 + 142 - 28 = 314 (number)@18&313@A 3 - digit number when divided by 57, the remainder is 27; when divided by 217, the remainder is 60. Find the number ?@711@gta@18&314@A hawker bought 3 apples for 10000 VND and sold 5 apples for 20000 VND. If he wants to make a profit of 100000 VND, how many apples must he buy in and sell out?@150@gta@18&315@A piece of rectangular cloth 48m long and 42m wide, cut into smaller pieses of square shape, without wastage of material. How many squares of maximum size are possible?@56@We have:
+48 = 8 x 6
+42 = 7 x 6
+If we cut the rectangular cloth into small squares with the largest area, the number of squares cut without wasting the fabric is: 48: 6 x 42: 6 = 56 (Figure)@18&316@Circle all the prime numbers: 1  2  15  19  33  57  103  141  223. How many numbers must you circle?@4@There are 4 prime numbers: 2, 19, 103 and 223@18&317@How many 3 - digit whole numbers can be formed by using the digits 4, 7, 8, assuning that no digit can be repeated in a number? @6@gta@19&318@How many even whole numbers between 1 and 999 are multiples of 5?@99@gta@19&319@If a is the largest prime number less than 1000, then what is the smallest non - zero natural number b so that a + b is also a prime number?@12@If a is the largest prime number less than 1000 then a is 997
+The prime number followed by the number 997 is the number 1009. Describe: b = 1009 - 997 = 12@19&320@In a 2 - digit number, the difference between tens digits and ones digit is a factor of 28; the product of the tens digit and ones digit is 24. Find the number ?@64@gta@19&321@In the 3 x 3 table shown, the numbers 1, 2 and 3 are placed so that each number occurs only once in each row and only once in each column. The value of X + Y is …?@4@gta@19&322@Opposite number of the number -10 is 10 and of the number 14 is -14. -146 is the opposite number of which number? @146@gta@19&323@The least common multiples (LCM) of three consecutive numbers is 360. Find sum of three numbers ?@27@We have: 360 = 23 x 32 x 5
+Inference: 3 consecutive numbers with a LCM of 360 are: 8, 9, 10
+Find the sum of three numbers: 8 + 9 + 10 = 27@19&324@The number 12 has exactly six positive divisors: 1, 2, 3, 4, 6, 12. How many positive divisors does the number 60 have?@12@Ư(60) = 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60@19&325@The product of three consecutive odd numbers is 9177. What is the sum of the numbers? @63@19 + 21 + 23 = 63@19&326@Which of the following numbers is integer?@0@gta@19&327@Given a segment AB = 10cm. Let C be the point of segment AB such that AC - BC = 4cm. Find the length of segment AC.
+Answer: AC = .... cm ?@7@gta@19&328@Given that M is the midpoint of the segment AB. Calculate the length of the segment AB if MB=5cm.
+Answer: AB = .... cm ?@10@gta@19&329@Given that │x - 1│ + │y + 5│ = 0, evaluate x - y ?@6@gta@19&330@A piece of rectangular cloth 48m long and 42m wide, cut into smaller pieses of square shape, without wastage of material. How many squares of maximum size are possible?@56@We have:
+48 = 8 x 6
+42 = 7 x 6
+If we cut the rectangular cloth into small squares with the largest area, the number of squares cut without wasting the fabric is: 48: 6 x 42: 6 = 56 (Figure)@19&331@A train is travelling at an average speed of 96km/h. What is the total distance (km) the train travelled after 3 hours? @288@The train travel time is 3 hours: 96 x 3 = 288 (km)@19&332@Lamp poles are installed along the roadside on very 8m. Marking are made on the roadside on very 12m. How many marking are made beside the lamp poles along a 240m long road?@11@gta@20&333@N is natural number greater than 1. When 1 is add to N, the result is a multiple of 2; when 2 is add to N, the result is a multiple of 3; when 3 is add to N, the result is a multiple of 4; when 4 is add to N, the result is a multiple of 5; when 5 is add to N, the result is a multiple of 6; when 6 is add to N, the result is a multiple of 7. Find the smallest value of N ?@421@In the article we have: (N - 1) ⋮ for 2; 3; 4; 5; 6; 7
+Describe: (N - 1) ∈ U (2; 3; 4; 5; 6; 7)
+Describe: (N - 1) = 3 x 4 x 5 x 7
+Imagine: N = 420 + 1
+So: N = 421@20&334@The sum of four natural numbers is 1111. Find the largest possible values of the highest common factor of these four numbers ?@101@gta@20&335@Veronica can type 28 words per minute. At this rate, how many words can Veronica type in 5 minutes?@140@Veronica can type 28 words per minute. At this rate, how many words can Veronica type in 5 minutes?@20&336@What is the units digit of the sum of the first 99 whole numbers? 0 + 1 + 2 + 3 + … + 97 + 98 ?@1@We have:
+The sum is (98 + 0) x 99: 2 = 4851
+So: 0 + 1 + 2 + 3 + ... + 97 + 98 with the last digit are: 1@20&337@What value for z makes this equation true? 8 x 37 = (8 x 30) + (8 x z) ?@7@We have:
+8 x 37 = (8 x 30) + (8 x z)
+8 x 37 - 8 x 30 = 8 x z
+z = 37 - 30
+z = 7@20&338@A man saves 20% of his income. If his income is decreased by 5%, his saving will be decreased by $12. Find his income?@1200@His income after a 5% reduction is: 100 - 5 = 95 (%)
+His savings after a 5% reduction in income is: 95 x 20: 100 = 19 (%)
+The percentage of discounted income corresponding to a 5% reduction in income is: 20 - 19 = 1 (%)
+Inferred: His income without reduction is: 12 x 100: 1 = 1200 ($)@20&339@Find the value of 2 - 4 + 6 – 8 + 10 - 12 + 14 - … - 48 + 50 ?@26@gta@20&340@How many positive integer values of n are there such that the expression 36 : (n +2)  is an integer? @7@gta@20&341@How many three - digit whole numbers are there such that the sum of the digits equals 25?@6@We have:
+25 = 9 + 9 + 7. Inference: There are 3 numbers that satisfy the condition that the proposition is the sum of the digits of 25
+25 = 9 + 8 + 8. Inference: There are three numbers that satisfy the condition that the proposition is the sum of the digits of 25
+So: The 3 digit number whose sum of its digits is 25 is: 3 x 2 = 6 (number)@20&342@How many triangles are there in the figure?@20@Have:
+12 single triangles
+6 triangles create 4 triangles
+2 triangles formed by 9 small triangles
+The number of triangles in the image above is: 12 + 6 + 2 = 20 (Figure)@20&343@If: M + A + T = 19; I + C + E + S = 16 and H = 2. Where each letter represents a different digit then what is the value of: M + A + T + H + E + M + A + T + I + C + S ?@56@We have: 19 x 2 + 2 + 16 = 56@20&344@In the addition a, b and c stand for different digits. What is the value of a + b + c?@16@gta@20&345@When an integer number n is divided by 10, the remainder is 8. What is the remainder when it is divided by 5?@3@If integer n is divided by 10, then 8 divided by 5, the remainder is 8 - 5 = 3@20&346@Find x such that 1/2 + 1/3 + 1/x = 1 ?@6@gta@20&347@If a + b = 6, a + c = 10 and b + c = 14 then the average of a, b and c is .... ?@5@gta@20&

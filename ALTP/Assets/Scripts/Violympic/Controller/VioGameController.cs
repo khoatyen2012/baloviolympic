@@ -13,6 +13,7 @@ public class VioGameController : MonoBehaviour {
 	public string[] mang;
 	public string stSumcoin = "";
 	public List<DinhNui> lstSum = new List<DinhNui>();
+	public List<ThongThai> lstThongThai = new List<ThongThai>();
 	public int checkvip = 0;
 	public int sumCoin = 0;
 	public int sumTime;
@@ -51,6 +52,7 @@ public class VioGameController : MonoBehaviour {
 		VioPopUpController.instance.HideLevel();
 		VioPopUpController.instance.HideLoading();
 
+		//Dinh Nui
 		TextAsset txt;
 		if (tienganh)
 		{
@@ -61,8 +63,22 @@ public class VioGameController : MonoBehaviour {
 			txt = (TextAsset)Resources.Load("dinhnuivi", typeof(TextAsset));
 		}
 		string content = txt.text;
-
 		GetDaTa(content);
+
+
+
+		//THong Thai
+		TextAsset txtTT;
+		if (tienganh)
+		{
+			txtTT = (TextAsset)Resources.Load("khobauen", typeof(TextAsset));
+		}
+		else
+		{
+			txtTT = (TextAsset)Resources.Load("khobauvi", typeof(TextAsset));
+		}
+		string contentTT = txtTT.text;
+		GetDaTaThongThai(contentTT);
 
 	}
 
@@ -103,8 +119,20 @@ public class VioGameController : MonoBehaviour {
 		}
 
 
+	}
+
+	void GetDaTaThongThai(string tmg)
+	{
+		string[] mang = tmg.Trim().Split('&');
+		//Debug.Log("KK:"+mang[mang.Length-2]);
 
 
+		for (int i = 0; i < mang.Length - 1; i++)
+		{
+			string[] items = mang[i].Split('@');
+			ThongThai tt = new ThongThai (items [1], int.Parse(items [2]), items [3],int.Parse(items[4]));
+			lstThongThai.Add (tt);
+		}
 	}
 
 	// Use this for initialization
