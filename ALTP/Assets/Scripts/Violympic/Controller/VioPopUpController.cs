@@ -32,6 +32,19 @@ public class VioPopUpController : MonoBehaviour {
 	public QuestionDN questionDn;
 	public StopDinhNui stopDN;
 	public GameObject startthongthai;
+    public QuestionMonkey questionMK;
+
+
+    public void ShowQuestionMonkey()
+    {
+
+        questionMK.getDataLevel();
+        StartCoroutine(ieMoveDown(questionMK.gameObject, showY));
+    }
+    public void HideQuestionMonkey()
+    {
+        StartCoroutine(ieMoveUp(questionMK.gameObject, hideY));
+    }
 
 
 	public void ShowStartThongThai()

@@ -28,6 +28,7 @@ public class QuestionMonkey : MonoBehaviour {
 			if (item.Level == VioGameController.instance.level)
 			{
 				lstLevel.Add(item);
+                Debug.Log(""+item.Question+";;;"+item.Ketqua+";;;"+item.Giaithich);
 			}
 		}
 

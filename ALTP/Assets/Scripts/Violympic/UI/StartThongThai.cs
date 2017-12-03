@@ -9,8 +9,8 @@ public class StartThongThai : MonoBehaviour {
 
 	void onClick_btnPlay()
 	{
-		//PopUpController.instance.HideStartThongThai();
-		//PopUpController.instance.ShowQuestionMonkey();
+		VioPopUpController.instance.HideStartThongThai();
+		VioPopUpController.instance.ShowQuestionMonkey();
 		//SoundManager.Instance.PauseBGMusic();
 		//SoundManager.Instance.PlayAudioChoiTiep();
 	}
