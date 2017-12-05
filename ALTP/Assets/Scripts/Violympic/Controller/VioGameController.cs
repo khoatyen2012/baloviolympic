@@ -44,12 +44,19 @@ public class VioGameController : MonoBehaviour {
 		checkvip = DataManager.GetVip();
 	}
 
+	IEnumerator WaitTimeHideLevel(float time)
+	{
+		yield return new WaitForSeconds (time);
+		VioPopUpController.instance.HideLevel();
+		StartCoroutine(WaitTimeLoadData(2f));
+	}
+
 
 	IEnumerator WaitTimeLoadData(float time)
 	{
 		yield return new WaitForSeconds(time);
 
-		VioPopUpController.instance.HideLevel();
+
 		VioPopUpController.instance.HideLoading();
 
 		//Dinh Nui
@@ -141,7 +148,7 @@ public class VioGameController : MonoBehaviour {
 	
 		stSumcoin = DataManager.GetHightStringCoin();
 		mang = stSumcoin.Split('+');
-		StartCoroutine(WaitTimeLoadData(3f));
+		StartCoroutine(WaitTimeHideLevel(2f));
 
 	}
 
