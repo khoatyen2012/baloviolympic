@@ -22,6 +22,7 @@ public class QuestionMonkey : MonoBehaviour {
 	public tk2dUIItem btnNumb0;
 	public tk2dUIItem btnBack;
 	public tk2dUIItem btnDelete;
+	public tk2dUIItem btnContinute;
 
 	public tk2dSprite spMonkey;
 	public GameObject mThaoTac;
@@ -31,9 +32,9 @@ public class QuestionMonkey : MonoBehaviour {
 	{
 		Start,
 		InGame,
-		Click,
+		XuLy,
 		XuLyT,
-		XyLyF,
+		XuLyF,
 		Stop
 	}
 
@@ -48,6 +49,10 @@ public class QuestionMonkey : MonoBehaviour {
     public int demsai = 0;
     public int sttQuestion = 0;
     public Vector3 startPosvisi;
+
+	int mTime = 1200;
+
+	int demframe = 0;
  
 
 	public void getDataLevel()
@@ -63,7 +68,7 @@ public class QuestionMonkey : MonoBehaviour {
 		}
 
 		doSubGet(ref lstLevel);
-		currentState = State.InGame;
+
 
 	}
 
@@ -71,6 +76,7 @@ public class QuestionMonkey : MonoBehaviour {
 	{
 		if (lst.Count > 0)
 		{
+			currentState = State.InGame;
 			int chon = UnityEngine.Random.Range(0, lst.Count);
 			sttQuestion++;
 			txtContent.text = ClsLanguage.doQuestion ()+" "+sttQuestion+":"+ "\n" + lst [chon].Question;
@@ -89,6 +95,7 @@ public class QuestionMonkey : MonoBehaviour {
             mBangHoi.transform.localPosition = startPosvisi;
             stSum = "";
             txtKetQua.text = "";
+			btnContinute.gameObject.SetActive (false);
 
 			lst.RemoveAt(chon);
 		}
@@ -98,6 +105,7 @@ public class QuestionMonkey : MonoBehaviour {
     {
         if (!stSum.Equals(""))
         {
+			currentState = State.XuLy;
             spMonkey.SetSprite("khixet");
             mThaoTac.SetActive(false);
             StartCoroutine(WaitTimeXuLy(2f));
@@ -116,6 +124,7 @@ public class QuestionMonkey : MonoBehaviour {
             diemSo = diemSo + 10;
             mBangHoi.transform.localPosition = new Vector3(startPosvisi.x, 85f, startPosvisi.z);
             StartCoroutine(WaitTimeXuLyDung(2f));
+			currentState = State.XuLyT;
         }
         else
         {
@@ -124,6 +133,8 @@ public class QuestionMonkey : MonoBehaviour {
             demsai++;
             txtContent.gameObject.SetActive(false);
             txtGiaiThich.gameObject.SetActive(true);
+			btnContinute.gameObject.SetActive (true);
+			currentState = State.XuLyF;
         }
 
 
@@ -132,13 +143,13 @@ public class QuestionMonkey : MonoBehaviour {
     IEnumerator WaitTimeXuLyDung(float time)
     {
         yield return new WaitForSeconds(time);
-        if (sttQuestion >= 10)
+        if (sttQuestion < 10)
         {
             doSubGet(ref lstLevel);
         }
         else
         {
-            //end game
+			gameOver ();
         }
     }
 
@@ -149,120 +160,173 @@ public class QuestionMonkey : MonoBehaviour {
         diemSo = 0;
         demsai = 0;
         sttQuestion = 0;
+		mTime = 1200;
+		demframe = 0;
+		lstLevel.Clear ();
     }
+
+	void gameOver()
+	{
+
+
+		currentState = State.Stop;
+		if (diemSo < 0)
+		{
+			diemSo = 0;
+		}
+		VioGameController.instance.sumCoin += diemSo;
+		VioGameController.instance.sumTime += mTime;
+		VioPopUpController.instance.ShowStopThongThai(diemSo, ClsThaoTac.CoverTimeToString(1200 - mTime));
+		VioPopUpController.instance.HideQuestionMonkey();
+		resetDefault();
+	}
+
+	public void btnContinute_OnClick()
+	{
+		if (sttQuestion <10 && demsai<3)
+		{
+			doSubGet(ref lstLevel);
+		}
+		else
+		{
+			gameOver ();
+		}
+	}
 
 	public void btnNumb0_OnClick()
 	{
 		
-	
+		if (currentState == State.InGame) {
 			stSum += btnNumb0.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 		
 	}
 	public void btnNumb1_OnClick()
 	{
+		if (currentState == State.InGame) {
 			stSum += btnNumb1.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 
-			if ((int.Parse (stSum) + "").Length < 8) {
+			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
 			} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+				stSum = stSum.Remove (stSum.Length - 1, 1);
 			}
+		}
 	}
 	public void btnNumb2_OnClick()
 	{
-		stSum += btnNumb2.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb2.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb3_OnClick()
 	{
-		stSum += btnNumb3.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb3.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb4_OnClick()
 	{
-		stSum += btnNumb4.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb4.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb5_OnClick()
 	{
-
-		stSum += btnNumb5.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb5.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb6_OnClick()
 	{
-		stSum += btnNumb6.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb6.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb7_OnClick()
 	{
-		stSum += btnNumb7.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb7.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb8_OnClick()
 	{
-		stSum += btnNumb8.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb8.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnNumb9_OnClick()
 	{
-		stSum += btnNumb9.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
-		if ((int.Parse (stSum) + "").Length < 8) {
-			txtKetQua.text = int.Parse (stSum) + "";
-		} else {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			stSum += btnNumb9.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
+			if ((int.Parse (stSum) + "").Length < 9) {
+				txtKetQua.text = int.Parse (stSum) + "";
+			} else {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
+			}
 		}
 	}
 	public void btnDelete_OnClick()
 	{
-		stSum = "";
-		txtKetQua.text = "";
+		if (currentState == State.InGame) {
+			stSum = "";
+			txtKetQua.text = "";
+		}
 	}
 	public void btnBack_OnClick()
 	{
-		if (!stSum.Trim ().Equals ("")) {
-			stSum = stSum.Remove (stSum.Length - 1, 1);
+		if (currentState == State.InGame) {
+			if (!stSum.Trim ().Equals ("")) {
+				stSum = stSum.Remove (stSum.Length - 1, 1);
 
-			if (stSum.Trim ().Equals ("")) {
-				txtKetQua.text = "";
+				if (stSum.Trim ().Equals ("")) {
+					txtKetQua.text = "";
+				} else {
+					txtKetQua.text = int.Parse (stSum) + "";
+				}
+
 			} else {
-				txtKetQua.text = int.Parse (stSum) + "";
 			}
-
-		} else {
 		}
 	}
 	
@@ -286,6 +350,7 @@ public class QuestionMonkey : MonoBehaviour {
 		btnNumb7.OnClick += btnNumb7_OnClick;
 		btnNumb8.OnClick += btnNumb8_OnClick;
 		btnNumb9.OnClick += btnNumb9_OnClick;
+		btnContinute.OnClick += btnContinute_OnClick;
 
         startPosvisi = mBangHoi.gameObject.transform.localPosition;
 	
@@ -294,5 +359,31 @@ public class QuestionMonkey : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		if (currentState != State.Start&&currentState!=State.Stop)
+		{
+			//đếm ngược thời gian từ 20 phút
+			if (demframe < 30)
+			{
+				demframe++;
+			}
+			else
+			{
+				mTime--;
+				txtTime.text = ClsThaoTac.CoverTimeToString(mTime);
+				//if (mTime <= 10)
+				//{
+				//    txtTime.color = new Color(1, 0, 1, 1);
+				//}
+
+				demframe = 0;
+				if (mTime <= 0)
+				{
+					//currentState = State.Stop;
+					//hết giờ thì game over
+					gameOver ();
+				}
+			}
+		}
+
 	}
 }

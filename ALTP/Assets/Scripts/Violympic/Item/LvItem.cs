@@ -44,11 +44,11 @@ public class LvItem : MonoBehaviour {
             }
             else
             {
-				if (int.Parse(VioGameController.instance.mang[gt - 1]) >=300)
+				if (int.Parse(VioGameController.instance.mang[gt - 1]) >=180)
                 {
                     spiteRate.SetSprite("basao");
                 }
-				else if (int.Parse(VioGameController.instance.mang[gt - 1]) > 280)
+				else if (int.Parse(VioGameController.instance.mang[gt - 1]) > 150)
                 {
                     spiteRate.SetSprite("haisao");
                 }

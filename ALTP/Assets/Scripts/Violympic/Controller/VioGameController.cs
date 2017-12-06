@@ -102,8 +102,8 @@ public class VioGameController : MonoBehaviour {
 
 	public void ShowLevel1()
 	{
-		//VioPopUpController.instance.ShowStartDinhNui (1);
-        VioPopUpController.instance.ShowStartThongThai();
+		VioPopUpController.instance.ShowStartDinhNui (1);
+       // VioPopUpController.instance.ShowStartThongThai();
 	}
 	public void ShowLevel2()
 	{

@@ -116,12 +116,15 @@
      <Compile Include="Assets\Scripts\Violympic\Item\LvItem.cs" />
      <Compile Include="Assets\Scripts\Violympic\Moduls\DinhNui.cs" />
      <Compile Include="Assets\Scripts\Violympic\Moduls\ThongThai.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\HoanThanh.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\QuestionDN.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\QuestionMonkey.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartDinhNui.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartGame.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartThongThai.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StopDinhNui.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\StopGame.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\StopThongThai.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\VioMainGame.cs" />
      <Compile Include="Assets\Scripts\moduls\AiLaTrieuPhu.cs" />
      <Compile Include="Assets\Scripts\moduls\AltpUser.cs" />

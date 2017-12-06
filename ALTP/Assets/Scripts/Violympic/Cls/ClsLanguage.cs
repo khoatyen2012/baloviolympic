@@ -99,10 +99,10 @@ public class ClsLanguage {
 
 	public static string doTongDiem()
 	{
-		string vaothi = "Tổng điểm 3 bài thi là: ";
+		string vaothi = "Tổng điểm 2 bài thi là: ";
 		if (VioGameController.instance.tienganh)
 		{
-			vaothi = "The total score of 3 tests: ";
+			vaothi = "The total score of 2 tests: ";
 		}
 
 		return vaothi;

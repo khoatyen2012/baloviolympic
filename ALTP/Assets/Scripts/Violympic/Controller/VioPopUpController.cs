@@ -33,6 +33,41 @@ public class VioPopUpController : MonoBehaviour {
 	public StopDinhNui stopDN;
 	public GameObject startthongthai;
     public QuestionMonkey questionMK;
+	public StopThongThai stopMonKey;
+	public StopGame stopGame;
+	public GameObject hoanthanh;
+
+
+	public void ShowHoanThanh()
+	{
+
+		StartCoroutine(ieMoveDown(hoanthanh, showY));
+	}
+	public void HideHoanThanh()
+	{
+		StartCoroutine(ieMoveUp(hoanthanh, hideY));
+	}
+
+	public void ShowStopGame()
+	{
+		stopGame.setData();
+		StartCoroutine(ieMoveDown(stopGame.gameObject, showY));
+	}
+	public void HideStopGame()
+	{
+		StartCoroutine(ieMoveUp(stopGame.gameObject, hideY));
+	}
+
+	public void ShowStopThongThai(int diem,string time)
+	{
+		stopMonKey.setData(diem, time);
+
+		StartCoroutine(ieMoveDown(stopMonKey.gameObject, showY));
+	}
+	public void HideStopThongThai()
+	{
+		StartCoroutine(ieMoveUp(stopMonKey.gameObject, hideY));
+	}
 
 
     public void ShowQuestionMonkey()
