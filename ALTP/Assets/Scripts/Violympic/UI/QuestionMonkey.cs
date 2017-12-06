@@ -40,9 +40,15 @@ public class QuestionMonkey : MonoBehaviour {
 	public State currentState;
 
 	public List<ThongThai> lstLevel = new List<ThongThai>();
-	public int sttQuestion = 0;
+	
 	public string stSum="";
 	public int mKetQuaDung=0;
+
+    public int diemSo = 0;
+    public int demsai = 0;
+    public int sttQuestion = 0;
+    public Vector3 startPosvisi;
+ 
 
 	public void getDataLevel()
 	{
@@ -74,16 +80,76 @@ public class QuestionMonkey : MonoBehaviour {
 				txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo ()+mKetQuaDung;
 			}else
 			{
-			txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + lst [chon].Giaithich;
+                txtGiaiThich.text = ClsLanguage.doQuestion() + " " + sttQuestion + ":" + "\n" + lst[chon].Question + "\n\n" + ClsLanguage.doDapSo() + lst[chon].Giaithich;
 			}
 			txtContent.gameObject.SetActive (true);
 			txtGiaiThich.gameObject.SetActive (false);
 			mThaoTac.SetActive (true);
 			spMonkey.SetSprite ("khihoi");
+            mBangHoi.transform.localPosition = startPosvisi;
+            stSum = "";
+            txtKetQua.text = "";
 
 			lst.RemoveAt(chon);
 		}
 	}
+
+    public void btnNopBai_OnClick()
+    {
+        if (!stSum.Equals(""))
+        {
+            spMonkey.SetSprite("khixet");
+            mThaoTac.SetActive(false);
+            StartCoroutine(WaitTimeXuLy(2f));
+        }
+        else
+        {
+        }
+    }
+
+    IEnumerator WaitTimeXuLy(float time)
+    {
+        yield return new WaitForSeconds(time);
+        if (int.Parse(stSum) == mKetQuaDung)
+        {
+            spMonkey.SetSprite("khicuoi");
+            diemSo = diemSo + 10;
+            mBangHoi.transform.localPosition = new Vector3(startPosvisi.x, 85f, startPosvisi.z);
+            StartCoroutine(WaitTimeXuLyDung(2f));
+        }
+        else
+        {
+            spMonkey.SetSprite("khikhoc");
+            diemSo = diemSo - 1;
+            demsai++;
+            txtContent.gameObject.SetActive(false);
+            txtGiaiThich.gameObject.SetActive(true);
+        }
+
+
+    }
+
+    IEnumerator WaitTimeXuLyDung(float time)
+    {
+        yield return new WaitForSeconds(time);
+        if (sttQuestion >= 10)
+        {
+            doSubGet(ref lstLevel);
+        }
+        else
+        {
+            //end game
+        }
+    }
+
+    public void resetDefault()
+    {
+        stSum="";
+	    mKetQuaDung=0;
+        diemSo = 0;
+        demsai = 0;
+        sttQuestion = 0;
+    }
 
 	public void btnNumb0_OnClick()
 	{
@@ -199,25 +265,7 @@ public class QuestionMonkey : MonoBehaviour {
 		} else {
 		}
 	}
-	public void btnNopBai_OnClick()
-	{
-		if (!stSum.Equals ("")) {
-			spMonkey.SetSprite ("khixet");
-			mThaoTac.SetActive (false);
-			StartCoroutine (WaitTimeXuLy (2f));
-		} else {
-		}
-	}
-
-	IEnumerator WaitTimeXuLy(float time)
-	{
-		yield return new WaitForSeconds (time);
-		if (int.Parse (stSum) == mKetQuaDung) {
-			spMonkey.SetSprite ("khicuoi");
-		} else {
-			spMonkey.SetSprite ("khikhoc");
-		}
-	}
+	
 
 
 
@@ -238,6 +286,8 @@ public class QuestionMonkey : MonoBehaviour {
 		btnNumb7.OnClick += btnNumb7_OnClick;
 		btnNumb8.OnClick += btnNumb8_OnClick;
 		btnNumb9.OnClick += btnNumb9_OnClick;
+
+        startPosvisi = mBangHoi.gameObject.transform.localPosition;
 	
 	}
 	
