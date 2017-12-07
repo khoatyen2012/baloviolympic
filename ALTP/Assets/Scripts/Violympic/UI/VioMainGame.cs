@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class VioMainGame : MonoBehaviour {
 
@@ -21,6 +22,7 @@ public class VioMainGame : MonoBehaviour {
 	void onClick_ALTP()
 	{
 		VioPopUpController.instance.HideMainGame ();
+		SceneManager.LoadScene("InGame");
 	}
 
 	public void setData()

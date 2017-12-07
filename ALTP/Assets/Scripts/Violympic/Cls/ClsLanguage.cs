@@ -5,6 +5,17 @@ public class ClsLanguage {
 
 
 
+	public static string doSumit()
+	{
+		string vaothi = "Nộp Bài";
+		if (VioGameController.instance.tienganh)
+		{
+			vaothi = "Submit";
+		}
+
+		return vaothi;
+	}
+
 
 
 	public static string doBanCanMuaVip()
@@ -110,7 +121,7 @@ public class ClsLanguage {
 
 	public static string doContentMoney()
 	{
-		string vaothi = "Bài 2: Bạn điền kết quả đúng vào bảng của chú khỉ đang cầm trên tay sao cho phù hợp với câu hỏi ở trên bảng chính. Mỗi câu hỏi đúng được cộng 10 điểm làm sai trừ 5 điểm.";
+		string vaothi = "Bài 2: Bạn điền kết quả đúng vào bảng của chú khỉ đang cầm trên tay sao cho phù hợp với câu hỏi ở trên bảng chính. Mỗi câu hỏi đúng được cộng 10 điểm làm sai trừ 1 điểm.";
 		if (VioGameController.instance.tienganh)
 		{
 			vaothi = "Lesson 2: Enter the correct result on the board. Make 10 plus points. Failure minus 5 points. There are all 10 questions!";
@@ -389,10 +400,10 @@ public class ClsLanguage {
 	}
 	public static string doContenVip()
 	{
-		string vaothi = "1.Bạn có thể nhận được câu trả lời đầy đủ cho các đáp án sai tại bài thi Đỉnh núi trí tuệ. \n\n 2.Bạn sẽ không bị làm phiền bởi quảng cáo. ";
+		string vaothi = "1.Bạn có thể nhận được lời giải thích đầy đủ cho các đáp án. \n\n 2.Bạn sẽ không bị làm phiền bởi quảng cáo.\n\n Liên hệ:Balo- 01647778420";
 		if (VioGameController.instance.tienganh)
 		{
-			vaothi = "1.You can get the complete answer for the wrong answer in test Intellectual peaks. \n\n 2.You will not be bothered by ads after the end of the game.";
+			vaothi = "1.You can get the complete answer for the wrong answer in test. \n\n 2.You will not be bothered by ads after the end of the game.";
 		}
 
 		return vaothi;

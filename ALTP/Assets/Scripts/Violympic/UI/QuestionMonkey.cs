@@ -351,6 +351,7 @@ public class QuestionMonkey : MonoBehaviour {
 		btnNumb8.OnClick += btnNumb8_OnClick;
 		btnNumb9.OnClick += btnNumb9_OnClick;
 		btnContinute.OnClick += btnContinute_OnClick;
+		btnNopBai.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text = ClsLanguage.doSumit ();
 
         startPosvisi = mBangHoi.gameObject.transform.localPosition;
 	

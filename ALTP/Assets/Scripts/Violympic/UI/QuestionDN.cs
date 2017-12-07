@@ -178,12 +178,12 @@ public class QuestionDN : MonoBehaviour {
 					kq = lst[chon].Cased;
 				}
 
-				giaithich = ClsLanguage.doDapSo() + kq + ClsLanguage.doBanCanMuaVip();
+				giaithich ="\n"+ClsLanguage.doDapSo() + kq + ClsLanguage.doBanCanMuaVip();
 			}
 
 
 
-			txtGiaiThich.text = ClsLanguage.doGiaiThich()+"" + giaithich;
+			txtGiaiThich.text =lst[chon].Question+"\n"+ ClsLanguage.doGiaiThich()+"\n" + giaithich;
 			truecase = lst[chon].Truecase;
 			lst.RemoveAt(chon);
 			sttQuestion++;
@@ -370,6 +370,8 @@ public class QuestionDN : MonoBehaviour {
 		btnD.gameObject.SetActive(ok);
 		btnContinute.gameObject.SetActive(!ok);
 		txtGiaiThich.gameObject.SetActive(!ok);
+		txtContent.gameObject.SetActive (ok);
+		txtTitle.gameObject.SetActive (ok);
 	}
 
 	IEnumerator WaittingGiaiThich(float time)
