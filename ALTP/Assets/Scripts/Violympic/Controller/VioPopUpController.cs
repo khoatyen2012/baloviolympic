@@ -36,7 +36,17 @@ public class VioPopUpController : MonoBehaviour {
 	public StopThongThai stopMonKey;
 	public StopGame stopGame;
 	public GameObject hoanthanh;
+    public GameObject buyvip;
 
+    public void ShowBuyItem()
+    {
+
+        StartCoroutine(ieMoveDown(buyvip, showY));
+    }
+    public void HideBuyItem()
+    {
+        StartCoroutine(ieMoveUp(buyvip, hideY));
+    }
 
 	public void ShowHoanThanh()
 	{

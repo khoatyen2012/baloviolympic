@@ -13,6 +13,7 @@ public class StartDinhNui : MonoBehaviour {
 	public void setData(int lesson)
 	{
 		txtContent.text = ClsLanguage.doLesson() + lesson + ":" + ClsLanguage.doContentDinhNui();
+        SoundController.Instance.PlayBGMusic();
 	}
 
 	void btnVaoThi_onClick()

@@ -187,6 +187,39 @@ public class QuestionDN : MonoBehaviour {
 			truecase = lst[chon].Truecase;
 			lst.RemoveAt(chon);
 			sttQuestion++;
+            switch (sttQuestion)
+            {
+                case 1:
+                    SoundController.Instance.PlayHoi1();
+                    break;
+                case 2:
+                    SoundController.Instance.PlayHoi2();
+                    break;
+                case 3:
+                    SoundController.Instance.PlayHoi3();
+                    break;
+                case 4:
+                    SoundController.Instance.PlayHoi4();
+                    break;
+                case 5:
+                    SoundController.Instance.PlayHoi5();
+                    break;
+                case 6:
+                    SoundController.Instance.PlayHoi6();
+                    break;
+                case 7:
+                    SoundController.Instance.PlayHoi7();
+                    break;
+                case 8:
+                    SoundController.Instance.PlayHoi8();
+                    break;
+                case 9:
+                    SoundController.Instance.PlayHoi9();
+                    break;
+                default:
+                    SoundController.Instance.PlayHoi10();
+                    break;
+            }
 			txtTitle.text = ClsLanguage.doQuestion() + " " + sttQuestion+".";
 		}
 		else
@@ -205,6 +238,7 @@ public class QuestionDN : MonoBehaviour {
 			select = 1;
 			spSelect = btnA.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
+            SoundController.Instance.PlayChonA();
 		}
 	}
 	void btnB_OnClick()
@@ -215,6 +249,7 @@ public class QuestionDN : MonoBehaviour {
 			select = 2;
 			spSelect = btnB.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
+            SoundController.Instance.PlayChonB();
 		}
 	}
 	void btnC_OnClick()
@@ -225,6 +260,7 @@ public class QuestionDN : MonoBehaviour {
 			select = 3;
 			spSelect = btnC.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
+            SoundController.Instance.PlayChonC();
 		}
 	}
 	void btnD_OnClick()
@@ -235,6 +271,7 @@ public class QuestionDN : MonoBehaviour {
 			select = 4;
 			spSelect = btnD.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
+            SoundController.Instance.PlayChonD();
 		}
 	}
 
@@ -245,11 +282,28 @@ public class QuestionDN : MonoBehaviour {
 		nguoi.SetSprite("khixet");
 		LaiVanSam.SetSprite ("suyluan");
 		spSelect.color = new Color(0.2f, 0.2f, 0.2f);
-	
-		StartCoroutine(WaitTimeXuLyDN(1.5f));
+
+        StartCoroutine(WaitTimeDuaRa(4.5f));
 
 
 	}
+
+    IEnumerator WaitTimeDuaRa(float time)
+    {
+
+        yield return new WaitForSeconds(time);
+
+        if (sttQuestion % 2 == 0)
+        {
+            SoundController.Instance.PlayDuaRa1();
+        }
+        else
+        {
+            SoundController.Instance.PlayDuaRa2();
+        }
+
+        StartCoroutine(WaitTimeXuLyDN(4.5f));
+    }
 
 	IEnumerator WaitTimeXuLyDN(float time)
 	{
@@ -266,6 +320,22 @@ public class QuestionDN : MonoBehaviour {
 			//SoundManager.Instance.PlayAudioChucTrue();
 			LaiVanSam.SetSprite ("traloidung");
 			StartCoroutine(WaitTimeDungRoiDN(1f));
+            switch (select)
+            {
+                case 1:
+                    SoundController.Instance.PlayDungA();
+                    break;
+                case 2:
+                    SoundController.Instance.PlayDungB();
+                    break;
+                case 3:
+                    SoundController.Instance.PlayDungC();
+                    break;
+                default:
+                    SoundController.Instance.PlayDungD();
+                    break;
+
+            }
 		}
 		else
 		{
@@ -274,24 +344,28 @@ public class QuestionDN : MonoBehaviour {
 			if (truecase == 1)
 			{
 				spCase = btnA.gameObject.GetComponent<tk2dSprite>();
+                SoundController.Instance.PlaySaiA();
 			}
 			else if (truecase == 2)
 			{
 				spCase = btnB.gameObject.GetComponent<tk2dSprite>();
+                SoundController.Instance.PlaySaiB();
 			}
 			else if (truecase == 3)
 			{
 				spCase = btnC.gameObject.GetComponent<tk2dSprite>();
+                SoundController.Instance.PlaySaiC();
 			}
 			else
 			{
 				spCase = btnD.gameObject.GetComponent<tk2dSprite>();
+                SoundController.Instance.PlaySaiD();
 			}
 			spCase.color = new Color(1 / (float)255, 248 / (float)255, 63 / (float)255);
 			spSelect.color = new Color(246 / (float)255, 13 / (float)255, 27 / (float)255);
 			demsai++;
 			LaiVanSam.SetSprite ("traloisai");
-			StartCoroutine(WaitTimeSaiRoiDN(0.5f));
+			StartCoroutine(WaitTimeSaiRoiDN(3f));
 
 
 		}

@@ -23,6 +23,11 @@ public class StopDinhNui : MonoBehaviour {
 //Quang cao
 		}
 
+        if (pCoin >= 90)
+        {
+            SoundController.Instance.PlayCamXuc();
+        }
+
 		//nativeExpressAdView.Show();
 		txtCoin.text = ClsLanguage.doDiem()+": " + pCoin;
 		txtTime.text = ClsLanguage.doTime()+": " + pTime;
@@ -34,6 +39,7 @@ public class StopDinhNui : MonoBehaviour {
 		VioPopUpController.instance.HideStopDinhNui();
 
 		VioGameController.instance.ShowLevel2();
+        SoundController.Instance.StopBG();
 
 		if (VioGameController.instance.checkvip != 10)
 		{

@@ -18,6 +18,7 @@ public class VioMainGame : MonoBehaviour {
 	void onClick_BuyVip()
 	{
 		VioPopUpController.instance.HideMainGame ();
+        VioPopUpController.instance.ShowBuyItem();
 	}
 	void onClick_ALTP()
 	{

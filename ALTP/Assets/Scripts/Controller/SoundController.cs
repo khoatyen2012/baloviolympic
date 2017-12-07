@@ -26,8 +26,8 @@ public class SoundController : MonoBehaviour
 
     void Awake()
     {
-        PlayBGMusic();
-        DontDestroyOnLoad(this.gameObject);
+      //  PlayBGMusic();
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
@@ -42,7 +42,7 @@ public class SoundController : MonoBehaviour
     }
 
 
-    void PlayBGMusic()
+   public void PlayBGMusic()
     {
         audioSourceBGMusicCreated =
             GameObject.Instantiate
@@ -59,6 +59,11 @@ public class SoundController : MonoBehaviour
 
       
     }
+
+   public void StopBG()
+   {
+       audioSourceBGMusicCreated.Stop();
+   }
 
     public void PlayBatDau()
     {
