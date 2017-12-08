@@ -10,6 +10,8 @@ public class SoundController : MonoBehaviour
 
     bool ok = true;
 
+	public bool IsViolympic;
+
     #region Singleton
     private static SoundController _instance;
 
@@ -26,7 +28,10 @@ public class SoundController : MonoBehaviour
 
     void Awake()
     {
-      //  PlayBGMusic();
+		if(!IsViolympic)
+		{
+        PlayBGMusic();
+		}
         //DontDestroyOnLoad(this.gameObject);
     }
 

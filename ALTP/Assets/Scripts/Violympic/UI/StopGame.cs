@@ -117,7 +117,7 @@ public class StopGame : MonoBehaviour {
 	void Start () {
 
 		btnContinute.OnClick += onClick_Continute;
-		btnContinute.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>().text = ClsLanguage.doContinute();
+
 		txtTitle.text = ClsLanguage.doTongKet();
 	
 

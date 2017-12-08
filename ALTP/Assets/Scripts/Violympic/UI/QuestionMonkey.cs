@@ -81,12 +81,15 @@ public class QuestionMonkey : MonoBehaviour {
 			sttQuestion++;
 			txtContent.text = ClsLanguage.doQuestion ()+" "+sttQuestion+":"+ "\n" + lst [chon].Question;
 			mKetQuaDung = lst [chon].Ketqua;
-			if(lst [chon].Giaithich.Equals("gta")||lst [chon].Giaithich.Equals(""))
-			{
-				txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo ()+mKetQuaDung;
-			}else
-			{
-                txtGiaiThich.text = ClsLanguage.doQuestion() + " " + sttQuestion + ":" + "\n" + lst[chon].Question + "\n\n" + ClsLanguage.doDapSo() + lst[chon].Giaithich;
+			if (VioGameController.instance.checkvip == 10 || VioGameController.instance.level == 1) {
+				
+				if (lst [chon].Giaithich.Equals ("gta") || lst [chon].Giaithich.Equals ("")) {
+					txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + mKetQuaDung;
+				} else {
+					txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + lst [chon].Giaithich;
+				}
+			} else {
+				txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + mKetQuaDung+ClsLanguage.doBanCanMuaVip();
 			}
 			txtContent.gameObject.SetActive (true);
 			txtGiaiThich.gameObject.SetActive (false);

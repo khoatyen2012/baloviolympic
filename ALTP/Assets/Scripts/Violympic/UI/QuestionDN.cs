@@ -15,10 +15,7 @@ public class QuestionDN : MonoBehaviour {
 	public tk2dUIItem btnContinute;
 	public tk2dTextMesh txtGiaiThich;
 
-	private tk2dTextMesh txtA;
-	private tk2dTextMesh txtB;
-	private tk2dTextMesh txtC;
-	private tk2dTextMesh txtD;
+
 
 
 	public List<DinhNui> lstLevel = new List<DinhNui>();
@@ -120,16 +117,44 @@ public class QuestionDN : MonoBehaviour {
 		return dapso;
 	}
 
+
+	public void doBtnData(Transform tran,string databt,string nameBT)
+	{
+		if (databt.Contains ("/")) {
+			tran.GetChild (0).gameObject.SetActive (false);
+			tran.GetChild (1).gameObject.SetActive (true);
+
+			string[] mangTam = databt.Split ('/');
+			tran.GetChild (1).transform.GetChild (1).GetComponent<tk2dTextMesh> ().text = ""+mangTam[0];
+			tran.GetChild (1).transform.GetChild (2).GetComponent<tk2dTextMesh> ().text = ""+mangTam[1];
+			int chon = 1;
+			chon = mangTam [0].Length;
+			if (chon < mangTam [1].Length) {
+				chon = mangTam [1].Length;
+			}
+			string tam = "";
+			for (int i = 0; i < chon; i++) {
+				tam += "_";
+			}
+			tran.GetChild (1).transform.GetChild (3).GetComponent<tk2dTextMesh> ().text = "" + tam;
+
+		} else {
+			tran.GetChild (0).gameObject.SetActive (true);
+			tran.GetChild (1).gameObject.SetActive (false);
+			tran.GetChild(0).GetComponent<tk2dTextMesh>().text = nameBT+"." + databt;
+		}
+	}
+
 	public void doSubGet(ref List<DinhNui> lst)
 	{
 		if (lst.Count > 0)
 		{
 			int chon = UnityEngine.Random.Range(0, lst.Count);
 			txtContent.text = lst[chon].Question;
-			txtA.text = "A." + lst[chon].Casea;
-			txtB.text = "B." + lst[chon].Caseb;
-			txtC.text = "C." + lst[chon].Casec;
-			txtD.text = "D." + lst[chon].Cased;
+			doBtnData (btnA.transform, lst [chon].Casea, "A");
+			doBtnData (btnB.transform, lst [chon].Caseb, "B");
+			doBtnData (btnC.transform, lst [chon].Casec, "C");
+			doBtnData (btnD.transform, lst [chon].Cased, "D");
 			string giaithich;
 
 			if (VioGameController.instance.checkvip == 10 || VioGameController.instance.level==1)
@@ -603,10 +628,6 @@ public class QuestionDN : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		txtA = btnA.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>();
-		txtB = btnB.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>();
-		txtC = btnC.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>();
-		txtD = btnD.gameObject.transform.GetChild(0).GetComponent<tk2dTextMesh>();
 
 
 		txtTitle.text = ClsLanguage.doQuestion();

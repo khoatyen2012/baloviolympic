@@ -1,10 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MainGame : MonoBehaviour {
 
     public tk2dUIItem btnContinute;
     public tk2dUIItem btnDiemCao;
+	public tk2dUIItem btnBack;
+
+
+	void btnBack_OnClick()
+	{
+		SceneManager.LoadScene("Violympic");
+	}
 
     void btnContinute_OnClick()
     {
@@ -38,6 +46,7 @@ public class MainGame : MonoBehaviour {
 	void Start () {
         btnDiemCao.OnClick += btnDiemCao_OnClick;
         btnContinute.OnClick += btnContinute_OnClick;
+		btnBack.OnClick += btnBack_OnClick;
 	}
 	
 	// Update is called once per frame
