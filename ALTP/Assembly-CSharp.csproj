@@ -107,8 +107,11 @@
      <Compile Include="Assets\Scripts\PopUp\PopUpSHA.cs" />
      <Compile Include="Assets\Scripts\PopUp\PopUpWIYN.cs" />
      <Compile Include="Assets\Scripts\PopUp\PopUpWin.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Bird\Fly.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Bird\TopBotton.cs" />
      <Compile Include="Assets\Scripts\Violympic\Cls\ClsLanguage.cs" />
      <Compile Include="Assets\Scripts\Violympic\Cls\ClsThaoTac.cs" />
+     <Compile Include="Assets\Scripts\Violympic\Controller\CameraDrop.cs" />
      <Compile Include="Assets\Scripts\Violympic\Controller\DataManager.cs" />
      <Compile Include="Assets\Scripts\Violympic\Controller\VioGameController.cs" />
      <Compile Include="Assets\Scripts\Violympic\Controller\VioLevelController.cs" />

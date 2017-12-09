@@ -137,6 +137,7 @@ public class QuestionMonkey : MonoBehaviour {
             txtContent.gameObject.SetActive(false);
             txtGiaiThich.gameObject.SetActive(true);
 			btnContinute.gameObject.SetActive (true);
+			CameraDrop.Instance.shakeDuration = 2f;
 			currentState = State.XuLyF;
         }
 

@@ -20,10 +20,10 @@ public class ClsLanguage {
 
 	public static string doBanCanMuaVip()
 	{
-		string vaothi = "\n\n(Để xem được lời giải thích đầy đủ bạn cần kích hoạt Vip)";
+		string vaothi = "\n(Để xem được lời giải thích đầy đủ bạn cần kích hoạt Vip)";
 		if (VioGameController.instance.tienganh)
 		{
-			vaothi = "\n\n(To get the full explanation you must be a member vip)";
+			vaothi = "\n(To get the full explanation you must be a member vip)";
 		}
 
 		return vaothi;

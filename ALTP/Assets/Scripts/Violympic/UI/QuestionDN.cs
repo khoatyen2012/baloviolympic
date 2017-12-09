@@ -89,7 +89,7 @@ public class QuestionDN : MonoBehaviour {
 		demsai = 0;
 		sttQuestion = 0;
 		mTime = 1200;
-		nguoi.SetSprite("khihoi");
+		nguoi.SetSprite("nguoihoi");
 		demframe = 0;
 		nguoi.gameObject.transform.localPosition = po0;
 		nguoi.scale = new Vector3(0.5f, 0.5f, 1);
@@ -304,7 +304,7 @@ public class QuestionDN : MonoBehaviour {
 	{
 
 		//SoundManager.Instance.PlayAudioClick();
-		nguoi.SetSprite("khixet");
+		nguoi.SetSprite("nguoihoi");
 		LaiVanSam.SetSprite ("suyluan");
 		spSelect.color = new Color(0.2f, 0.2f, 0.2f);
 
@@ -549,12 +549,12 @@ public class QuestionDN : MonoBehaviour {
 
 		if (currentState == State.XuLyT)
 		{
-			nguoi.SetSprite("khicuoi");
+			nguoi.SetSprite("nguoicuoi");
 
 		}
 		else
 		{
-			nguoi.SetSprite("khikhoc");
+			nguoi.SetSprite("nguoikhoc");
 		}
 		StartCoroutine(WaittingChoiTiep(1f));
 	}

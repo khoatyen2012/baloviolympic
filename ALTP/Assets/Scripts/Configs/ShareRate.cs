@@ -4,8 +4,8 @@ using System.Collections;
 public class ShareRate
 {
 
-    public static string titleShare = "Đi tìm Ai Là Triệu Phú";
-    public static string LinkShare = "https://play.google.com/store/apps/details?id=balo.app.mathlevel";
+	public static string titleShare = "Violympic Triệu Phú";
+	public static string LinkShare = "https://play.google.com/store/apps/details?id=toan.violympic.sixth";
 
     public static void Share()
     {
