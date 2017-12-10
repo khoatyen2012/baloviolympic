@@ -32,6 +32,15 @@ public class VioLevelController : MonoBehaviour {
 	{
 		VioPopUpController.instance.HideLevel();
 		VioPopUpController.instance.ShowMainGame();
+        SoundController.Instance.PlayClick();
+
+        if (VioGameController.instance.tienganh)
+        {
+            if (VioGameController.instance.checkvip != 10)
+            {
+                AdManager.instance.ShowBanner();
+            }
+        }
 	}
 
 	public void resetData()

@@ -111,6 +111,7 @@ public class TroGiupControlller : MonoBehaviour {
                 btnHoiNguoiThan.gameObject.GetComponent<BoxCollider>().enabled = false;
                 DapAnController.instance.doSetEnabal(false);
                 PopupController.instance.ShowPopUpNguoiThan();
+                AdManager.instance.ShowBanner();
 
             }
         }

@@ -17,10 +17,10 @@ public class StopDinhNui : MonoBehaviour {
 
 	public void setData(int pCoin, string pTime)
 	{
-		//SoundManager.Instance.rePlayBGMusic();
+        
 		if (VioGameController.instance.checkvip != 10)
 		{
-//Quang cao
+            AdManager.instance.ShowBanner();
 		}
 
         if (pCoin >= 90)
@@ -31,6 +31,7 @@ public class StopDinhNui : MonoBehaviour {
 		//nativeExpressAdView.Show();
 		txtCoin.text = ClsLanguage.doDiem()+": " + pCoin;
 		txtTime.text = ClsLanguage.doTime()+": " + pTime;
+
 	}
 
 	void onClick_btnContinute()
@@ -40,10 +41,11 @@ public class StopDinhNui : MonoBehaviour {
 
 		VioGameController.instance.ShowLevel2();
         SoundController.Instance.StopBG();
+        SoundController.Instance.PlayClick();
 
 		if (VioGameController.instance.checkvip != 10)
 		{
-			//Hide quang cao
+            AdManager.instance.HideBaner();
 		}
 	}
 

@@ -13,6 +13,15 @@ public class StartGame : MonoBehaviour {
 	{
 		VioPopUpController.instance.HideStartGame();
 		VioPopUpController.instance.ShowLevel();
+        SoundController.Instance.PlayClick();
+
+        if (!VioGameController.instance.tienganh)
+        {
+            if (VioGameController.instance.checkvip != 10)
+            {
+                AdManager.instance.ShowBanner();
+            }
+        }
 	}
 
 	void onClick_VaoThi()
@@ -22,7 +31,7 @@ public class StartGame : MonoBehaviour {
 		VioGameController.instance.ShowLevel1();
 		VioGameController.instance.ckResetLv = false;
 
-		//SoundManager.Instance.PlayAudioChoiTiep();
+        SoundController.Instance.PlayChoiTiep();
 	}
 	public void setData()
 	{

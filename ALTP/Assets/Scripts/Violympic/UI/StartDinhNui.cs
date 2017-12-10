@@ -20,7 +20,8 @@ public class StartDinhNui : MonoBehaviour {
 	{
 		VioPopUpController.instance.HideStartDinhNui();
 		VioPopUpController.instance.ShowQuestionDinhNui();
-		//SoundManager.Instance.PauseBGMusic();
+        SoundController.Instance.PlayClick();
+        
 		//SoundManager.Instance.PlayAudioChoiTiep();
 	}
 

@@ -2,8 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using GoogleMobileAds;
-using GoogleMobileAds.Api;
+
 
 public class GameController : MonoBehaviour {
 
@@ -24,8 +23,7 @@ public class GameController : MonoBehaviour {
     int demframe = 0;
     public tk2dSprite spLaiVanSam;
 
-    BannerView bannerView;
-    AdRequest request;
+ 
 
     
 
@@ -74,7 +72,7 @@ public class GameController : MonoBehaviour {
    
         SoundController.Instance.PlayBatDau();
 
-        LoadAdsBanner();
+       
   
         //suget();
         StartCoroutine(WaitTimeLoadData(5f));
@@ -90,33 +88,7 @@ public class GameController : MonoBehaviour {
 
 
 
-    private void LoadAdsBanner()
-    {
-        // Create a 320x50 banner at the top of the screen.
-        bannerView = new BannerView(
-               Config.adsID, AdSize.Banner, AdPosition.Top);
-        // Create an empty ad request.
-
-        List<string> listTest = new List<string>();
-
-        request = new AdRequest.Builder().AddTestDevice(AdRequest.TestDeviceSimulator).AddTestDevice("54829CBF8D1115A66940C3B0C88A9B7E").Build();
-        // Load the banner with the request.
-
-        //id0ae30a9eb3539410624b3cd2b086379e
-
-        // Debug.Log("device id" + SystemInfo.deviceUniqueIdentifier);
-    }
-
-    public void ShowAdsBanner()
-    {
-        bannerView.LoadAd(request);
-        bannerView.Show();
-    }
-
-    public void HideAdsBanner()
-    {
-        bannerView.Hide();
-    }
+ 
 
     IEnumerator WaitTimeVuot14(float time)
     {
@@ -260,7 +232,12 @@ public class GameController : MonoBehaviour {
 
      
       PopupController.instance.ShowPopupGameOver(level-1,maxlevel);
-      ShowAdsBanner();
+      if (GameController.instance.level % 3 == 0 || GameController.instance.level == 5)
+      {
+          AdManager.instance.ShowBanner();
+      }
+
+     
 
   }
 

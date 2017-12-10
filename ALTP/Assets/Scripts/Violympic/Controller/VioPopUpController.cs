@@ -38,6 +38,20 @@ public class VioPopUpController : MonoBehaviour {
 	public GameObject hoanthanh;
     public GameObject buyvip;
 
+    public Advertise ad;
+
+
+
+    public void ShowAdTriger()
+    {
+        ad.setData();
+        StartCoroutine(ieMoveDown(ad.gameObject, showY));
+    }
+    public void HideAdTriger()
+    {
+        StartCoroutine(ieMoveUp(ad.gameObject, hideY));
+    }
+
     public void ShowBuyItem()
     {
 

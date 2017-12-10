@@ -57,6 +57,7 @@ public class PopUpNguoiThan : MonoBehaviour {
         PopupController.instance.HidePopupNguoiThan();
         DapAnController.instance.doSetEnabal(true);
         resetNguoiThan();
+        AdManager.instance.HideBaner();
     }
 
     void ketNoi(int k)

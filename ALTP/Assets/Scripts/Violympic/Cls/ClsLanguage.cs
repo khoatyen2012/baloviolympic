@@ -400,7 +400,7 @@ public class ClsLanguage {
 	}
 	public static string doContenVip()
 	{
-		string vaothi = "1.Bạn có thể nhận được lời giải thích đầy đủ cho các đáp án. \n\n 2.Bạn sẽ không bị làm phiền bởi quảng cáo.\n\n Liên hệ:Balo- 01647778420";
+		string vaothi = "1.Bạn có thể nhận được lời giải thích đầy đủ cho các đáp án. \n\n 2.Bạn sẽ không bị làm phiền bởi quảng cáo.\n\n Liên hệ:Balo - 01647778420";
 		if (VioGameController.instance.tienganh)
 		{
 			vaothi = "1.You can get the complete answer for the wrong answer in test. \n\n 2.You will not be bothered by ads after the end of the game.";

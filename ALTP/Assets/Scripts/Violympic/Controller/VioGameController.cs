@@ -59,6 +59,11 @@ public class VioGameController : MonoBehaviour {
 
 		VioPopUpController.instance.HideLoading();
 
+        if (VioGameController.instance.checkvip != 10)
+        {
+            AdManager.instance.ShowBanner();
+        }
+
 		//Dinh Nui
 		TextAsset txt;
 		if (tienganh)

@@ -14,12 +14,18 @@ public class BuyItem : MonoBehaviour
 
         VioPopUpController.instance.HideBuyItem();
         VioPopUpController.instance.ShowMainGame();
+        SoundController.Instance.PlayClick();
+        if (VioGameController.instance.checkvip != 10)
+        {
+            AdManager.instance.ShowBanner();
+        }
     }
 
     void btnBuy_OnClick()
     {
 
         IAPManager.instance.BuyVipLevel();
+        SoundController.Instance.PlayClick();
     }
 
     // Use this for initialization

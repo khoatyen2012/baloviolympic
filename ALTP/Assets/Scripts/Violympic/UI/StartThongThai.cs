@@ -11,7 +11,7 @@ public class StartThongThai : MonoBehaviour {
 	{
 		VioPopUpController.instance.HideStartThongThai();
 		VioPopUpController.instance.ShowQuestionMonkey();
-		//SoundManager.Instance.PauseBGMusic();
+        SoundController.Instance.PlayClick();
 		//SoundManager.Instance.PlayAudioChoiTiep();
 	}
 

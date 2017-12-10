@@ -116,6 +116,8 @@
      <Compile Include="Assets\Scripts\Violympic\Controller\VioGameController.cs" />
      <Compile Include="Assets\Scripts\Violympic\Controller\VioLevelController.cs" />
      <Compile Include="Assets\Scripts\Violympic\Controller\VioPopUpController.cs" />
+     <Compile Include="Assets\Scripts\Violympic\IpaAd\AdManager.cs" />
+     <Compile Include="Assets\Scripts\Violympic\IpaAd\Advertise.cs" />
      <Compile Include="Assets\Scripts\Violympic\IpaAd\BuyItem.cs" />
      <Compile Include="Assets\Scripts\Violympic\IpaAd\IAPManager.cs" />
      <Compile Include="Assets\Scripts\Violympic\Item\LvItem.cs" />
@@ -124,6 +126,7 @@
      <Compile Include="Assets\Scripts\Violympic\UI\HoanThanh.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\QuestionDN.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\QuestionMonkey.cs" />
+     <Compile Include="Assets\Scripts\Violympic\UI\Sha.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartDinhNui.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartGame.cs" />
      <Compile Include="Assets\Scripts\Violympic\UI\StartThongThai.cs" />
@@ -273,34 +276,34 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="ChannelPurchase">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
  </Reference>
  <Reference Include="UnityStore">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Purchasing.Common">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="FacebookStore">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

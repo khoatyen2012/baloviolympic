@@ -69,7 +69,11 @@ public class LvItem : MonoBehaviour {
 			VioPopUpController.instance.HideLevel();
             VioPopUpController.instance.ShowStartGame();
 			VioGameController.instance.ckResetLv = true;
-            //SoundManager.Instance.PlayAudioChoiTiep();
+            SoundController.Instance.PlayClick();
+            if (VioGameController.instance.checkvip != 10)
+            {
+                AdManager.instance.HideBaner();
+            }
         }
     }
 

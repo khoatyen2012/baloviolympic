@@ -212,38 +212,41 @@ public class QuestionDN : MonoBehaviour {
 			truecase = lst[chon].Truecase;
 			lst.RemoveAt(chon);
 			sttQuestion++;
-            switch (sttQuestion)
+            if (!VioGameController.instance.tienganh)
             {
-                case 1:
-                    SoundController.Instance.PlayHoi1();
-                    break;
-                case 2:
-                    SoundController.Instance.PlayHoi2();
-                    break;
-                case 3:
-                    SoundController.Instance.PlayHoi3();
-                    break;
-                case 4:
-                    SoundController.Instance.PlayHoi4();
-                    break;
-                case 5:
-                    SoundController.Instance.PlayHoi5();
-                    break;
-                case 6:
-                    SoundController.Instance.PlayHoi6();
-                    break;
-                case 7:
-                    SoundController.Instance.PlayHoi7();
-                    break;
-                case 8:
-                    SoundController.Instance.PlayHoi8();
-                    break;
-                case 9:
-                    SoundController.Instance.PlayHoi9();
-                    break;
-                default:
-                    SoundController.Instance.PlayHoi10();
-                    break;
+                switch (sttQuestion)
+                {
+                    case 1:
+                        SoundController.Instance.PlayHoi1();
+                        break;
+                    case 2:
+                        SoundController.Instance.PlayHoi2();
+                        break;
+                    case 3:
+                        SoundController.Instance.PlayHoi3();
+                        break;
+                    case 4:
+                        SoundController.Instance.PlayHoi4();
+                        break;
+                    case 5:
+                        SoundController.Instance.PlayHoi5();
+                        break;
+                    case 6:
+                        SoundController.Instance.PlayHoi6();
+                        break;
+                    case 7:
+                        SoundController.Instance.PlayHoi7();
+                        break;
+                    case 8:
+                        SoundController.Instance.PlayHoi8();
+                        break;
+                    case 9:
+                        SoundController.Instance.PlayHoi9();
+                        break;
+                    default:
+                        SoundController.Instance.PlayHoi10();
+                        break;
+                }
             }
 			txtTitle.text = ClsLanguage.doQuestion() + " " + sttQuestion+".";
 		}
@@ -263,7 +266,15 @@ public class QuestionDN : MonoBehaviour {
 			select = 1;
 			spSelect = btnA.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
-            SoundController.Instance.PlayChonA();
+            SoundController.Instance.Stop();
+            if (!VioGameController.instance.tienganh)
+            {
+                SoundController.Instance.PlayChonA();
+            }
+            else
+            {
+                SoundController.Instance.PlayClick();
+            }
 		}
 	}
 	void btnB_OnClick()
@@ -274,7 +285,15 @@ public class QuestionDN : MonoBehaviour {
 			select = 2;
 			spSelect = btnB.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
+            SoundController.Instance.Stop();
+             if (!VioGameController.instance.tienganh)
+            {
             SoundController.Instance.PlayChonB();
+            }
+             else
+             {
+                 SoundController.Instance.PlayClick();
+             }
 		}
 	}
 	void btnC_OnClick()
@@ -285,7 +304,15 @@ public class QuestionDN : MonoBehaviour {
 			select = 3;
 			spSelect = btnC.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
+            SoundController.Instance.Stop();
+              if (!VioGameController.instance.tienganh)
+            {
             SoundController.Instance.PlayChonC();
+                    }
+             else
+             {
+                 SoundController.Instance.PlayClick();
+             }
 		}
 	}
 	void btnD_OnClick()
@@ -296,7 +323,15 @@ public class QuestionDN : MonoBehaviour {
 			select = 4;
 			spSelect = btnD.gameObject.GetComponent<tk2dSprite>();
 			doXuLy(select);
-            SoundController.Instance.PlayChonD();
+            SoundController.Instance.Stop();
+            if (!VioGameController.instance.tienganh)
+            {
+                SoundController.Instance.PlayChonD();
+            }
+            else
+            {
+                SoundController.Instance.PlayClick();
+            }
 		}
 	}
 
@@ -308,7 +343,14 @@ public class QuestionDN : MonoBehaviour {
 		LaiVanSam.SetSprite ("suyluan");
 		spSelect.color = new Color(0.2f, 0.2f, 0.2f);
 
-        StartCoroutine(WaitTimeDuaRa(4.5f));
+        if (!VioGameController.instance.tienganh)
+        {
+            StartCoroutine(WaitTimeDuaRa(4.5f));
+        }
+        else
+        {
+            StartCoroutine(WaitTimeDuaRa(2f));
+        }
 
 
 	}
@@ -318,16 +360,24 @@ public class QuestionDN : MonoBehaviour {
 
         yield return new WaitForSeconds(time);
 
-        if (sttQuestion % 2 == 0)
+        if (!VioGameController.instance.tienganh)
         {
-            SoundController.Instance.PlayDuaRa1();
+            if (sttQuestion % 2 == 0)
+            {
+                SoundController.Instance.PlayDuaRa1();
+            }
+            else
+            {
+                SoundController.Instance.PlayDuaRa2();
+            }
+            StartCoroutine(WaitTimeXuLyDN(4.5f));
         }
         else
         {
-            SoundController.Instance.PlayDuaRa2();
+            StartCoroutine(WaitTimeXuLyDN(1f));
         }
 
-        StartCoroutine(WaitTimeXuLyDN(4.5f));
+        
     }
 
 	IEnumerator WaitTimeXuLyDN(float time)
@@ -344,22 +394,33 @@ public class QuestionDN : MonoBehaviour {
 			//SoundManager.Instance.Stop();
 			//SoundManager.Instance.PlayAudioChucTrue();
 			LaiVanSam.SetSprite ("traloidung");
-			StartCoroutine(WaitTimeDungRoiDN(1f));
-            switch (select)
+			//StartCoroutine(WaitTimeDungRoiDN(1f));
+           
+            if (!VioGameController.instance.tienganh)
             {
-                case 1:
-                    SoundController.Instance.PlayDungA();
-                    break;
-                case 2:
-                    SoundController.Instance.PlayDungB();
-                    break;
-                case 3:
-                    SoundController.Instance.PlayDungC();
-                    break;
-                default:
-                    SoundController.Instance.PlayDungD();
-                    break;
+                switch (select)
+                {
+                    case 1:
+                        SoundController.Instance.PlayDungA();
+                        break;
+                    case 2:
+                        SoundController.Instance.PlayDungB();
+                        break;
+                    case 3:
+                        SoundController.Instance.PlayDungC();
+                        break;
+                    default:
+                        SoundController.Instance.PlayDungD();
+                        break;
 
+                }
+
+                StartCoroutine(WaittingCamXuc(3.5f));
+            }
+            else
+            {
+                SoundController.Instance.PlayChoiTiep();
+                StartCoroutine(WaittingCamXuc(2f));
             }
 		}
 		else
@@ -369,97 +430,75 @@ public class QuestionDN : MonoBehaviour {
 			if (truecase == 1)
 			{
 				spCase = btnA.gameObject.GetComponent<tk2dSprite>();
-                SoundController.Instance.PlaySaiA();
+                if (!VioGameController.instance.tienganh)
+                {
+
+                    SoundController.Instance.PlaySaiA();
+                }
+                else
+                {
+                    SoundController.Instance.PlayOver();
+                }
 			}
 			else if (truecase == 2)
 			{
 				spCase = btnB.gameObject.GetComponent<tk2dSprite>();
-                SoundController.Instance.PlaySaiB();
+                if (!VioGameController.instance.tienganh)
+                {
+
+                    SoundController.Instance.PlaySaiB();
+                }
+                else
+                {
+                    SoundController.Instance.PlayOver();
+                }
 			}
 			else if (truecase == 3)
 			{
 				spCase = btnC.gameObject.GetComponent<tk2dSprite>();
-                SoundController.Instance.PlaySaiC();
+                if (!VioGameController.instance.tienganh)
+                {
+
+                    SoundController.Instance.PlaySaiC();
+                }
+                else
+                {
+                    SoundController.Instance.PlayOver();
+                }
 			}
 			else
 			{
 				spCase = btnD.gameObject.GetComponent<tk2dSprite>();
-                SoundController.Instance.PlaySaiD();
+                if (!VioGameController.instance.tienganh)
+                {
+
+                    SoundController.Instance.PlaySaiD();
+                }
+                else
+                {
+                    SoundController.Instance.PlayOver();
+                }
 			}
 			spCase.color = new Color(1 / (float)255, 248 / (float)255, 63 / (float)255);
 			spSelect.color = new Color(246 / (float)255, 13 / (float)255, 27 / (float)255);
 			demsai++;
 			LaiVanSam.SetSprite ("traloisai");
-			StartCoroutine(WaitTimeSaiRoiDN(3f));
+			//StartCoroutine(WaitTimeSaiRoiDN(3f));
+            if (!VioGameController.instance.tienganh)
+            {
+                StartCoroutine(WaittingGiaiThich(4f));
+            }
+            else
+            {
+                StartCoroutine(WaittingGiaiThich(2f));
+            }
 
 
 		}
 	}
 
-	IEnumerator WaitTimeDungRoiDN(float time)
-	{
-		//do something...............
-		yield return new WaitForSeconds(time);
-		// nếu đúng
+	
 
-		int chon = UnityEngine.Random.Range(0, 12);
-		switch (chon)
-		{
-		case 0:
-			//SoundManager.Instance.PlayAudioChucDung1(chon);
-			break;
-		case 1:
-			//SoundManager.Instance.PlayAudioChucDung2(chon);
-			break;
-		case 3:
-			//SoundManager.Instance.PlayAudioChucDung3(chon);
-			break;
-		case 4:
-			//SoundManager.Instance.PlayAudioChucDung4(chon);
-			break;
-		case 5:
-			//SoundManager.Instance.PlayAudioChucDung5(chon);
-			break;
-		default:
-			//SoundManager.Instance.PlayAudioChucDung2(chon);
-			break;
-
-		}
-
-		StartCoroutine(WaittingCamXuc(1f));
-	}
-	IEnumerator WaitTimeSaiRoiDN(float time)
-	{
-		//do something...............
-		yield return new WaitForSeconds(time);
-		//SoundManager.Instance.Stop();
-
-		int chon = UnityEngine.Random.Range(0, 6);
-		switch (chon)
-		{
-		case 0:
-			//SoundManager.Instance.PlayAudioChucSai1();
-			break;
-		case 1:
-			//SoundManager.Instance.PlayAudioChucSai2();
-			break;
-		case 3:
-			//SoundManager.Instance.PlayAudioChucSai3();
-			break;
-		case 4:
-			//SoundManager.Instance.PlayAudioChucSai4();
-			break;
-		case 5:
-			//SoundManager.Instance.PlayAudioChucSai5();
-			break;
-		default:
-			//SoundManager.Instance.PlayAudioChucSai2();
-			break;
-
-		}
-
-		StartCoroutine(WaittingGiaiThich(1.5f));
-	}
 
 	void doHideShow(bool ok)
 	{
@@ -606,6 +645,7 @@ public class QuestionDN : MonoBehaviour {
 			resetColorBt();
 			gameOver();
 		}
+        SoundController.Instance.PlayClick();
 	}
 
 	void gameOver()

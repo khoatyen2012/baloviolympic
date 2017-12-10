@@ -99,34 +99,34 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="ChannelPurchase">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
  </Reference>
  <Reference Include="UnityStore">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Purchasing.Common">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="FacebookStore">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,6 +11,7 @@ public class MainGame : MonoBehaviour {
 
 	void btnBack_OnClick()
 	{
+        SoundController.Instance.StopBG();
 		SceneManager.LoadScene("Violympic");
 	}
 
@@ -39,7 +40,8 @@ public class MainGame : MonoBehaviour {
 
     void btnDiemCao_OnClick()
     {
-        Application.LoadLevel("Rank");
+        SoundController.Instance.StopBG();
+        SceneManager.LoadScene("Rank");
     }
 
 	// Use this for initialization

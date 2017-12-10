@@ -79,17 +79,17 @@ public class QuestionMonkey : MonoBehaviour {
 			currentState = State.InGame;
 			int chon = UnityEngine.Random.Range(0, lst.Count);
 			sttQuestion++;
-			txtContent.text = ClsLanguage.doQuestion ()+" "+sttQuestion+":"+ "\n" + lst [chon].Question;
+			txtContent.text = ClsLanguage.doQuestion ()+" "+sttQuestion+":"+ "\n\n" + lst [chon].Question;
 			mKetQuaDung = lst [chon].Ketqua;
 			if (VioGameController.instance.checkvip == 10 || VioGameController.instance.level == 1) {
 				
 				if (lst [chon].Giaithich.Equals ("gta") || lst [chon].Giaithich.Equals ("")) {
-					txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + mKetQuaDung;
+					txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + mKetQuaDung;
 				} else {
 					txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + lst [chon].Giaithich;
 				}
 			} else {
-				txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + mKetQuaDung+ClsLanguage.doBanCanMuaVip();
+				txtGiaiThich.text = ClsLanguage.doQuestion () + " " + sttQuestion + ":" + "\n\n" + lst [chon].Question + "\n\n" + ClsLanguage.doDapSo () + mKetQuaDung+ClsLanguage.doBanCanMuaVip();
 			}
 			txtContent.gameObject.SetActive (true);
 			txtGiaiThich.gameObject.SetActive (false);
@@ -112,9 +112,11 @@ public class QuestionMonkey : MonoBehaviour {
             spMonkey.SetSprite("khixet");
             mThaoTac.SetActive(false);
             StartCoroutine(WaitTimeXuLy(2f));
+            SoundController.Instance.PlayClick();
         }
         else
         {
+            SoundController.Instance.PlayOver();
         }
     }
 
@@ -128,6 +130,7 @@ public class QuestionMonkey : MonoBehaviour {
             mBangHoi.transform.localPosition = new Vector3(startPosvisi.x, 85f, startPosvisi.z);
             StartCoroutine(WaitTimeXuLyDung(2f));
 			currentState = State.XuLyT;
+            SoundController.Instance.PlayChoiTiep();
         }
         else
         {
@@ -139,6 +142,7 @@ public class QuestionMonkey : MonoBehaviour {
 			btnContinute.gameObject.SetActive (true);
 			CameraDrop.Instance.shakeDuration = 2f;
 			currentState = State.XuLyF;
+            SoundController.Instance.PlayOver();
         }
 
 
@@ -185,6 +189,19 @@ public class QuestionMonkey : MonoBehaviour {
 		resetDefault();
 	}
 
+    public void doTrangThai()
+    {
+        spMonkey.SetSprite("khixet");
+        SoundController.Instance.PlayClick();
+        StartCoroutine(WaitTimeKhiHoi(0.4f));
+    }
+
+    IEnumerator WaitTimeKhiHoi(float time)
+    {
+        yield return new WaitForSeconds(time);
+        spMonkey.SetSprite("khihoi");
+    }
+
 	public void btnContinute_OnClick()
 	{
 		if (sttQuestion <10 && demsai<3)
@@ -195,6 +212,7 @@ public class QuestionMonkey : MonoBehaviour {
 		{
 			gameOver ();
 		}
+        SoundController.Instance.PlayClick();
 	}
 
 	public void btnNumb0_OnClick()
@@ -204,8 +222,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb0.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 		
@@ -217,8 +237,10 @@ public class QuestionMonkey : MonoBehaviour {
 
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -228,8 +250,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb2.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -239,8 +263,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb3.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -250,8 +276,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb4.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -261,8 +289,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb5.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -272,8 +302,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb6.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -283,8 +315,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb7.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -294,8 +328,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb8.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -305,8 +341,10 @@ public class QuestionMonkey : MonoBehaviour {
 			stSum += btnNumb9.transform.GetChild (0).GetComponent<tk2dTextMesh> ().text;
 			if ((int.Parse (stSum) + "").Length < 9) {
 				txtKetQua.text = int.Parse (stSum) + "";
+                doTrangThai();
 			} else {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}
@@ -315,6 +353,7 @@ public class QuestionMonkey : MonoBehaviour {
 		if (currentState == State.InGame) {
 			stSum = "";
 			txtKetQua.text = "";
+            doTrangThai();
 		}
 	}
 	public void btnBack_OnClick()
@@ -322,7 +361,7 @@ public class QuestionMonkey : MonoBehaviour {
 		if (currentState == State.InGame) {
 			if (!stSum.Trim ().Equals ("")) {
 				stSum = stSum.Remove (stSum.Length - 1, 1);
-
+                doTrangThai();
 				if (stSum.Trim ().Equals ("")) {
 					txtKetQua.text = "";
 				} else {
@@ -330,6 +369,7 @@ public class QuestionMonkey : MonoBehaviour {
 				}
 
 			} else {
+                SoundController.Instance.PlayOver();
 			}
 		}
 	}

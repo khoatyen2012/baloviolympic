@@ -25,8 +25,8 @@ public class StopThongThai : MonoBehaviour {
 	void onClick_btnContinute()
 	{
 
-	
 
+        SoundController.Instance.PlayClick();
 		if (VioGameController.instance.checkvip != 10)
 		{
 			//Hide quang cao

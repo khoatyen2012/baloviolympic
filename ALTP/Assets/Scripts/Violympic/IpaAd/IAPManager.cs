@@ -28,7 +28,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
     private static IExtensionProvider m_StoreExtensionProvider; // The store-specific Purchasing subsystems.
 
 
-    public static string PRODUCT_VIP_LEVEL = "toan.violympic.fourth.viplevel";
+    public static string PRODUCT_VIP_LEVEL = "toan.violympic.sixth.viplevel";
 
 
   

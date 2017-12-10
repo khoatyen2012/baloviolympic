@@ -57,11 +57,7 @@ public class SoundController : MonoBehaviour
         audioSourceBGMusicCreated.loop = true;
         audioSourceBGMusicCreated.Play();
 
-        DontDestroyOnLoad
-        (
-            audioSourceBGMusicCreated
-        );
-
+     
       
     }
 
@@ -320,11 +316,14 @@ public class SoundController : MonoBehaviour
         ok = false;
     }
 
-    public void PlayTamBiet()
+    public void PlayTamBiet(bool ok)
     {
         tk2dUIAudioManager.Instance.Play(arrAudioClip[35]);
-        audioSourceBGMusicCreated.Pause();
-        ok = false;
+        if (ok)
+        {
+            audioSourceBGMusicCreated.Pause();
+            ok = false;
+        }
     }
 
     public void PlayDungA()
@@ -397,18 +396,25 @@ public class SoundController : MonoBehaviour
         ok = false;
     }
 
-    public void PlayDuaRa3()
+    public void PlayOver()
     {
         tk2dUIAudioManager.Instance.Play(arrAudioClip[46]);
-        audioSourceBGMusicCreated.Pause();
-        ok = false;
+    
+   
     }
 
-    public void PlayDuaRa4()
+    public void PlayClick()
     {
         tk2dUIAudioManager.Instance.Play(arrAudioClip[47]);
-        audioSourceBGMusicCreated.Pause();
-        ok = false;
+
+      
+    }
+
+    public void PlayChoiTiep()
+    {
+        tk2dUIAudioManager.Instance.Play(arrAudioClip[48]);
+
+
     }
 
     public void Stop()

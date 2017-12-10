@@ -11,6 +11,14 @@ public class HoanThanh : MonoBehaviour {
 	{
 		VioPopUpController.instance.HideHoanThanh();
 		VioPopUpController.instance.ShowLevel();
+        if (VioGameController.instance.tienganh)
+        {
+            SoundController.Instance.PlayClick();
+        }
+        else
+        {
+            SoundController.Instance.PlayTamBiet(true);
+        }
 	}
 
 	// Use this for initialization

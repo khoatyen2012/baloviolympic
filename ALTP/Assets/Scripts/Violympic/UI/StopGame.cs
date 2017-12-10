@@ -17,9 +17,21 @@ public class StopGame : MonoBehaviour {
 
 	void onClick_Continute()
 	{
+
+     
+
+        if (VioGameController.instance.tienganh)
+        {
+            SoundController.Instance.PlayClick();
+        }
+        else
+        {
+            SoundController.Instance.PlayTamBiet(true);
+        }
+
 		if (VioGameController.instance.checkvip != 10)
 		{
-			//Quang cap
+            AdManager.instance.ShowAdsInterstitial();
 		}
 
 		VioPopUpController.instance.HideStopGame();
@@ -41,22 +53,17 @@ public class StopGame : MonoBehaviour {
 
 	public void setData()
 	{
-
+        if (VioGameController.instance.checkvip != 10)
+        {
+            AdManager.instance.LoadAdsInterstitial();
+        }
 
 		if (VioGameController.instance.sumCoin < 150)
 		{
 			txtHoanThanh.text = ClsLanguage.doChuaVuotQua() + VioGameController.instance.level;
 			rate.SetSprite("khongsao");
 			sa_Nguoi.SetSprite("traloisai");
-			int chon = UnityEngine.Random.Range(0, 2);
-			if (chon == 0)
-			{
-				//SoundManager.Instance.PlayAudioChucMung1();
-			}
-			else
-			{
-				//SoundManager.Instance.PlayAudioChucMung2();
-			}
+            SoundController.Instance.PlayOver();
 		}
 		else
 		{
@@ -74,7 +81,7 @@ public class StopGame : MonoBehaviour {
 				rate.SetSprite("motsao");
 			}
 			sa_Nguoi.SetSprite("traloidung");
-			//SoundManager.Instance.PlayAudioChucMung3();
+            SoundController.Instance.PlayChoiTiep();
 
 
 			//luu diem vao tong diem
