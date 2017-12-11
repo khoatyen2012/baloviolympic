@@ -8,6 +8,7 @@ public class StopThongThai : MonoBehaviour {
 	public tk2dTextMesh txtTime;
 	public tk2dTextMesh txtHoanThanh;
 	public tk2dUIItem btnContinute;
+	public tk2dSprite titlemonkey;
 
 	public void setData(int pCoin, string pTime)
 	{
@@ -41,6 +42,11 @@ public class StopThongThai : MonoBehaviour {
 		btnContinute.OnClick += onClick_btnContinute;
 
 		txtHoanThanh.text = ClsLanguage.doHoanThanhBaiThi();
+		if (VioGameController.instance.tienganh) {
+			titlemonkey.SetSprite ("monkey");
+		} else {
+			titlemonkey.SetSprite ("khithongminh");
+		}
 	
 	}
 	

@@ -114,52 +114,52 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Google.IOSResolver_v1.2.59.0">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver_v1.2.59.0">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.59.0">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll</HintPath>
  </Reference>
  <Reference Include="ChannelPurchase">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
  </Reference>
  <Reference Include="UnityStore">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Purchasing.Common">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="FacebookStore">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
  <Reference Include="tk2dExternal">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
  </Reference>
  <Reference Include="tk2dSkin">
- <HintPath>D:/vtc/GitViolympic/baloviolympic/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
+ <HintPath>E:/CKH/UnityProject/baloviolympic/ALTP/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
